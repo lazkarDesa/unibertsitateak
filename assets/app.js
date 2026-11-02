@@ -169,6 +169,7 @@
  function openSubject(m){if(!materias().includes(m))return;go('subject',{materia:m,campus:'',facultad:'',q:'',sort:'name',statusFilter:'all'})}
  function resetFilters(){state.q='';state.facultad='';state.materia=state.screen==='subject'?state.materia:'';state.sort='name';state.statusFilter='all';if(state.screen!=='campus')state.campus='';renderList()}
  document.addEventListener('click',e=>{
+  if(e.target.closest('#selection-dialog'))return;
   if(e.target.closest('[data-popover-close]')){hidePopup(true);return;}
   const book=e.target.closest('[data-subject-book]');if(book){showPopup(book,true);return;}
   if(e.target.closest('a')||popup.contains(e.target))return;
