@@ -24,7 +24,7 @@
    datasets[uni]={src,records,groups:arr,lookup:new Map(arr.map(g=>[g.id,g])),pmap};
  }
  function chooseName(offers){const title=offers.map(o=>o.titulacion).find(x=>!/\((?:plan nuevo|nuevo plan \d{4}|euskera|trilingüe)\)/i.test(x));return title||offers[0].titulacion;}
- const materiasByUni=Object.fromEntries(['ehu','upna'].map(uni=>[uni,[...new Set((raw[uni]?.ponderaciones||[]).filter(p=>p.coeficiente===0.1||p.coeficiente===0.2).map(p=>p.materia))].sort(sortText)]));
+ const materiasByUni=Object.fromEntries(['ehu','upna'].map(uni=>{const rows=uni==='upna'?(raw.upna?.grados||[]).flatMap(g=>g.ponderaciones||[]):(raw.ehu?.ponderaciones||[]);return [uni,[...new Set(rows.filter(p=>p.coeficiente===0.1||p.coeficiente===0.2).map(p=>p.materia))].sort(sortText)];}));
   const isPublic=uni=>uni==='ehu'||uni==='upna';
   const materias=()=>materiasByUni[state.uni]||[];
  const initial=()=>({screen:'portal',uni:null,campus:'',rama:'',materia:'',facultad:'',q:'',sort:'name',searchText:''});
