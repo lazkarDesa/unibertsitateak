@@ -176,10 +176,10 @@
   if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();const next=(idx+(e.key==='ArrowDown'?1:-1)+opts.length)%opts.length;opts.forEach((o,i)=>{o.classList.toggle('active',i===next);o.setAttribute('aria-selected',String(i===next))});opts[next].scrollIntoView({block:'nearest'})}
   if(e.key==='Enter'){e.preventDefault();openDetail(opts[idx>=0?idx:0].dataset.openDetail)}
  });
- document.addEventListener('pointerover',e=>{if(e.pointerType==='touch')return;if(popup.contains(e.target)){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;return}const row=e.target.closest('.degree-row[data-hover-group]');if(row){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;if(!row.contains(e.relatedTarget))showPopup(row)}});
+ document.addEventListener('pointerover',e=>{if(e.target.closest('[data-favorite]')){hidePopup();return}if(e.pointerType==='touch')return;if(popup.contains(e.target)){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;return}const row=e.target.closest('.degree-row[data-hover-group]');if(row){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;if(!row.contains(e.relatedTarget))showPopup(row)}});
  function hidePopupIfExited(e){const row=e.target.closest('.degree-row[data-hover-group]'),next=e.relatedTarget;if(row===activeHoverRow&&row&&!row.contains(next)&&!popup.contains(next))schedulePopupClose();else if(popup.contains(e.target)&&!popup.contains(next)&&!(activeHoverRow&&activeHoverRow.contains(next)))schedulePopupClose()}
  document.addEventListener('pointerout',hidePopupIfExited);
- document.addEventListener('focusin',e=>{const row=e.target.closest('.degree-row[data-hover-group]');if(row)showPopup(row)});
+ document.addEventListener('focusin',e=>{if(e.target.closest('[data-favorite]')){hidePopup();return}const row=e.target.closest('.degree-row[data-hover-group]');if(row)showPopup(row)});
  document.addEventListener('focusout',hidePopupIfExited);
  window.addEventListener('scroll',hidePopup,{passive:true});window.addEventListener('resize',hidePopup);
  if(!raw.ehu?.grados||!raw.upna?.grados||!raw.deusto?.grados||!raw.navarra?.grados){main.innerHTML='<div class="empty-panel"><b>No se han cargado los datos.</b>Comprueba los archivos de la carpeta data/ y su publicación.</div>';return}
