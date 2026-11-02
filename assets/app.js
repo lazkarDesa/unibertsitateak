@@ -28,7 +28,13 @@
   const isPublic=uni=>uni==='ehu'||uni==='upna';
   const materias=()=>materiasByUni[state.uni]||[];
  const initial=()=>({screen:'portal',uni:null,campus:'',rama:'',materia:'',facultad:'',q:'',sort:'name',searchText:''});
- let state=initial(),historyStack=[];
+ const browserHistory=window.history;
+ const savedRoute=browserHistory.state;
+ const isAppRoute=entry=>entry?.uniExplorer===true&&entry.screenState&&['portal','university','campus','rama','subject','detail','favorites'].includes(entry.screenState.screen)&&(entry.screenState.uni===null||Object.hasOwn(CFG,entry.screenState.uni));
+ let state=isAppRoute(savedRoute)?{...initial(),...savedRoute.screenState}:initial(),navigationIndex=isAppRoute(savedRoute)?savedRoute.index||0:0;
+ const historyEntry=scroll=>({uniExplorer:true,screenState:{...state},scroll,index:navigationIndex});
+ browserHistory.scrollRestoration='manual';
+ browserHistory.replaceState(historyEntry(isAppRoute(savedRoute)?savedRoute.scroll||0:0),'');
  const favoriteOrder=['ehu','upna','deusto','navarra'];
  const heartIcon='<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg>';
  const compactPopover=()=>window.matchMedia('(max-width: 690px), (hover: none)').matches;
@@ -41,9 +47,11 @@
  let favoriteNoticeTimer=null;
  function favoriteNotice(message){const el=document.getElementById('favorite-notice');clearTimeout(favoriteNoticeTimer);el.textContent=message;el.hidden=false;favoriteNoticeTimer=setTimeout(()=>{el.hidden=true;},4000);}
  function refreshFavorites(){hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='favorites')renderFavorites();else document.querySelectorAll('[data-favorite]').forEach(button=>{const uni=button.dataset.favoriteUni,group=datasets[uni]?.lookup.get(button.dataset.favorite);if(!group)return;const saved=window.UniFavorites.has(uni,group.key),label=`${saved?'Quitar de':'Añadir a'} favoritos: ${group.name}`;button.classList.toggle('is-favorite',saved);button.setAttribute('aria-pressed',String(saved));button.setAttribute('aria-label',label);button.title=label;});}
- function saveHistory(){historyStack.push({state:{...state},scroll:window.scrollY});if(historyStack.length>32)historyStack.shift()}
- function go(screen,patch={}){hidePopup();saveHistory();state={...state,...patch,screen};render();window.scrollTo(0,0)}
- function goBack(){hidePopup();if(historyStack.length){const last=historyStack.pop();state=last.state;render();requestAnimationFrame(()=>window.scrollTo(0,last.scroll||0));}else{state=initial();render();window.scrollTo(0,0)}}
+ function saveHistory(){browserHistory.replaceState(historyEntry(window.scrollY||0),'');}
+ function go(screen,patch={}){hidePopup();saveHistory();state={...state,...patch,screen};navigationIndex++;browserHistory.pushState(historyEntry(0),'');render();window.scrollTo(0,0);}
+ function goBack(){saveHistory();if(navigationIndex>0)browserHistory.back();else if(state.screen!=='portal')go('portal',initial());}
+ window.addEventListener('popstate',e=>{if(!isAppRoute(e.state))return;state={...initial(),...e.state.screenState};navigationIndex=e.state.index||0;const scroll=e.state.scroll||0;render();requestAnimationFrame(()=>window.scrollTo(0,scroll));});
+ window.addEventListener('scroll',()=>{if(isAppRoute(browserHistory.state))saveHistory();},{passive:true});
  function chooseUni(uni){go('university',{uni,campus:'',rama:'',materia:'',facultad:'',q:'',sort:'name',searchText:''})}
  const backBtn=()=>`<button class="back-button" type="button" data-action="back">← Volver</button>`;
  function top(label,heading,description){return `<div class="page-top">${backBtn()}<div class="eyebrow">${safe(label)}</div><h1>${safe(heading)}</h1><p>${safe(description)}</p></div>`}
@@ -69,7 +77,7 @@
  function updateSuggestions(){
   if(state.screen!=='university')return;
   const input=document.getElementById('degree-search'),sug=document.getElementById('search-suggestions');if(!input||!sug)return;
-  state.searchText=input.value;const t=norm(input.value);if(t.length<3){sug.hidden=true;sug.innerHTML='';input.setAttribute('aria-expanded','false');return}
+  state.searchText=input.value;saveHistory();const t=norm(input.value);if(t.length<3){sug.hidden=true;sug.innerHTML='';input.setAttribute('aria-expanded','false');return}
   const matches=datasets[state.uni].groups.filter(g=>norm(g.name).includes(t)||g.offers.some(o=>norm(o.titulacion).includes(t))).slice(0,20);
   sug.innerHTML=matches.length?matches.map((g,i)=>`<div class="suggestion-row" data-hover-group="${safe(g.id)}" data-hover-uni="${safe(state.uni)}"><button type="button" role="option" data-open-detail="${g.id}" class="suggestion ${i===0?'active':''}" aria-selected="${i===0?'true':'false'}">${profileMarker(g)}<span><b class="degree-search-name"><span data-degree-name>${safe(g.name)}</span></b><small>${safe([...new Set(g.offers.map(o=>o.campus))].join(' · '))}</small></span><span class="arrow">→</span></button>${subjectBook(g)}${favoriteButton(g)}</div>`).join(''):'<div class="suggestions-empty">No se han encontrado grados con ese texto.</div>';
   sug.hidden=false;input.setAttribute('aria-expanded','true');
@@ -107,6 +115,7 @@
   else entries.sort(sorter[key]||sorter.name);
   document.getElementById('filter-count').textContent=`${entries.length} ${entries.length===1?'oferta':'ofertas'}`;
   document.getElementById('results-list').innerHTML=entries.length?entries.map(g=>rowHTML(g)).join(''):'<div class="empty-panel"><b>No hay resultados.</b>Modifica o limpia los filtros para ampliar la búsqueda.</div>';
+  saveHistory();
  }
  
  function nullableCompare(a,b,field,desc){const av=a[field],bv=b[field],aOk=typeof av==='number',bOk=typeof bv==='number';if(aOk!==bOk)return aOk?-1:1;if(!aOk)return 0;return desc?bv-av:av-bv}
@@ -159,7 +168,7 @@
   if(e.target.closest('a')||popup.contains(e.target))return;
   const favorite=e.target.closest('[data-favorite]');if(favorite){const uni=favorite.dataset.favoriteUni,group=datasets[uni]?.lookup.get(favorite.dataset.favorite);if(group){const result=window.UniFavorites.toggle(uni,group.key);favoriteNotice(result.ok?(result.added?'Carrera añadida a favoritas':'Carrera eliminada de favoritas'):result.error);if(state.screen==='favorites')main.querySelector('[data-favorite]')?.focus();}return;}
   const b=e.target.closest('[data-uni],[data-open-campus],[data-open-rama],[data-open-detail],[data-action],#brand-home');if(!b){if(state.screen==='university'&&!e.target.closest('#search-wrap')){const el=document.getElementById('search-suggestions');if(el)el.hidden=true;}return}
-  if(b.id==='brand-home'){historyStack=[];state=initial();render();window.scrollTo(0,0)}
+  if(b.id==='brand-home'){if(state.screen!=='portal')go('portal',initial());}
   else if(b.dataset.uni)chooseUni(b.dataset.uni);
   else if(b.dataset.openCampus)openCampus(b.dataset.openCampus);
   else if(b.dataset.openRama)openRama(b.dataset.openRama);
