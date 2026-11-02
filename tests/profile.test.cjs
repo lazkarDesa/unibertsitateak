@@ -52,3 +52,7 @@ test('almacenamiento ausente, corrupto, bloqueado o inválido no rompe la app',(
  assert.equal(load(null,true).get(),null);assert.equal(load(JSON.stringify(p)).get().track,'science');
  assert.equal(api.valid({...p,core:'Latín II'}),false);
 });
+test('los perfiles anteriores se adaptan a Inglés y Euskera obligatorios',()=>{
+ const old={...p,language:'Francés',basque:false,elective:'Segunda Lengua Extranjera II · Inglés'};
+ const migrated=load(JSON.stringify(old)).get();assert.equal(migrated.language,'Inglés');assert.equal(migrated.basque,true);assert.equal(migrated.elective,'Otra optativa sin ponderación');
+});
