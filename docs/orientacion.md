@@ -16,11 +16,19 @@ Para Universidad de Navarra se enlaza el estudio institucional de 2026, pero sus
 
 ## Plazas
 
-En EHU se utiliza el último dato con curso identificado del conjunto existente (2025–2026 o 2026–2027). Si solo se encuentra el número en una ficha vigente sin curso explícito, se indica su fecha de consulta y «curso no indicado». No se etiqueta automáticamente como oferta del año actual.
+En EHU se revisan las fichas individuales: 100 ofertas tienen nota con convocatoria y curso 2026–2027 explícitos, y sus plazas se vinculan a esa ficha vigente. Se conserva 2025–2026 donde no hay un dato posterior identificado. Si solo se encuentra el número en una ficha sin curso explícito, se indica su fecha de consulta y «curso no indicado». La nota ordinaria de 2026 no se presenta como comparable con la tabla de 2025.
 
 UPNA: [plazas de nuevo acceso 2026–2027, anexo II, página 1](https://www2.unavarra.es/gesadj/Estudios/acceso_matricula/PlazasGrado_2026_2027_cas.pdf). Se separa cada grado y doble programación. Las plazas de programas internacionales están incluidas en las del grado o doble correspondiente; no son adicionales. El total incluye los cupos de reserva, no equivale al cupo general de Bachillerato.
 
 Las plazas de las privadas se muestran solo cuando se ha encontrado un número en la ficha oficial concreta. La ausencia de dato no significa ausencia de límite.
+
+## Costes de EHU y UPNA
+
+`data/publicas-precios.json` y su versión JavaScript contienen 149 ofertas públicas con su fuente, tarifa por crédito, ECTS y supuestos. Tarifas 2026–2027: [Orden EHU, anexo I, página 10](https://www.euskadi.eus/bopv2/datos/2026/06/2602642a.pdf) y [Orden Foral 63E/2026, anexo I, UPNA](https://bon.navarra.es/es/anuncio/-/texto/2026/124/21). Se aplican las tarifas STEM de EHU según el anexo aunque la ficha del título muestre una tarifa general diferente. La diferencia se señala en pantalla.
+
+Primero se presenta como referencia de 60 ECTS, no como carga verificada de cada plan. La estimación de toda la carrera usa los ECTS publicados en la ficha y supone primera matrícula y precios constantes. En dobles con tarifas mixtas se ofrece un intervalo, sin atribuir una distribución de créditos no comprobada. Apertura, gestión y seguro escolar se muestran aparte. No se incluyen becas, repetición, alojamiento, manutención ni másteres posteriores.
+
+Los centros adscritos no se valoran como si la tarifa pública cubriera sus cuotas propias. [Cámarabilbao](https://cubs.camarabilbao.com/condiciones-economicas/) publica 8.670 € por curso en 2025–2026; la referencia de cuatro cursos mantiene esa tarifa y se etiqueta con ese curso. Su explicación y sus enlaces corresponden al centro adscrito, no a ADE de otro campus.
 
 ## Marcas
 
