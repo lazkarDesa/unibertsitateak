@@ -121,10 +121,11 @@
   const pageTop=main.querySelector('.page-top h1');if(pageTop)pageTop.remove();
  }
  function popupHTML(group){const sets=pondSets(group);if(!sets.length)return `<strong>${safe(group.name)}</strong><p>Ponderaciones no verificadas para esta titulación; no significa que no existan.</p>`;
-  const rows=sets.map(s=>`<div class="popover-group">${sets.length>1?`<strong class="popover-heading">${safe(s.id)}</strong>`:''}${s.items.slice().sort((a,b)=>b.coeficiente-a.coeficiente||sortText(a.materia,b.materia)).map(p=>`<div><span>${safe(p.materia)}</span><b class="${p.coeficiente===0.2?'strong-coeff':''}">${num(p.coeficiente,1)}</b></div>`).join('')}</div>`).join('');return `<strong>${safe(group.name)}</strong><p>Materias que ponderan · EHU 2026–2027</p>${rows}`;
+  const rows=sets.map(s=>`<div class="popover-group">${sets.length>1?`<strong class="popover-heading">${safe(s.id)}</strong>`:''}${s.items.slice().sort((a,b)=>b.coeficiente-a.coeficiente||sortText(a.materia,b.materia)).map(p=>`<div><span>${safe(p.materia)}</span><b class="${p.coeficiente===0.2?'strong-coeff':''}">${num(p.coeficiente,1)}</b></div>`).join('')}</div>`).join('');return `<strong>${safe(group.name)}</strong><p>Materias que ponderan · EHU 2026–2027</p><div class="popover-scroll" tabindex="0" aria-label="Asignaturas y coeficientes de ponderación">${rows}</div>`;
  }
- function hidePopup(){popup.hidden=true;popup.innerHTML=''}
- function showPopup(target){if(state.uni!=='ehu'||!target||!target.dataset.hoverGroup)return;const group=datasets.ehu.lookup.get(target.dataset.hoverGroup);if(!group)return;popup.innerHTML=popupHTML(group);popup.hidden=false;const r=target.getBoundingClientRect(),w=Math.min(365,window.innerWidth-24);popup.style.width=w+'px';let x=r.left+Math.min(r.width/2,260),y=r.top+12;x=Math.min(Math.max(12,x),window.innerWidth-w-12);const pH=popup.getBoundingClientRect().height;if(y+pH>window.innerHeight-8)y=Math.max(8,r.top-pH-10);popup.style.left=x+'px';popup.style.top=y+'px';}
+ let activeHoverRow=null;
+ function hidePopup(){activeHoverRow=null;popup.hidden=true;popup.innerHTML=''}
+ function showPopup(target){if(state.uni!=='ehu'||!target||!target.dataset.hoverGroup)return;const group=datasets.ehu.lookup.get(target.dataset.hoverGroup);if(!group)return;activeHoverRow=target;popup.innerHTML=popupHTML(group);popup.hidden=false;const r=target.getBoundingClientRect(),w=Math.min(365,window.innerWidth-24);popup.style.width=w+'px';let x=r.left+Math.min(r.width/2,260),y=r.top+12;x=Math.min(Math.max(12,x),window.innerWidth-w-12);const pH=popup.getBoundingClientRect().height;y=Math.max(12,Math.min(y,window.innerHeight-pH-12));popup.style.left=x+'px';popup.style.top=y+'px';}
  function render(){const label=document.getElementById('active-university-label');label.textContent=state.uni?CFG[state.uni].short:'Tres universidades';hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='university')renderUniversity();else if(['campus','rama','subject'].includes(state.screen))renderList();else if(state.screen==='detail')renderDetail();}
  function openDetail(id){if(!datasets[state.uni].lookup.has(id))return;go('detail',{group:id})}
  function openCampus(c){if(!CFG[state.uni].campuses.includes(c))return;go('campus',{campus:c,facultad:'',materia:'',q:'',sort:'name'})}
@@ -156,9 +157,10 @@
   if(e.key==='Enter'){e.preventDefault();openDetail(opts[idx>=0?idx:0].dataset.openDetail)}
  });
  document.addEventListener('pointerover',e=>{if(e.pointerType==='touch')return;const row=e.target.closest('.degree-row[data-hover-group]');if(row&&!row.contains(e.relatedTarget))showPopup(row)});
- document.addEventListener('pointerout',e=>{const row=e.target.closest('.degree-row[data-hover-group]');if(row&&!row.contains(e.relatedTarget))hidePopup()});
+ function hidePopupIfExited(e){const row=e.target.closest('.degree-row[data-hover-group]'),next=e.relatedTarget;if(row===activeHoverRow&&row&&!row.contains(next)&&!popup.contains(next))hidePopup();else if(popup.contains(e.target)&&!popup.contains(next)&&!(activeHoverRow&&activeHoverRow.contains(next)))hidePopup()}
+ document.addEventListener('pointerout',hidePopupIfExited);
  document.addEventListener('focusin',e=>{const row=e.target.closest('.degree-row[data-hover-group]');if(row)showPopup(row)});
- document.addEventListener('focusout',e=>{const row=e.target.closest('.degree-row[data-hover-group]');if(row&&!row.contains(e.relatedTarget))hidePopup()});
+ document.addEventListener('focusout',hidePopupIfExited);
  window.addEventListener('scroll',hidePopup,{passive:true});window.addEventListener('resize',hidePopup);
  if(!raw.ehu?.grados||!raw.deusto?.grados||!raw.navarra?.grados){main.innerHTML='<div class="empty-panel"><b>No se han cargado los datos.</b>Comprueba los archivos de la carpeta data/ y su publicación.</div>';return}
  render();
