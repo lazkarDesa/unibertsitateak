@@ -1,5 +1,5 @@
 {
-  "version": "20261103-help-2",
+  "version": "20261103-i18n-2",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer.pdf",
@@ -75,7 +75,8 @@
       "tips": [
         "Cuando marcas alguna carrera como «Me interesa» o «En duda», aparece arriba el acceso a «Carreras seleccionadas».",
         "Recorrido recomendado: crea el perfil, explora una universidad, lee las fichas y conserva las carreras que quieras conocer mejor.",
-        "El icono ? de la cabecera abre la ayuda de la pantalla actual. Dentro puedes cambiar de tema y descargar este manual."
+        "El icono ? de la cabecera abre la ayuda de la pantalla actual. Dentro puedes cambiar de tema y descargar este manual.",
+        "El selector ES/EU, junto al perfil, cambia el idioma y recuerda tu elección. Conserva las materias, las valoraciones y la pantalla abierta. Los enlaces cambian solo cuando se ha verificado su versión en euskera."
       ]
     },
     {
