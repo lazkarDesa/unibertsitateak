@@ -1,0 +1,336 @@
+{
+  "checked": "2026-11-03",
+  "catalog": "https://www.mondragon.edu/es/grados-universitarios",
+  "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados",
+  "priceCourse": "2027–2028",
+  "provisional": true,
+  "titles": [
+    {
+      "title": "Ingeniería de Diseño y Desarrollo de Productos Digitales",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Bilbao"
+      ],
+      "officialCampusText": "Bilbao AS Fabrik (Zorrozaurre)",
+      "officialPlaces": 40,
+      "officialLanguages": "Castellano, Inglés",
+      "status": "pending-verification",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería Mecánica",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón",
+        "Goierri (Ordizia)"
+      ],
+      "officialCampusText": "Arrasate-Mondragón, Goierri",
+      "officialPlaces": 110,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería en Diseño Industrial y Desarrollo de Producto",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón"
+      ],
+      "officialCampusText": "Arrasate-Mondragón",
+      "officialPlaces": 70,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería en Organización Industrial",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón"
+      ],
+      "officialCampusText": "Arrasate-Mondragón",
+      "officialPlaces": 65,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería en Electrónica Industrial",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón"
+      ],
+      "officialCampusText": "Arrasate-Mondragón",
+      "officialPlaces": 60,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería Informática",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón"
+      ],
+      "officialCampusText": "Arrasate-Mondragón",
+      "officialPlaces": 60,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería de la Energía",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-energia",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Hernani (Galarreta)"
+      ],
+      "officialCampusText": "Galarreta (Orona Ideo)",
+      "officialPlaces": 40,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería Biomédica",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón"
+      ],
+      "officialCampusText": "Arrasate-Mondragón",
+      "officialPlaces": 40,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería Física Aplicada a la Industria",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Bilbao"
+      ],
+      "officialCampusText": "Bilbao AS Fabrik (Zorrozaurre)",
+      "officialPlaces": 40,
+      "officialLanguages": "Castellano, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería Mecatrónica",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Arrasate-Mondragón",
+        "Bilbao",
+        "Hernani (Galarreta)"
+      ],
+      "officialCampusText": "Arrasate-Mondragón, Bilbao AS Fabrik, Galarreta (Orona Ideo)",
+      "officialPlaces": 120,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Ingeniería en Ecotecnologías en Procesos Industriales (en amortización)",
+      "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Hernani (Galarreta)"
+      ],
+      "officialCampusText": "Galarreta (Orona Ideo)",
+      "officialPlaces": 40,
+      "officialLanguages": "Castellano, Euskera, Inglés",
+      "status": "phasing-out",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Business Data Analytics",
+      "url": "https://www.mondragon.edu/es/grado-business-data-analytics",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Bilbao"
+      ],
+      "officialCampusText": "Bilbao",
+      "officialPlaces": null,
+      "officialLanguages": "Español, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Administración y Dirección de Empresas · myGADE Dual",
+      "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Oñati",
+        "Irun (Bidasoa)",
+        "Bilbao"
+      ],
+      "officialCampusText": "Oñati, Bidasoa, Bilbao",
+      "officialPlaces": null,
+      "officialLanguages": "Euskera, Español, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Administración y Dirección de Empresas · myGADE Dual+",
+      "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Oñati",
+        "Irun (Bidasoa)",
+        "Bilbao"
+      ],
+      "officialCampusText": "Oñati, Bidasoa, Bilbao",
+      "officialPlaces": null,
+      "officialLanguages": "Euskera, Español, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Liderazgo Emprendedor e Innovación · LEINN",
+      "url": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Oñati",
+        "Irun (Bidasoa)",
+        "Bilbao",
+        "LEINN · Madrid",
+        "LEINN · Barcelona",
+        "LEINN · Valencia",
+        "LEINN · Málaga",
+        "LEINN · Berlín",
+        "LEINN · Shanghái",
+        "LEINN · Seúl",
+        "LEINN · Puebla (México)"
+      ],
+      "officialCampusText": "Campus: Bidasoa, Bilbao, Oñati",
+      "officialPlaces": null,
+      "officialLanguages": "Español, Euskera, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Educación Infantil",
+      "url": "https://www.mondragon.edu/es/grado-educacion-infantil",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Eskoriatza"
+      ],
+      "officialCampusText": "Eskoriatza",
+      "officialPlaces": 150,
+      "officialLanguages": "Euskera (80%), español (10%) e inglés (10%)",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Educación Primaria",
+      "url": "https://www.mondragon.edu/es/grado-educacion-primaria",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Eskoriatza",
+        "Bilbao"
+      ],
+      "officialCampusText": "Eskoriatza y Bilbao AS Fabrik",
+      "officialPlaces": 225,
+      "officialLanguages": "Euskera (80%), español (10%) e inglés (10%)",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Pedagogía (segundo grado)",
+      "url": "https://www.mondragon.edu/es/grado-pedagogia",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Eskoriatza",
+        "Bilbao"
+      ],
+      "officialCampusText": "Eskoriatza o Bilbao AS Fabrik",
+      "officialPlaces": 50,
+      "officialLanguages": "Euskera, español e inglés",
+      "status": "second-degree",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Comunicación Audiovisual",
+      "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Aretxabaleta"
+      ],
+      "officialCampusText": "Aretxabaleta",
+      "officialPlaces": 50,
+      "officialLanguages": "Euskera, español e inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Industrias Culturales y Creativas",
+      "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Aretxabaleta"
+      ],
+      "officialCampusText": "Aretxabaleta",
+      "officialPlaces": 50,
+      "officialLanguages": "Euskera, español e inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Humanidades Digitales Globales · HDG",
+      "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Bilbao"
+      ],
+      "officialCampusText": "Bilbao AS Fabrik (Zorrozaurre)",
+      "officialPlaces": 40,
+      "officialLanguages": "Euskera, español e inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    },
+    {
+      "title": "Gastronomía y Artes Culinarias",
+      "url": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias",
+      "checked": "2026-11-03",
+      "campuses": [
+        "Donostia-San Sebastián"
+      ],
+      "officialCampusText": "Donostia - San Sebastián (Basque Culinary Center)",
+      "officialPlaces": 100,
+      "officialLanguages": "Español, Inglés",
+      "status": "published",
+      "priceCourse": "2027–2028",
+      "priceSource": "https://www.mondragon.edu/es/informacion/becas-ayudas/precios-grados"
+    }
+  ]
+}

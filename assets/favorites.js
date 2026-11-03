@@ -1,6 +1,6 @@
 /* Decisiones locales. Las claves no dependen del orden del catálogo. */
 (()=>{'use strict';
- const KEY='uni-explorer.selections.v2',LEGACY='uni-explorer.favorites.v1',universities=['ehu','upna','deusto','navarra'];
+ const KEY='uni-explorer.selections.v2',LEGACY='uni-explorer.favorites.v1',universities=['ehu','upna','deusto','navarra','mondragon'];
  const states={none:{label:'Sin marcar',description:'Todavía no la he valorado.'},doubt:{label:'En duda',description:'Quiero conocerla mejor antes de decidir.'},selected:{label:'Me interesa',description:'Quiero mantenerla entre mis opciones.'},rejected:{label:'No me interesa',description:'La descarto por ahora; puedo cambiarlo después.'}};
  const valid=x=>x&&universities.includes(x.uni)&&typeof x.key==='string'&&x.key.length>0&&x.key.length<=1000;
  function read(){try{const raw=localStorage.getItem(KEY),saved=JSON.parse(raw===null?localStorage.getItem(LEGACY):raw),legacy=raw===null;if(saved?.version!==(legacy?1:2)||!Array.isArray(saved.items))return[];const seen=new Set();return saved.items.filter(x=>{if(!valid(x)||(!legacy&&!['doubt','selected','rejected'].includes(x.status)))return false;const id=JSON.stringify([x.uni,x.key]);if(seen.has(id))return false;seen.add(id);return true;}).map(x=>({uni:x.uni,key:x.key,status:legacy?'selected':x.status}));}catch{return[];}}

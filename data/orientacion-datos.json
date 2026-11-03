@@ -1963,6 +1963,226 @@
       "fits": "Te interesan las personas, las normas y cómo mejorar las condiciones de trabajo.",
       "watch": "Hay que leer legislación, interpretar casos y trabajar con cifras; no es solo tratar con personas.",
       "try": "Compara dos ofertas de empleo y averigua qué significa cada condición del contrato."
+    },
+    "mu-digital": {
+      "label": "Diseño y desarrollo de productos digitales",
+      "about": "Aprendes a crear servicios y productos digitales combinando programación, diseño y necesidades de las personas. Trabajarías tanto en cómo funcionan como en cómo se utilizan.",
+      "study": "Programación web, experiencia de usuario, bases de datos, prototipado y estrategia de producto.",
+      "jobs": [
+        {
+          "title": "Desarrolladora de producto digital",
+          "description": "Construye y mejora aplicaciones y servicios con un equipo técnico."
+        },
+        {
+          "title": "Diseñadora de experiencia de usuario",
+          "description": "Investiga necesidades y prueba interfaces para hacerlas útiles y comprensibles."
+        },
+        {
+          "title": "Consultora de transformación digital",
+          "description": "Ayuda a organizaciones a elegir e implantar soluciones tecnológicas."
+        }
+      ],
+      "fits": "Te interesan la tecnología, el diseño y resolver problemas pensando en las personas.",
+      "watch": "La ficha indica que el título está pendiente de verificación. Comprueba su aprobación, plan definitivo y admisión antes de decidir.",
+      "try": "Dibuja una aplicación para resolver un problema cotidiano y prueba el boceto con dos personas."
+    },
+    "mu-energy": {
+      "label": "Ingeniería de la Energía",
+      "about": "Estudias cómo producir, transportar y utilizar energía de forma eficiente. Combina conocimientos técnicos con el análisis de su impacto ambiental y económico.",
+      "study": "Electricidad, termodinámica, sistemas energéticos, renovables y eficiencia.",
+      "jobs": [
+        {
+          "title": "Ingeniera de proyectos energéticos",
+          "description": "Diseña o analiza instalaciones para producir y aprovechar energía."
+        },
+        {
+          "title": "Técnica de eficiencia energética",
+          "description": "Estudia consumos y propone mejoras en edificios o industrias."
+        },
+        {
+          "title": "Especialista en sistemas eléctricos",
+          "description": "Colabora en redes, equipos y su integración con distintas fuentes de energía."
+        }
+      ],
+      "fits": "Te interesan las matemáticas, la tecnología y los retos de la transición energética.",
+      "watch": "Incluye física, cálculo y análisis de sistemas; las salidas dependen también de la especialización y las atribuciones aplicables.",
+      "try": "Compara dos formas de abastecer de energía a un edificio y explica sus ventajas y límites."
+    },
+    "mu-physics": {
+      "label": "Ingeniería Física Aplicada a la Industria",
+      "about": "Utilizas la física y las matemáticas para entender problemas tecnológicos y desarrollar soluciones. Une experimentación, programación y aplicaciones industriales.",
+      "study": "Física, matemáticas, computación, sensores, simulación y tecnologías avanzadas.",
+      "jobs": [
+        {
+          "title": "Ingeniera de simulación",
+          "description": "Modela y prueba virtualmente cómo se comportan materiales o sistemas."
+        },
+        {
+          "title": "Técnica de desarrollo tecnológico",
+          "description": "Colabora en equipos que diseñan instrumentos, sensores o dispositivos."
+        },
+        {
+          "title": "Profesional de investigación aplicada",
+          "description": "Trabaja en proyectos tecnológicos, a menudo con formación posterior especializada."
+        }
+      ],
+      "fits": "Disfrutas entendiendo por qué ocurren las cosas y aplicando matemáticas a problemas reales.",
+      "watch": "Tiene una base científica exigente. Revisa las asignaturas y la formación posterior que piden los trabajos que te atraen.",
+      "try": "Elige un sensor cotidiano y averigua qué fenómeno físico mide y cómo convierte la medida en información."
+    },
+    "mu-mechatronics": {
+      "label": "Ingeniería Mecatrónica",
+      "about": "Combinas mecánica, electrónica y programación para hacer que máquinas y sistemas trabajen de forma automática. Podrías diseñar cómo se mueve una máquina, cómo detecta su entorno y cómo responde.",
+      "study": "Mecanismos, electrónica, control, automatización y programación.",
+      "jobs": [
+        {
+          "title": "Ingeniera de automatización",
+          "description": "Diseña o mejora procesos donde intervienen máquinas y sistemas de control."
+        },
+        {
+          "title": "Técnica de diseño mecatrónico",
+          "description": "Integra piezas mecánicas, sensores y programas en un mismo equipo."
+        },
+        {
+          "title": "Ingeniera de mantenimiento",
+          "description": "Analiza fallos y planifica cómo mantener equipos industriales en funcionamiento."
+        }
+      ],
+      "fits": "Te gustan tanto las máquinas como programarlas y experimentar con ellas.",
+      "watch": "Necesita trabajar con varias disciplinas y probar soluciones en laboratorio; no se limita a montar robots.",
+      "try": "Describe qué sensores, mecanismos y reglas de control necesitaría una puerta automática segura."
+    },
+    "mu-eco": {
+      "label": "Ecotecnologías en Procesos Industriales",
+      "about": "Estudias cómo fabricar productos y organizar procesos industriales con un menor impacto ambiental. Relaciona materiales, tecnología y aprovechamiento de recursos.",
+      "study": "Materiales, fabricación, energía, simulación y análisis del ciclo de vida.",
+      "jobs": [
+        {
+          "title": "Ingeniera de procesos",
+          "description": "Propone mejoras en la fabricación y uso de materiales."
+        },
+        {
+          "title": "Técnica de sostenibilidad industrial",
+          "description": "Analiza consumos, residuos e impacto de productos o instalaciones."
+        },
+        {
+          "title": "Profesional de innovación industrial",
+          "description": "Participa en el diseño de soluciones y procesos más eficientes."
+        }
+      ],
+      "fits": "Te interesan la tecnología y las consecuencias ambientales de lo que producimos.",
+      "watch": "La universidad identifica estas enseñanzas en proceso de amortización. Confirma la continuidad y las alternativas de nuevo ingreso.",
+      "try": "Sigue el recorrido de un envase y señala dónde se consumen materiales y energía y qué podría mejorarse."
+    },
+    "mu-business-data": {
+      "label": "Business Data Analytics",
+      "about": "Aprendes a utilizar datos para tomar decisiones en empresas y organizaciones. Combinas estadística y programación con preguntas de marketing, finanzas u operaciones.",
+      "study": "Estadística, análisis de datos, programación, negocio y comunicación de resultados.",
+      "jobs": [
+        {
+          "title": "Analista de negocio",
+          "description": "Interpreta datos para mejorar decisiones y procesos de una organización."
+        },
+        {
+          "title": "Analista de clientes o mercados",
+          "description": "Estudia comportamientos y resultados para orientar productos y campañas."
+        },
+        {
+          "title": "Consultora de datos",
+          "description": "Ayuda a definir qué información necesita una empresa y cómo utilizarla."
+        }
+      ],
+      "fits": "Te interesan los números y también entender para qué sirve un análisis.",
+      "watch": "Hay matemáticas y programación; una buena presentación no sustituye a comprobar la calidad de los datos.",
+      "try": "Analiza una pequeña tabla de ventas e identifica una pregunta de negocio que realmente pueda responder."
+    },
+    "mu-entrepreneur": {
+      "label": "Liderazgo Emprendedor e Innovación · LEINN",
+      "about": "Aprendes a desarrollar proyectos empresariales trabajando en equipo y contrastando ideas con clientes reales. La organización del equipo y la experiencia internacional forman parte importante del aprendizaje.",
+      "study": "Proyectos de negocio, ventas, finanzas, trabajo en equipo e innovación.",
+      "jobs": [
+        {
+          "title": "Emprendedora",
+          "description": "Desarrolla una propuesta y comprueba si puede convertirse en una actividad viable."
+        },
+        {
+          "title": "Profesional de innovación",
+          "description": "Ayuda a una organización a explorar y probar nuevas ideas."
+        },
+        {
+          "title": "Gestora de desarrollo de negocio",
+          "description": "Busca oportunidades, clientes y colaboraciones para un proyecto."
+        }
+      ],
+      "fits": "Te motiva tomar iniciativa, aprender en equipo y probar ideas fuera del aula.",
+      "watch": "Emprender implica incertidumbre. Revisa la metodología, los viajes, el funcionamiento de la empresa de equipo y las condiciones de cada sede.",
+      "try": "Entrevista a tres personas sobre una necesidad y diseña una prueba pequeña de una posible solución."
+    },
+    "mu-culture": {
+      "label": "Industrias Culturales y Creativas",
+      "about": "Aprendes cómo se diseñan, organizan y desarrollan proyectos culturales y creativos. Combina la comprensión de la cultura con comunicación, gestión y trabajo con públicos.",
+      "study": "Cultura, creación, producción, comunicación, gestión de proyectos y economía del sector.",
+      "jobs": [
+        {
+          "title": "Gestora cultural",
+          "description": "Coordina actividades, presupuestos y equipos en proyectos culturales."
+        },
+        {
+          "title": "Productora de eventos o contenidos",
+          "description": "Organiza los recursos necesarios para llevar una propuesta al público."
+        },
+        {
+          "title": "Profesional de proyectos creativos",
+          "description": "Colabora con organizaciones culturales y creadoras para desarrollar iniciativas."
+        }
+      ],
+      "fits": "Te interesa la cultura y también organizar, comunicar y hacer viables proyectos.",
+      "watch": "Las trayectorias pueden combinar proyectos y contratos distintos. Construir experiencia y contactos suele ser importante.",
+      "try": "Diseña una actividad cultural pequeña: público, contenido, presupuesto y forma de evaluar si ha funcionado."
+    },
+    "mu-humanities": {
+      "label": "Humanidades Digitales Globales",
+      "about": "Relacionas preguntas sobre sociedad, cultura y comunicación con herramientas digitales y proyectos de transformación. Aprendes a comprender problemas humanos y a trabajar con personas de perfiles distintos.",
+      "study": "Humanidades, sociedad, comunicación, tecnología, idiomas y proyectos.",
+      "jobs": [
+        {
+          "title": "Gestora de proyectos sociales o culturales",
+          "description": "Coordina iniciativas con equipos y comunidades."
+        },
+        {
+          "title": "Profesional de comunicación digital",
+          "description": "Desarrolla contenidos y estrategias ajustadas a distintos públicos."
+        },
+        {
+          "title": "Técnica de investigación de personas y contextos",
+          "description": "Recoge e interpreta información para mejorar servicios o proyectos."
+        }
+      ],
+      "fits": "Te haces preguntas sobre la sociedad y disfrutas comunicando y conectando ideas.",
+      "watch": "Es un perfil amplio: revisa los proyectos, las prácticas y las especializaciones para concretar qué tareas te interesan.",
+      "try": "Analiza cómo una tecnología cambia la vida de un grupo de personas y entrevista a alguien que la utilice."
+    },
+    "mu-gastronomy": {
+      "label": "Gastronomía y Artes Culinarias",
+      "about": "Estudias la cocina y la gastronomía como un conjunto de técnicas, productos, servicios y negocios. Combina trabajo práctico con ciencia de los alimentos, gestión y creatividad.",
+      "study": "Técnicas culinarias, producto, ciencia de los alimentos, gestión y servicio.",
+      "jobs": [
+        {
+          "title": "Profesional de cocina y restauración",
+          "description": "Desarrolla y organiza elaboraciones y servicios gastronómicos."
+        },
+        {
+          "title": "Gestora de negocio gastronómico",
+          "description": "Coordina equipos, costes, compras y experiencia del cliente."
+        },
+        {
+          "title": "Técnica de desarrollo gastronómico",
+          "description": "Colabora en innovación de productos, asesoría o proyectos alimentarios."
+        }
+      ],
+      "fits": "Te interesan los alimentos, crear con ellos y entender cómo funciona un servicio real.",
+      "watch": "La actividad profesional puede implicar horarios intensos, trabajo físico y mucha coordinación. El grado también abre caminos de gestión e innovación.",
+      "try": "Diseña un plato, calcula el coste de sus ingredientes y explica cómo organizarías su preparación para varias personas."
     }
   },
   "guides": {
@@ -10164,6 +10384,988 @@
           }
         ]
       }
+    },
+    "mondragon": {
+      "ingenieria de diseno y desarrollo de productos digitales": {
+        "title": "Ingeniería de Diseño y Desarrollo de Productos Digitales",
+        "families": [
+          "mu-digital"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
+          "title": "Ingeniería de Diseño y Desarrollo de Productos Digitales",
+          "checked": "2026-11-03"
+        },
+        "note": "Título pendiente de verificación según la ficha oficial. Confirma la aprobación y la oferta definitiva antes de solicitar admisión. La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales/plan-de-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/55Hry6vRBW8",
+          "https://www.youtube.com/embed/4mMOrsRvIyM"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "ingenieria mecanica": {
+        "title": "Ingeniería Mecánica",
+        "families": [
+          "mechanical"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+          "title": "Ingeniería Mecánica",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Plan de Estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecanica/plan-estudios"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecanica/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/C-OfRWGNQW0",
+          "https://www.youtube.com/embed/e1mpuZQx0Oc"
+        ],
+        "employment": {
+          "file": "D206_3ITMECANICA_M.pdf",
+          "title": "Ingeniería mecánica",
+          "uni": "mondragon",
+          "employment": 88,
+          "related": 91,
+          "respondents": 63,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 8,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "ingenieria en diseno industrial y desarrollo de producto": {
+        "title": "Ingeniería en Diseño Industrial y Desarrollo de Producto",
+        "families": [
+          "industrialdesign"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
+          "title": "Ingeniería en Diseño Industrial y Desarrollo de Producto",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/hzliTyL3wlU",
+          "https://www.youtube.com/embed/ycZi3-dlhe4"
+        ],
+        "employment": {
+          "file": "D204_ITDISEIND_M.pdf",
+          "title": "Grado ingeniería en diseño industrial y desarrollo de producto",
+          "uni": "mondragon",
+          "employment": 85,
+          "related": 76,
+          "respondents": 48,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 6.5,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "ingenieria en organizacion industrial": {
+        "title": "Ingeniería en Organización Industrial",
+        "families": [
+          "organization"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
+          "title": "Ingeniería en Organización Industrial",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/zkqQ7e8VvKg",
+          "https://www.youtube.com/embed/J8pcpUyr0oE"
+        ],
+        "employment": {
+          "file": "D264_IORGANIZACIONI_M.pdf",
+          "title": "Ingeniería en organización industrial",
+          "uni": "mondragon",
+          "employment": 100,
+          "related": 87,
+          "respondents": 31,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 8.7,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "ingenieria en electronica industrial": {
+        "title": "Ingeniería en Electrónica Industrial",
+        "families": [
+          "electronics"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
+          "title": "Ingeniería en Electrónica Industrial",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/qPoRmcuQ1bw",
+          "https://www.youtube.com/embed/FGsRdl_WYmc"
+        ],
+        "employment": {
+          "file": "D206_2ITELECTRONICA_M.pdf",
+          "title": "Ingeniería en electrónica industrial",
+          "uni": "mondragon",
+          "employment": 93,
+          "related": 93,
+          "respondents": 29,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": null,
+          "scope": ""
+        },
+        "noEmploymentReason": "La muestra o los datos disponibles no permiten calcular un índice comparable."
+      },
+      "ingenieria informatica": {
+        "title": "Ingeniería Informática",
+        "families": [
+          "computing"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
+          "title": "Ingeniería Informática",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-informatica/plan-estudios"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-informatica/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-informatica/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/WbBODtpSs-w",
+          "https://www.youtube.com/embed/PXOMlkgFATs"
+        ],
+        "employment": {
+          "file": "D259_INFORMATICA_M.pdf",
+          "title": "Ingeniería informática",
+          "uni": "mondragon",
+          "employment": 96,
+          "related": 100,
+          "respondents": 23,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": null,
+          "scope": ""
+        },
+        "noEmploymentReason": "La muestra o los datos disponibles no permiten calcular un índice comparable."
+      },
+      "ingenieria de la energia": {
+        "title": "Ingeniería de la Energía",
+        "families": [
+          "mu-energy"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-energia",
+          "title": "Ingeniería de la Energía",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-energia/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-energia/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-energia/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/jCzmcMBt6Zc",
+          "https://www.youtube.com/embed/1dVlXQ8H2fE"
+        ],
+        "employment": {
+          "file": "D277_IENERGIA_M.pdf",
+          "title": "Grado en ingeniería de la energía",
+          "uni": "mondragon",
+          "employment": 100,
+          "related": 69,
+          "respondents": 13,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": null,
+          "scope": ""
+        },
+        "noEmploymentReason": "La muestra o los datos disponibles no permiten calcular un índice comparable."
+      },
+      "ingenieria biomedica": {
+        "title": "Ingeniería Biomédica",
+        "families": [
+          "biomedical"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
+          "title": "Ingeniería Biomédica",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-biomedica/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/HC06KNLGCtk",
+          "https://www.youtube.com/embed/oK0KyFR-IeU"
+        ],
+        "employment": {
+          "file": "D278_IBIOMEDICA_M.pdf",
+          "title": "Grado en ingeniería biomédica",
+          "uni": "mondragon",
+          "employment": 94,
+          "related": 83,
+          "respondents": 31,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 7.8,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "ingenieria fisica aplicada a la industria": {
+        "title": "Ingeniería Física Aplicada a la Industria",
+        "families": [
+          "mu-physics"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
+          "title": "Ingeniería Física Aplicada a la Industria",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/tBI2sszKw_c",
+          "https://www.youtube.com/embed/ag7_aJhEFe0?si=FsfmusEiA8435kjf&start=848"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "ingenieria mecatronica": {
+        "title": "Ingeniería Mecatrónica",
+        "families": [
+          "mu-mechatronics"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+          "title": "Ingeniería Mecatrónica",
+          "checked": "2026-11-03"
+        },
+        "note": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/D5mSop3nkgU",
+          "https://www.youtube.com/embed/hlNstJti2qs"
+        ],
+        "employment": {
+          "file": "D282_IMECATRONICA_M.pdf",
+          "title": "Grado en ingeniería mecatrónica",
+          "uni": "mondragon",
+          "employment": 93,
+          "related": 92,
+          "respondents": 27,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": null,
+          "scope": ""
+        },
+        "noEmploymentReason": "La muestra o los datos disponibles no permiten calcular un índice comparable."
+      },
+      "ingenieria en ecotecnologias en procesos industriales (en amortizacion)": {
+        "title": "Ingeniería en Ecotecnologías en Procesos Industriales (en amortización)",
+        "families": [
+          "mu-eco"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales",
+          "title": "Ingeniería en Ecotecnologías en Procesos Industriales (Green Manufacturing)",
+          "checked": "2026-11-03"
+        },
+        "note": "Enseñanzas en proceso de amortización. Consulta continuidad y alternativas: no se confirma una oferta de nuevo ingreso. La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual.",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/HTdXURXxUJQ",
+          "https://www.youtube.com/embed/PSqhL80mPw8"
+        ],
+        "employment": {
+          "file": "D279_IECOTECNOLOG_M.pdf",
+          "title": "Grado en ingeniería en ecotecnologías en procesos industriales",
+          "uni": "mondragon",
+          "employment": 91,
+          "related": 50,
+          "respondents": 11,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": null,
+          "scope": ""
+        },
+        "noEmploymentReason": "La muestra o los datos disponibles no permiten calcular un índice comparable."
+      },
+      "business data analytics": {
+        "title": "Business Data Analytics",
+        "families": [
+          "mu-business-data"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-business-data-analytics",
+          "title": "Business Data Analytics",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-business-data-analytics/salidas-laborales"
+          },
+          {
+            "name": "Plan de Estudios",
+            "url": "https://www.mondragon.edu/es/grado-business-data-analytics/plan-de-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-business-data-analytics/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-business-data-analytics/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/kL7Kr9s5x-I",
+          "https://www.youtube.com/embed/E1OLOevB8WM"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "administracion y direccion de empresas · mygade dual": {
+        "title": "Administración y Dirección de Empresas · myGADE Dual",
+        "families": [
+          "ade"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+          "title": "Administración y Dirección de Empresas - myGADE - Dual",
+          "checked": "2026-11-03"
+        },
+        "note": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida.",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/plan-estudios"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/kGCGdpqz0FQ?si=7Q_yh-gSUxkjwQHl",
+          "https://www.youtube.com/embed/FFiwPUo1958?si=1OoaKSSyHuB2UxrA"
+        ],
+        "employment": {
+          "file": "D550_ADEMPRESA_M.pdf",
+          "title": "Administración y dirección de empresas",
+          "uni": "mondragon",
+          "employment": 94,
+          "related": 78,
+          "respondents": 78,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 7.3,
+          "scope": "Dato del grado ADE en conjunto; no resultado específico de este itinerario Dual o Dual+."
+        },
+        "noEmploymentReason": ""
+      },
+      "administracion y direccion de empresas · mygade dual+": {
+        "title": "Administración y Dirección de Empresas · myGADE Dual+",
+        "families": [
+          "ade"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+          "title": "Administración y Dirección de Empresas - myGADE - Dual",
+          "checked": "2026-11-03"
+        },
+        "note": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida.",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/plan-estudios"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/kGCGdpqz0FQ?si=7Q_yh-gSUxkjwQHl",
+          "https://www.youtube.com/embed/FFiwPUo1958?si=1OoaKSSyHuB2UxrA"
+        ],
+        "employment": {
+          "file": "D550_ADEMPRESA_M.pdf",
+          "title": "Administración y dirección de empresas",
+          "uni": "mondragon",
+          "employment": 94,
+          "related": 78,
+          "respondents": 78,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 7.3,
+          "scope": "Dato del grado ADE en conjunto; no resultado específico de este itinerario Dual o Dual+."
+        },
+        "noEmploymentReason": ""
+      },
+      "liderazgo emprendedor e innovacion · leinn": {
+        "title": "Liderazgo Emprendedor e Innovación · LEINN",
+        "families": [
+          "mu-entrepreneur"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+          "title": "Liderazgo Emprendedor e Innovación - LEINN",
+          "checked": "2026-11-03"
+        },
+        "note": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede.",
+        "links": [
+          {
+            "name": "Plan de Estudios",
+            "url": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion/plan-estudios"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/uAq6eAQ0uFo",
+          "https://www.youtube.com/embed/Xg0I2Ov6t9w"
+        ],
+        "employment": {
+          "file": "D561_LIDERAZGO_M.pdf",
+          "title": "Liderazgo emprendedor e innovación",
+          "uni": "mondragon",
+          "employment": 94,
+          "related": 75,
+          "respondents": 80,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 7.1,
+          "scope": "Dato del grado LEINN en Mondragon Unibertsitatea, sin desglose por campus o laboratorio."
+        },
+        "noEmploymentReason": ""
+      },
+      "educacion infantil": {
+        "title": "Educación Infantil",
+        "families": [
+          "infant"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-educacion-infantil",
+          "title": "Educación Infantil",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-educacion-infantil/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-educacion-infantil/plan-de-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-educacion-infantil/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-educacion-infantil/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/mGrkFwdVRmU?si=vWKHdD53_xEiDKUj",
+          "https://www.youtube.com/embed/C6wK1yhshQ4"
+        ],
+        "employment": {
+          "file": "D406_MAGINFANTIL_M.pdf",
+          "title": "Educación infantil",
+          "uni": "mondragon",
+          "employment": 77,
+          "related": 61,
+          "respondents": 60,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 4.7,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "educacion primaria": {
+        "title": "Educación Primaria",
+        "families": [
+          "primary"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-educacion-primaria",
+          "title": "Educación Primaria",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-educacion-primaria/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-educacion-primaria/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-educacion-primaria/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-educacion-primaria/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/mGrkFwdVRmU?si=vWKHdD53_xEiDKUj",
+          "https://www.youtube.com/embed/PSTE5e__Aqo"
+        ],
+        "employment": {
+          "file": "D408_MAGPRIMARIA_M.pdf",
+          "title": "Educación primaria",
+          "uni": "mondragon",
+          "employment": 82,
+          "related": 82,
+          "respondents": 125,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 6.7,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "pedagogia (segundo grado)": {
+        "title": "Pedagogía (segundo grado)",
+        "families": [
+          "pedagogy"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-pedagogia",
+          "title": "Pedagogía",
+          "checked": "2026-11-03"
+        },
+        "note": "La universidad presenta este recorrido como segundo grado de 120 ECTS en dos años, dirigido a personas con estudios previos. En 2026–2027 se prioriza a tituladas en Educación Infantil o Primaria. Confirma las vías de acceso antes de considerarlo una entrada directa desde Bachillerato.",
+        "links": [
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/salidas-laborales/grado-pedagogia/salidas-profesionales"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-pedagogia/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-pedagogia/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/mGrkFwdVRmU?si=vWKHdD53_xEiDKUj",
+          "https://www.youtube.com/embed/55Hry6vRBW8"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "comunicacion audiovisual": {
+        "title": "Comunicación Audiovisual",
+        "families": [
+          "audiovisual"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
+          "title": "Comunicación Audiovisual",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/nFg7EQIllLs?si=hdARBnDct3Rcz_Y4",
+          "https://www.youtube.com/embed/UY4wEf3YSTY?si=ls2sPClyUIu1woGN"
+        ],
+        "employment": {
+          "file": "D452_COMAUDIOVISUAL_M.pdf",
+          "title": "Comunicación audiovisual",
+          "uni": "mondragon",
+          "employment": 85,
+          "related": 86,
+          "respondents": 34,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 7.3,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      },
+      "industrias culturales y creativas": {
+        "title": "Industrias Culturales y Creativas",
+        "families": [
+          "mu-culture"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
+          "title": "Industrias Culturales y Creativas",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/es/grado-industrias-culturales-creativas/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas/salidas-laborales"
+          },
+          {
+            "name": "Acceso y admisión",
+            "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas/acceso-admision"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/nFg7EQIllLs?si=JhoNfRax-QX8qJMf",
+          "https://www.youtube.com/embed/RAcktpJX3Bg?si=QhYWCUU4JURpYqOH"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "humanidades digitales globales · hdg": {
+        "title": "Humanidades Digitales Globales · HDG",
+        "families": [
+          "mu-humanities"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
+          "title": "Humanidades Digitales Globales - HDG",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Salidas laborales del Grado",
+            "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales/salidas-laborales"
+          },
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/PLYEAY9uS2E?si=-OL19oAz-0BYrifB",
+          "https://www.youtube.com/embed/FI-iPpy4LA4?si=_kkWE93R0XAmjw-h"
+        ],
+        "employment": null,
+        "noEmploymentReason": "No se ha localizado un dato reciente de empleo relacionado para este título concreto. No se sustituye por una tasa global de la universidad."
+      },
+      "gastronomia y artes culinarias": {
+        "title": "Gastronomía y Artes Culinarias",
+        "families": [
+          "mu-gastronomy"
+        ],
+        "source": {
+          "url": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias",
+          "title": "Grado en Gastronomía y Artes Culinarias",
+          "checked": "2026-11-03"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan de estudios",
+            "url": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias/plan-estudios"
+          },
+          {
+            "name": "Salidas laborales",
+            "url": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias/salidas-laborales"
+          },
+          {
+            "name": "Campus",
+            "url": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias/campus"
+          }
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/YiUU0gEJlPw?si=_siabxnec60ZYGH-",
+          "https://www.youtube.com/embed/ZmeK3Nus-ps?si=6rp125VB1PHnD2Q7"
+        ],
+        "employment": {
+          "file": "D460_GASTRONOMIA.pdf",
+          "title": "Gastronomía y artes culinarias",
+          "uni": "mondragon",
+          "employment": 92,
+          "related": 94,
+          "respondents": 36,
+          "employmentPage": 3,
+          "relatedPage": 8,
+          "cohort": 2022,
+          "surveyYear": 2025,
+          "source": "https://www.lanbide.euskadi.eus/estadistica/situacion-laboral-a-diciembre-de-2025-promocion-universitaria-2022/weblan00-estudiosyestadisticas/es/",
+          "score": 8.6,
+          "scope": ""
+        },
+        "noEmploymentReason": ""
+      }
     }
   },
   "seats": {
@@ -11472,6 +12674,184 @@
         "campus": "Donostia-San Sebastián"
       }
     },
-    "navarra": {}
+    "navarra": {},
+    "mondragon": {
+      "MU_A0C6BAA166A3": {
+        "count": 40,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_5B0719893912": {
+        "count": 110,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_E30476F61B62": {
+        "count": 110,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_BD5397B5D88A": {
+        "count": 70,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_D3632455710E": {
+        "count": 65,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_A649F2D1EA12": {
+        "count": 60,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_93FA34406C2A": {
+        "count": 60,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_2E75539B137C": {
+        "count": 40,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-energia",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_6668E2021A80": {
+        "count": 40,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_64571838BD59": {
+        "count": 40,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_CCE53848A43F": {
+        "count": 120,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_D843C5F7D087": {
+        "count": 120,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_85710221267B": {
+        "count": 120,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_3C91038F1194": {
+        "count": 150,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-educacion-infantil",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_17686CA4BE36": {
+        "count": 225,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_1AFC0D3319D0": {
+        "count": 225,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_B17859D3175D": {
+        "count": 50,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-pedagogia",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_84DF1E24E1E6": {
+        "count": 50,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-pedagogia",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+      },
+      "MU_1133239C4FAE": {
+        "count": 50,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_7F5AB86BB7E4": {
+        "count": 50,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_62C1E09E8A89": {
+        "count": 40,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_B6FA9A24C252": {
+        "count": 100,
+        "course": null,
+        "source": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias",
+        "checked": "2026-11-03",
+        "scope": "degree",
+        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      }
+    }
   }
 }
