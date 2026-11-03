@@ -11,6 +11,7 @@
  function key(s){return compact(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es')}
  function degree(uni,id,original){if(lang==='es')return original??id;return data.aliases?.[uni]?.[original]||data.degrees?.[uni]?.[id]||text(original??id);}
  function translate(s,depth=0){
+  if(s==='Marcar interés')return 'Interesa markatu';
   if(dictionary.has(s))return dictionary.get(s);
   const lc=s.toLocaleLowerCase('es');if(lower.has(lc)){const eu=lower.get(lc);return s===s.toLocaleUpperCase('es')&&s.length>3?eu.toLocaleUpperCase('eu'):eu}
   for(const p of templates){const m=s.match(p.re);if(m){const values=Object.fromEntries(p.names.map((n,i)=>[n,m[i+1]]));return p.eu.replace(/\{n\d+\}/g,n=>values[n]??n)}}

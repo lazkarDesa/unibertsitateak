@@ -69,3 +69,18 @@
 .language-switch{position:relative;flex:none}.language-button{display:flex;align-items:center;justify-content:center;gap:5px;min-width:54px;min-height:44px;padding:8px;border:1px solid #6f8795;border-radius:24px;background:#234555;color:#fff;font:inherit;font-size:13px;font-weight:750;cursor:pointer}.language-button:hover{background:#325b6c}.language-button:focus-visible,.language-menu button:focus-visible{outline:3px solid #f2bd63;outline-offset:3px}.language-menu{position:absolute;right:0;top:calc(100% + 10px);z-index:30;min-width:175px;padding:7px;border:1px solid #c9dce2;border-radius:12px;background:#fff;box-shadow:0 10px 35px #102c4133}.language-menu[hidden]{display:none}.language-menu button{display:flex;align-items:center;gap:12px;width:100%;border:0;border-radius:8px;padding:12px;color:#143041;background:#fff;font:inherit;font-size:14px;text-align:left;cursor:pointer}.language-menu button[aria-checked="true"]{background:#e6f4f2;color:#066a6f;font-weight:750}.language-menu button:hover{background:#f0f6f8}.language-menu button span{font-size:11px;font-weight:800;letter-spacing:.05em}
 @media(max-width:690px){.language-button{min-width:44px}.header-tools{gap:7px}.language-menu{right:-15px}}@media(max-width:420px){.brand{gap:8px}.brand-icon{width:35px;height:35px;font-size:28px}.brand-text strong{font-size:16px}.brand-text small{display:none}.header-content{gap:10px}.profile-button,.help-button{width:40px;min-width:40px}.language-button{min-width:42px}}
 @media print{.language-switch{display:none!important}}
+
+/* Visible interest action in lists, suggestions and degree details. */
+.favorite-button,.detail-heading .favorite-button,.suggestion-row .favorite-button {
+ width:auto;height:auto;min-height:40px;display:inline-flex;align-items:center;justify-content:center;
+ gap:5px;padding:7px 10px;border:1px solid currentColor;border-radius:9px;
+ font:inherit;font-size:13px;font-weight:700;line-height:1.2;
+}
+.favorite-button.status-none {color:#395868;border-color:#91abb8;background:#eef4f7}
+.favorite-button svg,.detail-heading .favorite-button svg {width:18px;height:18px;flex:none}
+@media(max-width:690px) {
+ .favorite-button,.detail-heading .favorite-button,.suggestion-row .favorite-button {
+  max-width:105px;padding:6px;font-size:11px;
+ }
+ .degree-heading,.detail-heading {flex-wrap:wrap}
+}
