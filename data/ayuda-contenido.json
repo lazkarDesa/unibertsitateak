@@ -1,5 +1,5 @@
 {
-  "version": "20261103-help-1",
+  "version": "20261103-help-2",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer.pdf",
@@ -15,7 +15,8 @@
           "selectors": [
             "#profile-button",
             ".portal-grid",
-            ".brand"
+            ".brand",
+            "#help-button"
           ],
           "points": [
             {
@@ -29,11 +30,46 @@
             {
               "title": "Vuelve al inicio",
               "text": "El logotipo de Uni Explorer vuelve a la portada. «Volver» y los botones Atrás/Adelante del navegador recorren las pantallas visitadas."
+            },
+            {
+              "title": "Ayuda de esta pantalla",
+              "text": "El icono ? junto al perfil abre una ventana grande con la explicación correspondiente. Se puede consultar sin cambiar las materias, los filtros ni los estados de interés."
             }
           ],
           "crop": null,
-          "width": 1265,
-          "height": 712
+          "width": 1325,
+          "height": 772
+        },
+        {
+          "raw": "help-window",
+          "caption": "La ayuda permite cambiar de tema, descargar el manual y volver a lo que estabas haciendo.",
+          "selectors": [
+            "#help-topic",
+            ".help-download",
+            "[data-help-close]"
+          ],
+          "points": [
+            {
+              "title": "Consulta otro tema",
+              "text": "El tema inicial depende de la pantalla. El desplegable da acceso a toda la guía, incluidas compatibilidad, empleo, móvil y datos guardados."
+            },
+            {
+              "title": "Descarga el manual",
+              "text": "Conserva la guía ilustrada en PDF para consultarla o compartirla. Dentro de la ayuda puedes ampliar las capturas."
+            },
+            {
+              "title": "Vuelve a la pantalla",
+              "text": "Cierra con X, Escape o el fondo exterior. Si abriste ayuda desde el perfil o el selector de interés, vuelves a esa misma ventana sin perder el formulario."
+            }
+          ],
+          "crop": [
+            60,
+            10,
+            1200,
+            710
+          ],
+          "width": 1200,
+          "height": 760
         }
       ],
       "tips": [
@@ -75,8 +111,8 @@
             990,
             710
           ],
-          "width": 700,
-          "height": 700
+          "width": 760,
+          "height": 760
         },
         {
           "raw": "profile",
@@ -106,8 +142,8 @@
             990,
             710
           ],
-          "width": 700,
-          "height": 700
+          "width": 760,
+          "height": 760
         },
         {
           "raw": "profile-save",
@@ -137,8 +173,8 @@
             990,
             710
           ],
-          "width": 700,
-          "height": 700
+          "width": 760,
+          "height": 760
         }
       ],
       "tips": [
@@ -170,8 +206,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 380
+          "width": 1245,
+          "height": 440
         },
         {
           "raw": "routes",
@@ -191,8 +227,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 530
+          "width": 1245,
+          "height": 590
         }
       ],
       "tips": [
@@ -233,8 +269,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 427
+          "width": 1245,
+          "height": 487
         }
       ],
       "tips": [
@@ -276,8 +312,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 427
+          "width": 1245,
+          "height": 487
         }
       ],
       "tips": [
@@ -313,8 +349,8 @@
             }
           ],
           "crop": null,
-          "width": 1057,
-          "height": 427
+          "width": 1117,
+          "height": 487
         }
       ],
       "tips": [
@@ -355,8 +391,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 422
+          "width": 1245,
+          "height": 482
         }
       ],
       "tips": [
@@ -393,8 +429,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 440
+          "width": 1245,
+          "height": 500
         }
       ],
       "tips": [
@@ -426,8 +462,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 577
+          "width": 1245,
+          "height": 637
         },
         {
           "raw": "public-access",
@@ -452,8 +488,8 @@
             }
           ],
           "crop": null,
-          "width": 780,
-          "height": 412
+          "width": 840,
+          "height": 472
         }
       ],
       "tips": [
@@ -490,8 +526,8 @@
             }
           ],
           "crop": null,
-          "width": 780,
-          "height": 435
+          "width": 840,
+          "height": 495
         }
       ],
       "tips": [
@@ -523,8 +559,8 @@
             }
           ],
           "crop": null,
-          "width": 1265,
-          "height": 712
+          "width": 1325,
+          "height": 772
         },
         {
           "raw": "orientation-fit",
@@ -544,8 +580,8 @@
             }
           ],
           "crop": null,
-          "width": 1265,
-          "height": 712
+          "width": 1325,
+          "height": 772
         }
       ],
       "tips": [
@@ -581,8 +617,8 @@
             }
           ],
           "crop": null,
-          "width": 1265,
-          "height": 712
+          "width": 1325,
+          "height": 772
         }
       ],
       "tips": [
@@ -629,8 +665,8 @@
             890,
             665
           ],
-          "width": 500,
-          "height": 605
+          "width": 560,
+          "height": 665
         }
       ],
       "tips": [
@@ -672,8 +708,8 @@
             }
           ],
           "crop": null,
-          "width": 1185,
-          "height": 452
+          "width": 1245,
+          "height": 512
         }
       ],
       "tips": [
@@ -705,8 +741,8 @@
             }
           ],
           "crop": null,
-          "width": 375,
-          "height": 812
+          "width": 435,
+          "height": 872
         },
         {
           "raw": "mobile",
@@ -726,8 +762,8 @@
             }
           ],
           "crop": null,
-          "width": 390,
-          "height": 844
+          "width": 450,
+          "height": 904
         }
       ],
       "tips": [

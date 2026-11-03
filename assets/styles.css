@@ -65,3 +65,4 @@
 @media(max-width:690px){.header-tools{gap:9px}.help-button{width:44px;padding:8px}.help-button span{display:none}#help-dialog{width:calc(100% - 16px);max-height:calc(100dvh - 16px);border-radius:14px}.help-heading{padding:16px;gap:10px}.help-heading h2{font-size:19px}.help-heading .eyebrow{font-size:9px}.help-toolbar{display:grid;padding:16px;gap:13px}.help-download{text-align:center}.help-body{padding:20px 16px;font-size:14px}.help-intro{font-size:15px}.help-points{grid-template-columns:1fr}.help-step figcaption{flex-wrap:wrap}.help-tips{padding:18px}.help-step h3{font-size:17px}}
 @media print{#help-dialog,.help-button,.inline-help{display:none!important}}
 .help-image-scroll img.help-portrait{width:auto;max-width:100%;max-height:660px;margin:auto}.help-zoomed .help-image-scroll img.help-portrait{width:auto;max-width:none;max-height:none}
+#help-dialog{overscroll-behavior:contain}@media(max-width:690px){#help-dialog{max-width:calc(100% - 16px)}}
