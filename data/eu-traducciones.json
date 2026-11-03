@@ -2211,7 +2211,11 @@
     "Facultad de Economía y Empresa. Sección Gipuzkoa": "Ekonomia eta Enpresa Fakultatea",
     "Facultad de Medicina y Enfermería. Sección Gipuzkoa": "Medikuntza eta Erizaintza Fakultatea",
     "Escuela de Ingeniería de Gipuzkoa. Sección Eibar": "Gipuzkoako Ingeniaritza Eskola",
-    "Facultad de Informática": "Informatika Fakultatea"
+    "Facultad de Informática": "Informatika Fakultatea",
+    "Marcar interés": "Interesa markatu",
+    "Pulsa «Marcar interés» junto al nombre de la carrera, en el listado, la búsqueda o la ficha. El botón muestra el estado que elijas. Púlsalo de nuevo para cambiarlo.": "Sakatu «Interesa markatu» botoia karreraren izenaren ondoan, zerrendan, bilaketan edo fitxan. Aukeratutako egoera botoian bertan agertzen da. Sakatu berriro aldatzeko.",
+    "Esta opción quita la valoración y recupera la etiqueta «Marcar interés».": "Aukera honek balorazioa kentzen du eta «Interesa markatu» etiketa berreskuratzen du.",
+    "Botón de interés": "Interesaren botoia"
   },
   "templates": [
     [
