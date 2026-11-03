@@ -97,7 +97,7 @@
   const {uni,screen}=state, ds=datasets[uni], cfg=CFG[uni];const isCampus=screen==='campus';const isRama=screen==='rama';const isSubject=screen==='subject';const base=ds.records.filter(r=>isCampus?r.campus===state.campus:isRama?r.rama===state.rama:true);
   const centers=[...new Set(base.map(r=>r.centro).filter(Boolean))].sort(sortText), campuses=[...new Set(base.map(r=>r.campus))].sort(sortText);
   const header=isCampus?state.campus:isRama?state.rama:`Materias: ${state.materia||'Seleccionar asignatura'}`;
-  main.innerHTML=`${top(cfg.short,header,isCampus?'Grados del campus. Filtra por centro, ordena por nota o nombre y consulta las ponderaciones pasando el ratón.':isRama?'Titulaciones de esta rama, con filtros y ordenación.':'Carreras para las que la materia seleccionada pondera en la EHU.')}
+  main.innerHTML=`${top(cfg.short,header,isCampus?(isPublic(uni)?'Grados del campus. Filtra por centro, ordena por nota o nombre y consulta las ponderaciones sobre el nombre o con el libro en móvil.':'Grados del campus. Filtra por centro y ordena por nombre o precio.'):isRama?'Titulaciones de esta rama, con filtros y ordenación.':'Carreras para las que la materia seleccionada pondera en '+cfg.short+'.')}
   <div class="filter-bar filter-bar-extended">
    ${isCampus?`<div class="field"><label for="faculty-filter">Facultad / Escuela</label><select id="faculty-filter"><option value="">Todos los centros</option>${selectOptions(centers,state.facultad)}</select></div>`:`<div class="field"><label for="campus-filter">Campus</label><select id="campus-filter"><option value="">Todos los campus</option>${selectOptions(campuses,state.campus)}</select></div>`}
    <div class="field"><label for="list-query">Buscar carrera o centro</label><input id="list-query" type="search" placeholder="Buscar…" value="${safe(state.q)}"></div>
@@ -173,7 +173,7 @@
  function openSubject(m){if(!materias().includes(m))return;go('subject',{materia:m,campus:'',facultad:'',q:'',sort:'name',statusFilter:'all'})}
  function resetFilters(){state.q='';state.facultad='';state.materia=state.screen==='subject'?state.materia:'';state.sort='name';state.statusFilter='all';if(state.screen!=='campus')state.campus='';renderList()}
  document.addEventListener('click',e=>{
-  if(e.target.closest('#selection-dialog'))return;
+  if(e.target.closest('#selection-dialog,#help-dialog'))return;
   if(e.target.closest('[data-popover-close]')){hidePopup(true);return;}
   const book=e.target.closest('[data-subject-book]');if(book){showPopup(book,true);return;}
   if(e.target.closest('a')||popup.contains(e.target))return;
@@ -201,7 +201,7 @@
   if(e.target.id==='sort-by'){state.sort=e.target.value;updateList()}
  });
  document.addEventListener('keydown',e=>{
-  if(document.getElementById('selection-dialog')?.open)return;
+  if(document.getElementById('selection-dialog')?.open||document.getElementById('help-dialog')?.open)return;
   if(e.key==='Escape'){hidePopup(true);const sug=document.getElementById('search-suggestions');if(sug)sug.hidden=true}
   if(e.target.matches?.('[data-action="detail-tab"]')&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();state.detailTab=e.key==='Home'?'ficha':e.key==='End'?'orientation':state.detailTab==='orientation'?'ficha':'orientation';saveHistory();renderDetail();document.getElementById('tab-'+state.detailTab)?.focus();return;}
   if(e.target.id!=='degree-search')return;const el=document.getElementById('search-suggestions');if(!el||el.hidden)return;const opts=[...el.querySelectorAll('[data-open-detail]')];if(!opts.length)return;const idx=opts.findIndex(o=>o.classList.contains('active'));
@@ -211,7 +211,7 @@
  document.addEventListener('pointerover',e=>{if(mobilePopover||compactPopover()||e.pointerType==='touch')return;if(popup.contains(e.target)){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;return;}const title=e.target.closest('[data-degree-name]');if(title){if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=null;if(!title.contains(e.relatedTarget))showPopup(title);}});
  function hidePopupIfExited(e){if(mobilePopover)return;const title=e.target.closest('[data-degree-name]'),next=e.relatedTarget;if(title===activeHoverRow&&title&&!title.contains(next)&&!popup.contains(next))schedulePopupClose();else if(popup.contains(e.target)&&!popup.contains(next)&&!(activeHoverRow&&activeHoverRow.contains(next)))schedulePopupClose();}
  document.addEventListener('pointerout',hidePopupIfExited);
- document.addEventListener('keydown',e=>{if(!mobilePopover||e.key!=='Tab')return;const focusable=[...popup.querySelectorAll('button,[tabindex="0"],a[href]')];if(!focusable.length)return;const first=focusable[0],last=focusable[focusable.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
+ document.addEventListener('keydown',e=>{if(document.getElementById('help-dialog')?.open||!mobilePopover||e.key!=='Tab')return;const focusable=[...popup.querySelectorAll('button,[tabindex="0"],a[href]')];if(!focusable.length)return;const first=focusable[0],last=focusable[focusable.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
  window.addEventListener('scroll',()=>{if(!mobilePopover)hidePopup();},{passive:true});window.addEventListener('resize',()=>hidePopup());
  if(Object.keys(CFG).some(uni=>!raw[uni]?.grados)){main.innerHTML='<div class="empty-panel"><b>No se han cargado los datos.</b>Comprueba los archivos de la carpeta data/ y su publicación.</div>';return}
  window.addEventListener('uni-profile-change',()=>render());
