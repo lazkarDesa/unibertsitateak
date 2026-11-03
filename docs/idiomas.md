@@ -1,5 +1,7 @@
 # Castellano y euskera
 
+En la primera visita se usa euskera si es el idioma principal del navegador y castellano en los demás casos. La elección manual prevalece en futuras visitas.
+
 El selector ES/EU situado junto al perfil cambia de idioma y guarda la elección en este navegador. Conserva la pantalla, los filtros, las materias y las valoraciones existentes. Se puede buscar por el nombre castellano o vasco de una carrera.
 
 Los enlaces externos cambian solamente cuando se ha verificado la versión en euskera. Los demás mantienen su destino original. Las explicaciones de orientación y de ayuda son traducciones propias; los nombres oficiales verificados y las traducciones propias de títulos se documentan en el informe.

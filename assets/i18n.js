@@ -1,9 +1,10 @@
 /* Las traducciones solo afectan a presentación y enlaces: las claves guardadas permanecen en castellano. */
 (()=>{'use strict';
  const data=window.EU_TRANSLATIONS||{strings:{},templates:[],degrees:{},aliases:{},links:{}},KEY='uni-explorer.language.v1';
- let saved='es';try{saved=localStorage.getItem(KEY)||'es'}catch{}
+ let saved;try{saved=localStorage.getItem(KEY)}catch{}
+ const browserLang=window.navigator?.languages?.[0]||window.navigator?.language||'';
  let params;try{params=new URL(window.location.href).searchParams}catch{}
- const lang=['es','eu'].includes(params?.get('lang'))?params.get('lang'):saved==='eu'?'eu':'es',locale=lang==='eu'?'eu-ES':'es-ES';
+ const lang=['es','eu'].includes(params?.get('lang'))?params.get('lang'):['es','eu'].includes(saved)?saved:/^eu(?:-|$)/i.test(browserLang)?'eu':'es',locale=lang==='eu'?'eu-ES':'es-ES';
  const compact=s=>String(s??'').replace(/\s+/g,' ').trim(),dictionary=new Map(Object.entries(data.strings||{}).map(([s,t])=>[compact(s),t])),lower=new Map([...dictionary].map(([s,t])=>[s.toLocaleLowerCase('es'),t]));
  const escapeRE=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const templates=(data.templates||[]).map(([es,eu])=>{let names=[];const parts=es.split(/(\{n\d+\})/g);return {re:new RegExp('^'+parts.map(p=>/^\{n\d+\}$/.test(p)?(names.push(p),'([0-9]+(?:[.,][0-9]+)?)'):escapeRE(p)).join('')+'$'),eu,names}});
@@ -56,7 +57,7 @@
  api.apply=apply;
  const button=document.getElementById('language-button'),menu=document.getElementById('language-menu');
  function closeMenu(){if(menu)menu.hidden=true;button?.setAttribute('aria-expanded','false')}
- function choose(next){if(!['es','eu'].includes(next)||next===lang){closeMenu();return}try{localStorage.setItem(KEY,next)}catch{}const current=new URL(window.location.href);current.searchParams.set('lang',next);window.history.replaceState(window.history.state,'',current.href);window.location.reload();}
+ function choose(next){if(!['es','eu'].includes(next))return;try{localStorage.setItem(KEY,next)}catch{}if(next===lang){closeMenu();return}const current=new URL(window.location.href);current.searchParams.set('lang',next);window.history.replaceState(window.history.state,'',current.href);window.location.reload();}
  api.choose=choose;
  if(button&&menu){button.querySelector('[data-language-current]').textContent=lang.toUpperCase();button.setAttribute('aria-label',lang==='eu'?'Aldatu hizkuntza: euskara':'Cambiar idioma: castellano');button.addEventListener('click',()=>{menu.hidden=!menu.hidden;button.setAttribute('aria-expanded',String(!menu.hidden));if(!menu.hidden)menu.querySelector('[data-language="'+lang+'"]')?.focus()});for(const option of menu.querySelectorAll('[data-language]')){option.setAttribute('aria-checked',String(option.dataset.language===lang));option.addEventListener('click',()=>choose(option.dataset.language))}document.addEventListener('click',e=>{if(!e.target.closest('.language-switch'))closeMenu()});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!menu.hidden){e.stopPropagation();closeMenu();button.focus()}});}
  if(lang==='eu'){apply(document.body);if(typeof MutationObserver!=='undefined'){const observer=new MutationObserver(records=>{const roots=new Set();for(const r of records){if(r.type==='attributes')roots.add(r.target);else if(r.type==='characterData')roots.add(r.target);else for(const n of r.addedNodes)roots.add(n)}for(const r of roots)apply(r)});observer.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','placeholder','alt','href','src']});}}
