@@ -14,7 +14,7 @@
  }
  // Compatibilidad con la interfaz anterior de favoritos.
  function toggle(uni,key){const added=!has(uni,key),r=setStatus(uni,key,added?'selected':'none');return {...r,added};}
- function csv(rows){const quote=value=>{let s=String(value??'');if(/^[=+\-@\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';};return '\uFEFF'+rows.map(row=>row.map(quote).join(';')).join('\r\n')+'\r\n';}
+ function csv(rows){const quote=value=>{let s=String(value??'');if(window.UniI18n)s=/^https:\/\//.test(s)?window.UniI18n.url(s):window.UniI18n.text(s);if(/^[=+\-@\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';};return '\uFEFF'+rows.map(row=>row.map(quote).join(';')).join('\r\n')+'\r\n';}
  function icon(value){const shape={none:'<circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7"/>',doubt:'<circle cx="12" cy="12" r="9"/><path d="M9.3 8.6a2.8 2.8 0 0 1 5.4.9c0 2-2.7 2.1-2.7 4.1"/><path d="M12 17h.01"/>',selected:'<circle cx="12" cy="12" r="9"/><path d="m7.5 12 3 3 6-6"/>',rejected:'<circle cx="12" cy="12" r="9"/><path d="m8.5 8.5 7 7m0-7-7 7"/>'};return `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${shape[value]||shape.none}</svg>`;}
  window.UniFavorites={get:()=>items.map(x=>({...x})),status,setStatus,states,icon,has,toggle,csv};
  window.addEventListener('storage',e=>{if(e.key===KEY||e.key===LEGACY||e.key===null){items=read();window.dispatchEvent(new Event('uni-favorites-change'));}});
