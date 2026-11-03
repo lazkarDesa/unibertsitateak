@@ -1,5 +1,5 @@
 {
-  "version": "20261103-help-2",
+  "version": "interest-help-1",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer.pdf",
@@ -631,7 +631,7 @@
     {
       "id": "selection",
       "title": "Interés: valora y revisa sin perder opciones",
-      "intro": "Pulsa el icono de interés junto al nombre, tanto en listados y búsquedas como dentro de una ficha. Se abre este selector y el cambio queda guardado en el navegador.",
+      "intro": "Pulsa «Marcar interés» junto al nombre de la carrera, en el listado, la búsqueda o la ficha. El botón muestra el estado que elijas. Púlsalo de nuevo para cambiarlo.",
       "figures": [
         {
           "raw": "interest",
@@ -645,7 +645,7 @@
           "points": [
             {
               "title": "Sin marcar",
-              "text": "Gris: todavía no la has valorado. También sirve para quitar una valoración anterior."
+              "text": "Esta opción quita la valoración y recupera la etiqueta «Marcar interés»."
             },
             {
               "title": "En duda",
@@ -737,7 +737,7 @@
               "text": "Pulsa el pequeño libro junto al nombre para ver las materias. Solo aparece para carreras públicas con esa función."
             },
             {
-              "title": "Icono de interés",
+              "title": "Botón de interés",
               "text": "Abre los cuatro estados. Pulsar el resto de la fila lleva a la ficha de la carrera."
             }
           ],

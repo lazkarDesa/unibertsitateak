@@ -1,5 +1,5 @@
 {
-  "version": "20261103-i18n-4",
+  "version": "interest-help-1",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer-eu.pdf",
@@ -631,7 +631,7 @@
     {
       "id": "selection",
       "title": "Interesa: baloratu eta berrikusi aukerak galdu gabe",
-      "intro": "Sakatu izenaren ondoko interes-ikonoa, zerrendetan eta bilaketetan zein fitxa barruan. Hautagailu hau irekitzen da eta aldaketa nabigatzailean gordetzen da.",
+      "intro": "Sakatu «Interesa markatu» botoia karreraren izenaren ondoan, zerrendan, bilaketan edo fitxan. Aukeratutako egoera botoian bertan agertzen da. Sakatu berriro aldatzeko.",
       "figures": [
         {
           "raw": "interest",
@@ -645,7 +645,7 @@
           "points": [
             {
               "title": "Markatu gabe",
-              "text": "Grisa: oraindik ez duzu baloratu. Aurreko balorazioa kentzeko ere balio du."
+              "text": "Aukera honek balorazioa kentzen du eta «Interesa markatu» etiketa berreskuratzen du."
             },
             {
               "title": "Zalantzan",
@@ -737,7 +737,7 @@
               "text": "Sakatu izenaren ondoko liburu txikia ikasgaiak ikusteko. Funtzio hori duten karrera publikoetan bakarrik agertzen da."
             },
             {
-              "title": "Interes-ikonoa",
+              "title": "Interesaren botoia",
               "text": "Lau egoerak irekitzen ditu. Errenkadaren gainerakoa sakatzean karreraren fitxa irekitzen da."
             }
           ],
