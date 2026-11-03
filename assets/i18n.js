@@ -39,7 +39,7 @@
  const searchName=(uni,id,original)=>searchText(original)+' '+(data.aliases?.[uni]?.[original]||'')+' '+(data.degrees?.[uni]?.[id]||'')+(/ADE|Administraci.n y Direcci.n de Empresas/i.test(original)?' EAZ':'');
  const api={lang,locale,text,t:text,degree,url,key,searchText,searchName,missing:s=>lang==='eu'&&translate(compact(s))===compact(s)};window.UniI18n=api;
  if(typeof document==='undefined')return;
- document.documentElement.lang=lang;document.title=text(document.title);
+ document.documentElement.lang=lang;document.title=text(document.title);const description=document.querySelector?.('meta[name=description]');if(description)description.content=text(description.content);
  const remembered=new WeakMap();
  function nodeText(n){const original=n.nodeValue;if(!original?.trim())return;const el=n.parentElement;if(!el||el.closest('script,style,code,pre,textarea,[data-no-translate]'))return;
   const previous=remembered.get(n);if(previous&&original===previous)return;

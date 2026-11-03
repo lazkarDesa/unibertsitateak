@@ -1,6 +1,6 @@
 /* Ayuda contextual: solo consulta la ruta; no modifica perfil ni selección. */
 (()=>{'use strict';
- const content=window.UNI_HELP_CONTENT,button=document.getElementById('help-button');
+ const content=(window.UniI18n?.lang==='eu'&&window.UNI_HELP_CONTENT_EU)||window.UNI_HELP_CONTENT,button=document.getElementById('help-button');
  if(!content?.topics?.length||!button)return;
  const topics=new Map(content.topics.map(t=>[t.id,t]));let dialog=null,opener=null,current='portal';
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
