@@ -9,7 +9,7 @@
  const safe=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const sortText=(a,b)=>String(window.UniI18n?.text(a)??a??'').localeCompare(String(window.UniI18n?.text(b)??b??''),window.UniI18n?.locale||'es',{sensitivity:'base'});
  const num=(n,d=2)=>typeof n==='number'&&Number.isFinite(n)?new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{maximumFractionDigits:d,minimumFractionDigits:0}).format(n):'—';
- const eur=n=>typeof n==='number'&&Number.isFinite(n)?new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n):'No consta';
+ const eur=n=>typeof n==='number'&&Number.isFinite(n)?new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',useGrouping:'always',maximumFractionDigits:0}).format(n):'No consta';
  const validUrl=x=>typeof x==='string'&&/^https:\/\//.test(x)?x:null;
  const link=(x,label)=>validUrl(x)?`<a href="${safe(x)}" target="_blank" rel="noopener noreferrer">${safe(label)}</a>`:'';
  const pill=(x,cls='')=>`<span class="pill ${cls}">${safe(x)}</span>`;
