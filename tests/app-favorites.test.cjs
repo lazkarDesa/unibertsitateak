@@ -3,6 +3,8 @@ function app(compact=false,selected=[]){const root=path.join(__dirname,'..'),eve
  const data=(title,campus)=>({grados:[{titulacion:title,campus,oferta_2026:true,rama:'Ciencias',centro:'Facultad',ponderacion_ids:'p',id_ponderacion:'p',ponderaciones:[{materia:'Biología',coeficiente:.2}],url_grado:'https://example.com/grado'}],ponderaciones:[{grado_ponderacion:'p',materia:'Biología',coeficiente:.2},{grado_ponderacion:'p',materia:'Física',coeficiente:.1},{grado_ponderacion:'p',materia:'Geología',coeficiente:.1}],meta:{fuentes:{ponderaciones_2026:'https://example.com/pdf'},fuente_ponderaciones:'https://example.com/pdf'}});
  const win={innerWidth:compact?390:1200,innerHeight:800,matchMedia:()=>({matches:compact}),EHU_DATA:data('Biología','Araba'),UPNA_DATA:data('Medicina','Pamplona'),DEUSTO_DATA:data('Derecho','Bilbao'),NAVARRA_DATA:data('Farmacia','Pamplona'),scrollTo(){},addEventListener:(k,f)=>events[k]=f,dispatchEvent:e=>events[e.type]?.(),UniProfile:{get:()=>null,assess:()=>null,matches:p=>selected.includes(p.materia)}};
  win.UniSelectionDialog={open:info=>dialogs.push(info)};
+ win.EUNEIZ_DATA=require('../data/euneiz-datos.json');
+ win.UNED_DATA=require('../data/uned-datos.json');
  win.MONDRAGON_DATA=JSON.parse(fs.readFileSync(path.join(root,'data/mondragon-datos.json'),'utf8'));
  const entries=[];let current=-1;win.history={state:null,replaceState(entry){if(current<0)current=0;entries[current]=entry;this.state=entry;},pushState(entry){entries.splice(current+1);entries.push(entry);current++;this.state=entry;},back(){if(current>0){this.state=entries[--current];events.popstate({state:this.state});}},forward(){if(current<entries.length-1){this.state=entries[++current];events.popstate({state:this.state});}}};
  const doc={getElementById:id=>({'main':main,'hover-popover':popup,'active-university-label':label,'favorite-notice':notice,'filter-count':{},'results-list':results,'popover-backdrop':{hidden:true}}[id]),addEventListener:(k,f)=>docEvents[k]=f,querySelectorAll:()=>[],body:{append(){}},createElement:()=>({click(){downloads.push(this.download);},remove(){}})};
@@ -33,3 +35,23 @@ test('Mondragon permite navegar por campus y abrir una ficha con el curso real d
 
 test('seleccionadas y CSV incluyen Mondragon y conservan su curso e importe',()=>{const a=app();a.api.setStatus('mondragon','ingenieria mecanica','doubt');a.api.setStatus('ehu','biologia','selected');a.click({action:'favorites'});assert.ok(a.main.innerHTML.includes('Mondragon Unibertsitatea'));assert.ok(a.main.innerHTML.includes('Ingeniería Mecánica'));a.click({action:'export-favorites'});assert.ok(a.csv().includes('Curso de precios'));assert.ok(a.csv().includes('2027–2028'));assert.ok(a.csv().includes('8520'));assert.ok(a.csv().includes('Biología'));});
 
+
+test('EUNEIZ y UNED tienen rutas separadas, precios y selecciones',()=>{
+ const a=app();
+ assert.match(a.main.innerHTML,/Universidades a distancia/);
+ a.click({uni:'euneiz'});
+ a.click({openCampus:'Vitoria-Gasteiz'});
+ assert.match(a.results.innerHTML,/9\.120/);
+ a.click({uni:'uned'});
+ assert.match(a.main.innerHTML,/Centros asociados/);
+ a.click({openCampus:'A distancia'});
+ assert.match(a.results.innerHTML,/780,00/);
+ a.click({openDetail:'uned--0',detailUni:'uned'});
+ assert.match(a.main.innerHTML,/Acceso y matrícula UNED/);
+ assert.doesNotMatch(a.main.innerHTML,/universidades privadas/);
+ a.api.setStatus('uned','lengua y literatura espanolas','selected');
+ a.api.setStatus('euneiz','arte para videojuegos','doubt');
+ a.click({action:'favorites'});
+ assert.match(a.main.innerHTML,/EUNEIZ/);
+ assert.match(a.main.innerHTML,/UNED/);
+});

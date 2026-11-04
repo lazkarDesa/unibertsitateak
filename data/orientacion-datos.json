@@ -2183,6 +2183,96 @@
       "fits": "Te interesan los alimentos, crear con ellos y entender cómo funciona un servicio real.",
       "watch": "La actividad profesional puede implicar horarios intensos, trabajo físico y mucha coordinación. El grado también abre caminos de gestión e innovación.",
       "try": "Diseña un plato, calcula el coste de sus ingredientes y explica cómo organizarías su preparación para varias personas."
+    },
+    "podiatry": {
+      "label": "Podología",
+      "about": "Estudias cómo prevenir, diagnosticar y tratar problemas del pie.",
+      "study": "Anatomía, biomecánica, patología del pie, ortesis y prácticas clínicas.",
+      "jobs": [
+        {
+          "title": "Podóloga clínica",
+          "description": "Evalúa y trata problemas del pie en consulta."
+        },
+        {
+          "title": "Podóloga deportiva",
+          "description": "Estudia la pisada y ayuda a prevenir lesiones."
+        }
+      ],
+      "fits": "Te interesan la salud, el movimiento y la atención a pacientes.",
+      "watch": "Incluye prácticas clínicas y contacto directo con pacientes.",
+      "try": "Compara cómo cambia tu pisada al andar con distintos tipos de calzado."
+    },
+    "tourism": {
+      "label": "Turismo",
+      "about": "Aprendes a organizar servicios turísticos y a gestionar destinos.",
+      "study": "Economía, geografía, idiomas, gestión y sostenibilidad.",
+      "jobs": [
+        {
+          "title": "Gestora de destinos",
+          "description": "Diseña propuestas turísticas y coordina a los agentes locales."
+        },
+        {
+          "title": "Técnica de alojamientos",
+          "description": "Organiza servicios y mejora la experiencia de quienes se alojan."
+        }
+      ],
+      "fits": "Te interesan los idiomas, la atención al público y los lugares.",
+      "watch": "El sector puede tener horarios variables y actividad estacional.",
+      "try": "Diseña una ruta de un día que respete el entorno y sea accesible."
+    },
+    "gameart": {
+      "label": "Arte para Videojuegos",
+      "about": "Creas personajes, escenarios y objetos para videojuegos.",
+      "study": "Dibujo, modelado 3D, texturas, animación y dirección artística.",
+      "jobs": [
+        {
+          "title": "Artista de personajes",
+          "description": "Modela personajes para que puedan animarse e integrarse en el juego."
+        },
+        {
+          "title": "Artista de entornos",
+          "description": "Construye escenarios y ajusta iluminación y materiales."
+        }
+      ],
+      "fits": "Te gusta dibujar, observar y mejorar tus diseños tras recibir comentarios.",
+      "watch": "El porfolio y el trabajo en equipo pesan mucho al buscar empleo.",
+      "try": "Diseña un objeto y dibújalo desde tres ángulos para que otra persona pueda modelarlo."
+    },
+    "gamedesign": {
+      "label": "Diseño y Desarrollo de Videojuegos",
+      "about": "Diseñas reglas, niveles e interacciones y las conviertes en juegos que otras personas pueden probar.",
+      "study": "Programación, motores de juego, diseño de niveles y pruebas con jugadores.",
+      "jobs": [
+        {
+          "title": "Diseñadora de niveles",
+          "description": "Construye recorridos y ajusta el ritmo y la dificultad."
+        },
+        {
+          "title": "Programadora de videojuegos",
+          "description": "Implementa la lógica del juego y corrige fallos."
+        }
+      ],
+      "fits": "Te gusta construir prototipos y observar cómo juega otra persona.",
+      "watch": "Crear juegos implica iterar, probar y documentar decisiones.",
+      "try": "Crea un juego de papel de tres reglas y ajústalo después de una partida."
+    },
+    "musicproduction": {
+      "label": "Producción Musical y Sonido",
+      "about": "Aprendes a grabar, editar y mezclar música y sonido para distintos medios.",
+      "study": "Acústica, grabación, edición, mezcla y sonido para audiovisuales.",
+      "jobs": [
+        {
+          "title": "Técnica de sonido",
+          "description": "Prepara micrófonos y ajusta la grabación o el sonido en directo."
+        },
+        {
+          "title": "Diseñadora de sonido",
+          "description": "Crea ambientes y efectos para juegos y producciones audiovisuales."
+        }
+      ],
+      "fits": "Te gusta escuchar con atención y combinar creatividad con tecnología.",
+      "watch": "Los proyectos requieren práctica de escucha y manejo de equipos.",
+      "try": "Graba tres sonidos cotidianos y móntalos para contar una escena sin imágenes."
     }
   },
   "guides": {
@@ -11366,6 +11456,1242 @@
         },
         "noEmploymentReason": ""
       }
+    },
+    "euneiz": {
+      "arte para videojuegos": {
+        "title": "Arte para Videojuegos",
+        "families": [
+          "gameart"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-en-arte-para-videojuegos/",
+          "title": "Arte para Videojuegos",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-en-arte-para-videojuegos/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ciberseguridad": {
+        "title": "Ciberseguridad",
+        "families": [
+          "cyber"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-ciberseguridad/",
+          "title": "Ciberseguridad",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-ciberseguridad/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ciencias de la actividad fisica y del deporte": {
+        "title": "Ciencias de la Actividad Física y del Deporte",
+        "families": [
+          "cafd"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-ciencias-actividad-fisica-deporte/",
+          "title": "Ciencias de la Actividad Física y del Deporte",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-ciencias-actividad-fisica-deporte/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "diseno y desarrollo de videojuegos": {
+        "title": "Diseño y Desarrollo de Videojuegos",
+        "families": [
+          "gamedesign"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-diseno-desarrollo-videojuegos/",
+          "title": "Diseño y Desarrollo de Videojuegos",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-diseno-desarrollo-videojuegos/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "fisioterapia": {
+        "title": "Fisioterapia",
+        "families": [
+          "physio"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-fisioterapia/",
+          "title": "Fisioterapia",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-fisioterapia/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "gestion deportiva": {
+        "title": "Gestión Deportiva",
+        "families": [
+          "business"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-en-gestion-deportiva/",
+          "title": "Gestión Deportiva",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-en-gestion-deportiva/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "multimedia": {
+        "title": "Multimedia",
+        "families": [
+          "mu-digital"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-multimedia/",
+          "title": "Multimedia",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-multimedia/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "podologia": {
+        "title": "Podología",
+        "families": [
+          "podiatry"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-en-podologia/",
+          "title": "Podología",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-en-podologia/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "produccion musical y sonido": {
+        "title": "Producción Musical y Sonido",
+        "families": [
+          "musicproduction"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-produccion-musical/",
+          "title": "Producción Musical y Sonido",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-produccion-musical/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "psicologia": {
+        "title": "Psicología",
+        "families": [
+          "psychology"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-en-psicologia/",
+          "title": "Psicología",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-en-psicologia/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "enfermeria": {
+        "title": "Enfermería",
+        "families": [
+          "nursing"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/grado-en-enfermeria/",
+          "title": "Enfermería",
+          "checked": "2026-11-04"
+        },
+        "note": "EUNEIZ exige una prueba presencial de acceso para Enfermería.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/grado-en-enfermeria/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en fisioterapia y ciencias de la actividad fisica y del deporte": {
+        "title": "Doble Grado en Fisioterapia y Ciencias de la Actividad Física y del Deporte",
+        "families": [
+          "physio",
+          "cafd"
+        ],
+        "source": {
+          "url": "https://www.euneiz.com/grados-universitarios/doble-titulacion-fisioterapia-y-ciencias-de-la-actividad-fisica-y-el-deporte/",
+          "title": "Doble Grado en Fisioterapia y Ciencias de la Actividad Física y del Deporte",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.euneiz.com/grados-universitarios/doble-titulacion-fisioterapia-y-ciencias-de-la-actividad-fisica-y-el-deporte/"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.euneiz.com/admision/"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      }
+    },
+    "uned": {
+      "lengua y literatura espanolas": {
+        "title": "Lengua y Literatura Españolas",
+        "families": [
+          "spanish"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-lengua-y-literatura-espanolas.html",
+          "title": "Lengua y Literatura Españolas",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-lengua-y-literatura-espanolas.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "estudios ingleses: lengua, literatura y cultura": {
+        "title": "Estudios Ingleses: Lengua, Literatura y Cultura",
+        "families": [
+          "english"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-estudios-ingleses-lengua-literatura-y-cultura.html",
+          "title": "Estudios Ingleses: Lengua, Literatura y Cultura",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-estudios-ingleses-lengua-literatura-y-cultura.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "geografia e historia": {
+        "title": "Geografía e Historia",
+        "families": [
+          "geography",
+          "history"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-geografia-e-historia.html",
+          "title": "Geografía e Historia",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-geografia-e-historia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "historia del arte": {
+        "title": "Historia del Arte",
+        "families": [
+          "arthistory"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-historia-del-arte.html",
+          "title": "Historia del Arte",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-historia-del-arte.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "filosofia": {
+        "title": "Filosofía",
+        "families": [
+          "philosophy"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-filosofia.html",
+          "title": "Filosofía",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-filosofia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "antropologia social y cultural": {
+        "title": "Antropología Social y Cultural",
+        "families": [
+          "anthropology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-antropologia-social-y-cultural.html",
+          "title": "Antropología Social y Cultural",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-antropologia-social-y-cultural.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "filosofia, politica y economia": {
+        "title": "Filosofía, Política y Economía",
+        "families": [
+          "ppe"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-filosofia-politica-y-economia.html",
+          "title": "Filosofía, Política y Economía",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-filosofia-politica-y-economia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ciencias ambientales": {
+        "title": "Ciencias Ambientales",
+        "families": [
+          "environment"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ciencias-ambientales.html",
+          "title": "Ciencias Ambientales",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ciencias-ambientales.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "matematicas": {
+        "title": "Matemáticas",
+        "families": [
+          "math"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-matematicas.html",
+          "title": "Matemáticas",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-matematicas.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "quimica": {
+        "title": "Química",
+        "families": [
+          "chemistry"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-quimica.html",
+          "title": "Química",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-quimica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "fisica": {
+        "title": "Física",
+        "families": [
+          "physics"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-fisica.html",
+          "title": "Física",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-fisica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en matematicas y fisica": {
+        "title": "Doble Grado en Matemáticas y Física",
+        "families": [
+          "math",
+          "physics"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-matematicas-y-fisica.html",
+          "title": "Doble Grado en Matemáticas y Física",
+          "checked": "2026-11-04"
+        },
+        "note": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-matematicas-y-fisica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en economia y matematicas": {
+        "title": "Doble Grado en Economía y Matemáticas",
+        "families": [
+          "economics",
+          "math"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-economia-y-matematicas.html",
+          "title": "Doble Grado en Economía y Matemáticas",
+          "checked": "2026-11-04"
+        },
+        "note": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-economia-y-matematicas.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en psicologia y criminologia": {
+        "title": "Doble Grado en Psicología y Criminología",
+        "families": [
+          "psychology",
+          "criminology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-psicologia-y-criminologia.html",
+          "title": "Doble Grado en Psicología y Criminología",
+          "checked": "2026-11-04"
+        },
+        "note": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-psicologia-y-criminologia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "educacion social": {
+        "title": "Educación Social",
+        "families": [
+          "socialeducation"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-social.html",
+          "title": "Educación Social",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-social.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "pedagogia": {
+        "title": "Pedagogía",
+        "families": [
+          "pedagogy"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-pedagogia.html",
+          "title": "Pedagogía",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-pedagogia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "educacion infantil": {
+        "title": "Educación Infantil",
+        "families": [
+          "infant"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html",
+          "title": "Educación Infantil",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "economia": {
+        "title": "Economía",
+        "families": [
+          "economics"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-economia.html",
+          "title": "Economía",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-economia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "administracion y direccion de empresas": {
+        "title": "Administración y Dirección de Empresas",
+        "families": [
+          "ade"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-administracion-y-direccion-de-empresas.html",
+          "title": "Administración y Dirección de Empresas",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-administracion-y-direccion-de-empresas.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "turismo": {
+        "title": "Turismo",
+        "families": [
+          "tourism"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-turismo.html",
+          "title": "Turismo",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-turismo.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ciencias juridicas de las administraciones publicas": {
+        "title": "Ciencias Jurídicas de las Administraciones Públicas",
+        "families": [
+          "law"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-cc-juridicas-de-las-administraciones-publicas.html",
+          "title": "Ciencias Jurídicas de las Administraciones Públicas",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-cc-juridicas-de-las-administraciones-publicas.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "derecho": {
+        "title": "Derecho",
+        "families": [
+          "law"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-derecho.html",
+          "title": "Derecho",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-derecho.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "trabajo social": {
+        "title": "Trabajo Social",
+        "families": [
+          "socialwork"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-trabajo-social.html",
+          "title": "Trabajo Social",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-trabajo-social.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "criminologia": {
+        "title": "Criminología",
+        "families": [
+          "criminology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-criminologia.html",
+          "title": "Criminología",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-criminologia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en derecho y trabajo social": {
+        "title": "Doble Grado en Derecho y Trabajo Social",
+        "families": [
+          "law",
+          "socialwork"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-derecho-y-trabajo-social.html",
+          "title": "Doble Grado en Derecho y Trabajo Social",
+          "checked": "2026-11-04"
+        },
+        "note": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-derecho-y-trabajo-social.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ciencia politica y de la administracion": {
+        "title": "Ciencia Política y de la Administración",
+        "families": [
+          "politics"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ciencia-politica-y-de-la-administracion.html",
+          "title": "Ciencia Política y de la Administración",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ciencia-politica-y-de-la-administracion.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "sociologia": {
+        "title": "Sociología",
+        "families": [
+          "sociology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-sociologia.html",
+          "title": "Sociología",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-sociologia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "doble grado en ciencia politica y sociologia": {
+        "title": "Doble Grado en Ciencia Política y Sociología",
+        "families": [
+          "politics",
+          "sociology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-ciencia-politica-y-sociologia.html",
+          "title": "Doble Grado en Ciencia Política y Sociología",
+          "checked": "2026-11-04"
+        },
+        "note": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-ciencia-politica-y-sociologia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "psicologia": {
+        "title": "Psicología",
+        "families": [
+          "psychology"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-psicologia.html",
+          "title": "Psicología",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-psicologia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria electrica": {
+        "title": "Ingeniería Eléctrica",
+        "families": [
+          "electrical"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-electrica.html",
+          "title": "Ingeniería Eléctrica",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-electrica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria en electronica industrial y automatica": {
+        "title": "Ingeniería en Electrónica Industrial y Automática",
+        "families": [
+          "electronics"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-electronica-industrial-y-automatica.html",
+          "title": "Ingeniería en Electrónica Industrial y Automática",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-electronica-industrial-y-automatica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria mecanica": {
+        "title": "Ingeniería Mecánica",
+        "families": [
+          "mechanical"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-mecanica.html",
+          "title": "Ingeniería Mecánica",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-mecanica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria en tecnologias industriales": {
+        "title": "Ingeniería en Tecnologías Industriales",
+        "families": [
+          "industrial"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-tecnologias-industriales.html",
+          "title": "Ingeniería en Tecnologías Industriales",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-tecnologias-industriales.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria de la energia": {
+        "title": "Ingeniería de la Energía",
+        "families": [
+          "mu-energy"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-de-la-energia.html",
+          "title": "Ingeniería de la Energía",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-de-la-energia.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria informatica": {
+        "title": "Ingeniería Informática",
+        "families": [
+          "computing"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-informatica.html",
+          "title": "Ingeniería Informática",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-informatica.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria en tecnologias de la informacion": {
+        "title": "Ingeniería en Tecnologías de la Información",
+        "families": [
+          "computing"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-tecnologias-de-la-informacion.html",
+          "title": "Ingeniería en Tecnologías de la Información",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-tecnologias-de-la-informacion.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      },
+      "ingenieria en inteligencia artificial": {
+        "title": "Ingeniería en Inteligencia Artificial",
+        "families": [
+          "ai"
+        ],
+        "source": {
+          "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-inteligencia-artificial.html",
+          "title": "Ingeniería en Inteligencia Artificial",
+          "checked": "2026-11-04"
+        },
+        "note": "",
+        "links": [
+          {
+            "name": "Plan y fuentes oficiales",
+            "url": "https://www.uned.es/universidad/inicio/estudios/grados/grado-en-ingenieria-en-inteligencia-artificial.html"
+          },
+          {
+            "name": "Admisión y ayudas",
+            "url": "https://www.uned.es/universidad/inicio/matriculate.html"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "No se ha verificado un dato de empleo relacionado para este título y universidad."
+      }
     }
   },
   "seats": {
@@ -12852,6 +14178,93 @@
         "scope": "degree",
         "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
       }
-    }
+    },
+    "euneiz": {
+      "euneiz-01": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-arte-para-videojuegos/"
+      },
+      "euneiz-02": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-ciberseguridad/"
+      },
+      "euneiz-03": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-ciencias-actividad-fisica-deporte/"
+      },
+      "euneiz-04": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-diseno-desarrollo-videojuegos/"
+      },
+      "euneiz-05": {
+        "count": 60,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-fisioterapia/"
+      },
+      "euneiz-06": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-gestion-deportiva/"
+      },
+      "euneiz-07": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-multimedia/"
+      },
+      "euneiz-08": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-podologia/"
+      },
+      "euneiz-09": {
+        "count": 40,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-produccion-musical/"
+      },
+      "euneiz-10": {
+        "count": 60,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-psicologia/"
+      },
+      "euneiz-11": {
+        "count": 60,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": "2026–2027",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-enfermeria/"
+      },
+      "euneiz-12": {
+        "count": 15,
+        "scope": "degree",
+        "checked": "2026-11-04",
+        "course": null,
+        "source": "https://www.euneiz.com/grados-universitarios/doble-titulacion-fisioterapia-y-ciencias-de-la-actividad-fisica-y-el-deporte/"
+      }
+    },
+    "uned": {}
   }
 }
