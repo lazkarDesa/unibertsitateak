@@ -121,7 +121,8 @@
 #comparison-result:has(#compare-differences:checked) .compare-equal > :is(th, td) { background-color: #f2f3f5; }
 #comparison-result:has(#compare-differences:checked) .compare-equal :is(th, td, span, a) { color: #686d75; font-style: italic; }
 
-.filter-page-logo { display: block; width: auto; max-width: 132px; height: 32px; object-fit: contain; object-position: right; }
+.filter-page-logo { display: block; width: auto; max-width: 132px; height: 38px; object-fit: contain; border: 3px solid #d6e1e5; border-radius: 6px; background: #fff; padding: 2px 4px; }
+.filter-page-logo[data-logo-uni="mondragon"] { background: #12394c; }
 .filter-page-logo[data-logo-uni="euneiz"] { background: #102c41; border-radius: 5px; padding: 4px; }
 
 .compare-weights { list-style: none; margin: 0; padding: 0; }
