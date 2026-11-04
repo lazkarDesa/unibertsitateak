@@ -73,9 +73,11 @@
   const detailLabel = window.UniI18n?.locale.startsWith('eu') ? 'Ikusi fitxa' : 'Ver ficha';
   const headings = pair.map((x,i)=>'<th scope="col"><div class="compare-column-heading"><span>Opción '+(i+1)+'</span>'+
    (x.groupId ? '<button type="button" class="compare-detail-button" data-open-detail="'+esc(x.groupId)+'" data-detail-uni="'+esc(x.uni)+'" data-no-translate>'+detailLabel+'</button>' : '')+'</div></th>').join('');
-  return '<p>Comprueba el curso y la fase de las notas. Los costes totales son estimaciones de matrícula.</p>'+
+  const differencesLabel = window.UniI18n?.locale.startsWith('eu') ? 'Nabarmendu desberdintasunak' : 'Resaltar diferencias';
+  return '<label class="compare-differences"><input type="checkbox" id="compare-differences"> <span data-no-translate>'+differencesLabel+'</span></label>'+
+   '<p>Comprueba el curso y la fase de las notas. Los costes totales son estimaciones de matrícula.</p>'+
    '<div class="compare-scroll" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">Dato</th>'+headings+'</tr></thead><tbody>'+
-   rows.map(([label,x,y])=>'<tr><th scope="row">'+label+'</th><td>'+x+'</td><td>'+y+'</td></tr>').join('')+'</tbody></table></div>';
+   rows.map(([label,x,y])=>'<tr'+(norm(x)===norm(y)?' class="compare-equal"':'')+'><th scope="row">'+label+'</th><td>'+x+'</td><td>'+y+'</td></tr>').join('')+'</tbody></table></div>';
  }
  function highlightLabel(label, words) {
   const comparable=norm(label.trimStart());

@@ -116,3 +116,6 @@
 .filter-page-nav > :last-child { text-align: end; }
 .filter-page-top h1 { font-size: clamp(21px, 3vw, 32px); margin: 4px 0; }
 .filter-page-top + .home-grid, .filter-page-top + .filter-bar { margin-top: 0; }
+
+.compare-differences { display: inline-flex; align-items: center; gap: .4rem; cursor: pointer; font-weight: 650; }
+#comparison-result:has(#compare-differences:checked) .compare-equal :is(th, td, span, a) { color: #586975; font-style: italic; }
