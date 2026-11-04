@@ -108,3 +108,11 @@
 
 .compare-column-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; white-space: nowrap; }
 .compare-detail-button { margin-inline-start: auto; padding: .35rem .65rem; border: 1px solid currentColor; border-radius: .4rem; background: white; color: #005d60; font: inherit; cursor: pointer; }
+
+.filter-page-top { margin: 12px 0; }
+.filter-page-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.filter-page-nav .back-button { flex-shrink: 0; margin: 0; }
+.filter-page-nav .eyebrow { margin: 0; }
+.filter-page-nav > :last-child { text-align: end; }
+.filter-page-top h1 { font-size: clamp(21px, 3vw, 32px); margin: 4px 0; }
+.filter-page-top + .home-grid, .filter-page-top + .filter-bar { margin-top: 0; }
