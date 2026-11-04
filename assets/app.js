@@ -91,7 +91,7 @@
    '<div class="compare-controls">'+controls+'<button class="primary-button" type="button" id="compare-run" disabled><span aria-hidden="true">⇄</span> <span>Comparar</span></button></div><section id="comparison-result" aria-live="polite"></section>';
   const offers=Object.entries(datasets).flatMap(([uni,ds])=>ds.records.map(offer=>{
    const key=degreeKey(offer);
-   return {uni,key,offer,name:uni==='navarra'?'UN':CFG[uni].short,fullName:CFG[uni].name,title:window.UniI18n?.degree(uni,key,offer.titulacion)||offer.titulacion};
+   return {uni,key,offer,groupId:groupedForRow(offer,uni)?.id,name:uni==='navarra'?'UN':CFG[uni].short,fullName:CFG[uni].name,title:window.UniI18n?.degree(uni,key,offer.titulacion)||offer.titulacion};
   }));
   window.UniCompare.mount(main,offers,state.comparison,comparison=>{state.comparison=comparison;saveHistory();});
  }

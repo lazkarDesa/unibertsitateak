@@ -97,11 +97,13 @@
 .compare-options mark { background:#ffe39a; color:inherit; border-radius:2px; font-weight:700; }
 
 .compare-university { font-weight: 700; }
-.compare-university[data-uni="ehu"] { color: #005a70; }
-.compare-university[data-uni="upna"] { color: #a02542; }
-.compare-university[data-uni="navarra"] { color: #843400; }
-.compare-university[data-uni="uned"] { color: #366419; }
-.compare-university[data-uni="deusto"] { color: #234ea0; }
-.compare-university[data-uni="mondragon"] { color: #663897; }
-.compare-university[data-uni="euneiz"] { color: #9a286f; }
+.compare-university[data-compare-uni="ehu"] { color: #005a70; }
+.compare-university[data-compare-uni="upna"] { color: #a02542; }
+.compare-university[data-compare-uni="navarra"] { color: #843400; }
+.compare-university[data-compare-uni="uned"] { color: #366419; }
+.compare-university[data-compare-uni="deusto"] { color: #234ea0; }
+.compare-university[data-compare-uni="mondragon"] { color: #663897; }
+.compare-university[data-compare-uni="euneiz"] { color: #9a286f; }
 .compare-options .compare-university mark { color: inherit; }
+
+.compare-detail-button { display: block; margin-top: .4rem; padding: .35rem .65rem; border: 1px solid currentColor; border-radius: .4rem; background: white; color: #005d60; font: inherit; cursor: pointer; }
