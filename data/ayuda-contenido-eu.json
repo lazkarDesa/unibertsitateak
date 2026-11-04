@@ -1,5 +1,5 @@
 {
-  "version": "interest-help-1",
+  "version": "help-20261104",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer-eu.pdf",
@@ -490,7 +490,28 @@
           ],
           "crop": null,
           "width": 918,
-          "height": 436
+          "height": 423
+        },
+        {
+          "raw": "public-price",
+          "caption": "Unibertsitate publikoko matrikularen kostua.",
+          "selectors": [
+            ".tuition-values"
+          ],
+          "points": [
+            {
+              "title": "Lehen maila eta karrera osoa",
+              "text": "Zenbatekoek milakoen puntua dute. Karrera osoaren kostua estimazioa da."
+            }
+          ],
+          "crop": [
+            40,
+            100,
+            915,
+            525
+          ],
+          "width": 918,
+          "height": 316
         }
       ],
       "tips": [
@@ -529,6 +550,27 @@
           "crop": null,
           "width": 918,
           "height": 506
+        },
+        {
+          "raw": "private-list",
+          "caption": "Unibertsitate pribatuaren campuseko zerrenda.",
+          "selectors": [
+            "#results-list .degree-row"
+          ],
+          "points": [
+            {
+              "title": "Prezioa eta interesa zerrendan",
+              "text": "Konparatu lehen mailako prezioa eta sakatu interesaren botoia zure aukera gordetzeko."
+            }
+          ],
+          "crop": [
+            40,
+            320,
+            1225,
+            710
+          ],
+          "width": 1290,
+          "height": 348
         }
       ],
       "tips": [
@@ -742,8 +784,8 @@
             }
           ],
           "crop": null,
-          "width": 435,
-          "height": 872
+          "width": 450,
+          "height": 904
         },
         {
           "raw": "mobile",

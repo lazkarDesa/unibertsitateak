@@ -1,5 +1,5 @@
 {
-  "version": "interest-help-1",
+  "version": "help-20261104",
   "date": "2026-11-03",
   "site": "https://lazkardesa.github.io/unibertsitateak/",
   "pdf": "docs/manual-uni-explorer.pdf",
@@ -489,8 +489,29 @@
             }
           ],
           "crop": null,
-          "width": 840,
-          "height": 472
+          "width": 925,
+          "height": 490
+        },
+        {
+          "raw": "public-price",
+          "caption": "Coste de matrícula en una universidad pública.",
+          "selectors": [
+            ".tuition-values"
+          ],
+          "points": [
+            {
+              "title": "Primer curso y carrera completa",
+              "text": "Los importes llevan punto de millar. El coste de la carrera completa es una estimación."
+            }
+          ],
+          "crop": [
+            40,
+            100,
+            915,
+            525
+          ],
+          "width": 935,
+          "height": 485
         }
       ],
       "tips": [
@@ -527,8 +548,29 @@
             }
           ],
           "crop": null,
-          "width": 840,
-          "height": 495
+          "width": 925,
+          "height": 560
+        },
+        {
+          "raw": "private-list",
+          "caption": "Listado por campus de una universidad privada.",
+          "selectors": [
+            "#results-list .degree-row"
+          ],
+          "points": [
+            {
+              "title": "Precio e interés en el listado",
+              "text": "Compara el precio de primer curso y pulsa el botón de interés para guardar tu decisión."
+            }
+          ],
+          "crop": [
+            40,
+            320,
+            1225,
+            710
+          ],
+          "width": 1245,
+          "height": 450
         }
       ],
       "tips": [
@@ -742,8 +784,8 @@
             }
           ],
           "crop": null,
-          "width": 435,
-          "height": 872
+          "width": 450,
+          "height": 904
         },
         {
           "raw": "mobile",
