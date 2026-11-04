@@ -106,4 +106,5 @@
 .compare-university[data-compare-uni="euneiz"] { color: #9a286f; }
 .compare-options .compare-university mark { color: inherit; }
 
-.compare-detail-button { display: block; margin-top: .4rem; padding: .35rem .65rem; border: 1px solid currentColor; border-radius: .4rem; background: white; color: #005d60; font: inherit; cursor: pointer; }
+.compare-column-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; white-space: nowrap; }
+.compare-detail-button { margin-inline-start: auto; padding: .35rem .65rem; border: 1px solid currentColor; border-radius: .4rem; background: white; color: #005d60; font: inherit; cursor: pointer; }

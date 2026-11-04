@@ -71,8 +71,8 @@
    ['Enlaces oficiales',...pair.map(x=>officialLink(x.offer.url_grado,'Ficha oficial')+' '+officialLink(x.offer.fuente_admision,'Acceso y admisión'))]
   ];
   const detailLabel = window.UniI18n?.locale.startsWith('eu') ? 'Ikusi fitxa' : 'Ver ficha';
-  const headings = pair.map((x,i)=>'<th scope="col"><span>Opción '+(i+1)+'</span>'+
-   (x.groupId ? '<button type="button" class="compare-detail-button" data-open-detail="'+esc(x.groupId)+'" data-detail-uni="'+esc(x.uni)+'" data-no-translate>'+detailLabel+'</button>' : '')+'</th>').join('');
+  const headings = pair.map((x,i)=>'<th scope="col"><div class="compare-column-heading"><span>Opción '+(i+1)+'</span>'+
+   (x.groupId ? '<button type="button" class="compare-detail-button" data-open-detail="'+esc(x.groupId)+'" data-detail-uni="'+esc(x.uni)+'" data-no-translate>'+detailLabel+'</button>' : '')+'</div></th>').join('');
   return '<p>Comprueba el curso y la fase de las notas. Los costes totales son estimaciones de matrícula.</p>'+
    '<div class="compare-scroll" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">Dato</th>'+headings+'</tr></thead><tbody>'+
    rows.map(([label,x,y])=>'<tr><th scope="row">'+label+'</th><td>'+x+'</td><td>'+y+'</td></tr>').join('')+'</tbody></table></div>';
