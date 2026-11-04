@@ -123,3 +123,8 @@
 
 .filter-page-logo { display: block; width: auto; max-width: 132px; height: 32px; object-fit: contain; object-position: right; }
 .filter-page-logo[data-logo-uni="euneiz"] { background: #102c41; border-radius: 5px; padding: 4px; }
+
+.compare-weights { list-style: none; margin: 0; padding: 0; }
+.compare-weights li { display: flex; justify-content: space-between; gap: .5rem; padding: .2rem .35rem; }
+.compare-weights strong { white-space: nowrap; }
+#comparison-result:has(#compare-differences:checked) .compare-weight-equal { background-color: #f2f3f5; color: #686d75; font-style: italic; }
