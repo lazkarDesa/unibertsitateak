@@ -181,7 +181,13 @@
  function hidePopup(restoreFocus=false){if(hoverCloseTimer){clearTimeout(hoverCloseTimer);hoverCloseTimer=null;}const opener=popoverOpener;opener?.setAttribute('aria-expanded','false');activeHoverRow=null;popoverOpener=null;mobilePopover=false;popup.hidden=true;popup.innerHTML='';popup.setAttribute('role','tooltip');popup.removeAttribute('aria-modal');popoverBackdrop.hidden=true;if(restoreFocus===true&&opener?.isConnected)opener.focus();}
  function schedulePopupClose(){if(mobilePopover)return;if(hoverCloseTimer)clearTimeout(hoverCloseTimer);hoverCloseTimer=setTimeout(hidePopup,260)}
  function showPopup(target,mobile=false){const container=target?.closest('[data-hover-group]'),uni=mobile?target?.dataset.bookUni:container?.dataset.hoverUni||state.uni,id=mobile?target?.dataset.subjectBook:container?.dataset.hoverGroup;if(!isPublic(uni)||!id)return;const group=datasets[uni].lookup.get(id);if(!group)return;hidePopup();activeHoverRow=target;mobilePopover=mobile;popoverOpener=mobile?target:null;if(mobile)target.setAttribute('aria-expanded','true');popup.innerHTML=(mobile?'<button type="button" class="popover-close" data-popover-close aria-label="Cerrar ponderaciones">×</button>':'')+popupHTML(group,uni);popup.setAttribute('role',mobile?'dialog':'tooltip');popup.setAttribute('aria-label','Ponderaciones de '+group.name);if(mobile)popup.setAttribute('aria-modal','true');popoverBackdrop.hidden=!mobile;popup.hidden=false;const w=Math.min(365,window.innerWidth-24);popup.style.width=w+'px';popup.style.left=Math.max(12,(window.innerWidth-w)/2)+'px';const height=popup.getBoundingClientRect().height;popup.style.top=Math.max(12,(window.innerHeight-height)/2)+'px';if(mobile)popup.querySelector('[data-popover-close]')?.focus();}
- function render(){const label=document.getElementById('active-university-label');label.textContent=state.screen==='favorites'?'Carreras seleccionadas':state.uni?CFG[state.uni].short:(datasets.euneiz&&datasets.uned?'Siete universidades':'Cinco universidades');hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='favorites')renderFavorites();else if(state.screen==='university')renderUniversity();else if(['campus','rama','subject'].includes(state.screen))renderList();else if(state.screen==='detail')renderDetail();}
+ function trackView(){
+  const group=state.screen==='detail'?datasets[state.uni]?.lookup.get(state.group):null;
+  window.UniAnalytics?.view({screen:state.screen,uni:state.screen==='portal'||state.screen==='favorites'?null:state.uni,
+   degree:group?.name,segment:group?.key||({campus:state.campus,rama:state.rama,subject:state.materia})[state.screen],
+   tab:group?state.detailTab:null,title:group?.name||CFG[state.uni]?.name||state.screen});
+ }
+ function render(){const label=document.getElementById('active-university-label');label.textContent=state.screen==='favorites'?'Carreras seleccionadas':state.uni?CFG[state.uni].short:(datasets.euneiz&&datasets.uned?'Siete universidades':'Cinco universidades');hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='favorites')renderFavorites();else if(state.screen==='university')renderUniversity();else if(['campus','rama','subject'].includes(state.screen))renderList();else if(state.screen==='detail')renderDetail();trackView();}
  function openDetail(id,uni=state.uni){if(!datasets[uni]?.lookup.has(id))return;go('detail',{uni,group:id,detailTab:'ficha'})}
  function openCampus(c){if(!CFG[state.uni].campuses.includes(c))return;go('campus',{campus:c,facultad:'',materia:'',q:'',sort:'name',statusFilter:'all'})}
  function openRama(r){if(!RAMAS.includes(r))return;go('rama',{rama:r,campus:'',facultad:'',materia:'',q:'',sort:'name',statusFilter:'all'})}
@@ -199,15 +205,23 @@
   else if(b.dataset.openCampus)openCampus(b.dataset.openCampus);
   else if(b.dataset.openRama)openRama(b.dataset.openRama);
   else if(b.dataset.openDetail)openDetail(b.dataset.openDetail,b.dataset.detailUni||state.uni);
-  else if(b.dataset.action==='detail-tab'){state.detailTab=b.dataset.tab==='orientation'?'orientation':'ficha';saveHistory();renderDetail();document.getElementById('tab-'+state.detailTab)?.focus();}
+  else if(b.dataset.action==='detail-tab'){state.detailTab=b.dataset.tab==='orientation'?'orientation':'ficha';saveHistory();renderDetail();trackView();document.getElementById('tab-'+state.detailTab)?.focus();}
   else if(b.dataset.action==='back')goBack();
   else if(b.dataset.action==='favorites')go('favorites',{uni:null,shortlistFilter:'all'});
-  else if(b.dataset.action==='export-favorites')exportFavorites();
-  else if(b.dataset.action==='print-favorites')window.print();
+  else if(b.dataset.action==='export-favorites'){exportFavorites();window.UniAnalytics?.emit('favorites_export',{export_format:'csv'});}
+  else if(b.dataset.action==='print-favorites'){window.UniAnalytics?.emit('favorites_export',{export_format:'pdf'});window.print();}
   else if(b.dataset.action==='search-subject'){const m=document.getElementById('home-materia')?.value;if(m)openSubject(m)}
   else if(b.dataset.action==='reset-filters')resetFilters();
  });
- document.addEventListener('input',e=>{if(e.target.id==='degree-search')updateSuggestions();if(e.target.id==='list-query'){state.q=e.target.value;updateList()}});
+ let searchTimer;
+ document.addEventListener('input',e=>{if(e.target.id==='degree-search'){
+  updateSuggestions();
+  clearTimeout(searchTimer);
+  const uni=state.uni;
+  if(norm(e.target.value).length>=3)searchTimer=setTimeout(()=>{
+   if(state.screen==='university'&&state.uni===uni)window.UniAnalytics?.emit('university_search',{university:uni});
+  },650);
+ }if(e.target.id==='list-query'){state.q=e.target.value;updateList()}});
  document.addEventListener('change',e=>{
   if(e.target.id==='selection-filter'){if(state.screen==='favorites'){state.shortlistFilter=e.target.value;saveHistory();renderFavorites();document.getElementById('selection-filter')?.focus();}else{state.statusFilter=e.target.value;if(state.screen==='university')updateSuggestions();else updateList();}return;}
   if(e.target.id==='faculty-filter'){state.facultad=e.target.value;updateList()}
@@ -218,7 +232,7 @@
  document.addEventListener('keydown',e=>{
   if(document.getElementById('selection-dialog')?.open||document.getElementById('help-dialog')?.open)return;
   if(e.key==='Escape'){hidePopup(true);const sug=document.getElementById('search-suggestions');if(sug)sug.hidden=true}
-  if(e.target.matches?.('[data-action="detail-tab"]')&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();state.detailTab=e.key==='Home'?'ficha':e.key==='End'?'orientation':state.detailTab==='orientation'?'ficha':'orientation';saveHistory();renderDetail();document.getElementById('tab-'+state.detailTab)?.focus();return;}
+  if(e.target.matches?.('[data-action="detail-tab"]')&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();state.detailTab=e.key==='Home'?'ficha':e.key==='End'?'orientation':state.detailTab==='orientation'?'ficha':'orientation';saveHistory();renderDetail();trackView();document.getElementById('tab-'+state.detailTab)?.focus();return;}
   if(e.target.id!=='degree-search')return;const el=document.getElementById('search-suggestions');if(!el||el.hidden)return;const opts=[...el.querySelectorAll('[data-open-detail]')];if(!opts.length)return;const idx=opts.findIndex(o=>o.classList.contains('active'));
   if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();const next=(idx+(e.key==='ArrowDown'?1:-1)+opts.length)%opts.length;opts.forEach((o,i)=>{o.classList.toggle('active',i===next);o.setAttribute('aria-selected',String(i===next))});opts[next].scrollIntoView({block:'nearest'})}
   if(e.key==='Enter'){e.preventDefault();openDetail(opts[idx>=0?idx:0].dataset.openDetail)}
