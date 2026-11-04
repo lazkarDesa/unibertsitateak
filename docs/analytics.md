@@ -1,13 +1,6 @@
-# Medición de Uni Explorer en GA4
+# Medición directa en GA4
 
-Contenedor: `GTM-PNKDC9FM`. En HTTP y HTTPS se carga el contenedor desde la primera pantalla, con almacenamiento de analítica activado y publicidad desactivada. Los eventos no incluyen las materias del perfil ni el texto introducido en el buscador.
-
-## Configurar el contenedor
-
-1. En Google Tag Manager, crea o revisa la etiqueta de Google con el ID de medición `G-…` del flujo web de GA4. Configura `send_page_view=false`. Si está activada la medición mejorada de cambios de página por historial, desactívala en el flujo para evitar duplicados.
-2. Crea un activador de evento personalizado exacto `uni_page_view`. Vincúlalo a una etiqueta de evento GA4 llamada `page_view` y mapea las variables de capa de datos `page_location`, `page_title`, `page_referrer`, `screen_name`, `site_language`, `university` y `degree`.
-3. Crea un segundo activador de evento personalizado con la expresión regular `^(university_view|university_search|degree_view|orientation_view|favorites_view|interest_open|interest_change|favorites_export)$`. En su etiqueta GA4 usa `{{Event}}` como nombre del evento. Mapea `site_language`, `university`, `degree`, `screen_name`, `previous_interest`, `interest_status` y `export_format` desde variables de capa de datos homónimas.
-4. Usa Vista previa y comprueba los eventos en Tag Assistant y GA4 DebugView. Publica el contenedor cuando las etiquetas lleguen al flujo correcto.
+Flujo web: `G-8C9WYSHSG3`. Uni Explorer envía los eventos directamente con la etiqueta de Google, con vistas automáticas de configuración y publicidad desactivadas. Comprueba los eventos en GA4 → Tiempo real. Si el flujo tiene activadas las vistas de página por cambios de historial en Medición mejorada, desactiva esa opción para evitar duplicados.
 
 ## Leer los resultados
 

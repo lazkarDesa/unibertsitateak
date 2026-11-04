@@ -1,12 +1,12 @@
 (() => {
  'use strict';
- const container = 'GTM-PNKDC9FM';
+ const measurementId = 'G-8C9WYSHSG3';
  const enabled = ['http:', 'https:'].includes(location.protocol);
  let lastLocation = '';
  const lang = () => window.UniI18n?.lang === 'eu' ? 'eu' : 'es';
  function emit(event, params = {}) {
   if (!enabled) return;
-  window.dataLayer.push({event, site_language: lang(), university: null, degree: null,
+  gtag('event', event === 'uni_page_view' ? 'page_view' : event, {site_language: lang(), university: null, degree: null,
    screen_name: null, previous_interest: null, interest_status: null, export_format: null, ...params});
  }
  function view(route) {
@@ -21,17 +21,18 @@
   const kind = {university:'university_view', detail:route.tab === 'orientation' ? 'orientation_view' : 'degree_view', favorites:'favorites_view'};
   if (kind[route.screen]) emit(kind[route.screen], current);
  }
+ function gtag(){window.dataLayer.push(arguments);}
  if (enabled) {
   window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
   gtag('consent','default',{
    analytics_storage:'granted',ad_storage:'denied',
    ad_user_data:'denied',ad_personalization:'denied'
   });
-  window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});
+  gtag('js',new Date());
+  gtag('config',measurementId,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false});
   const script=document.createElement('script');
   script.async=true;
-  script.src='https://www.googletagmanager.com/gtm.js?id='+container;
+  script.src='https://www.googletagmanager.com/gtag/js?id='+measurementId;
   document.head.append(script);
  }
  window.UniAnalytics={view,emit};
