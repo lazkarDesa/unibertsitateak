@@ -84,3 +84,4 @@
  }
  .degree-heading,.detail-heading {flex-wrap:wrap}
 }
+ .portal-card[data-uni="euneiz"] .portal-logo { background:#102c41; border-radius:8px; padding:10px; }
