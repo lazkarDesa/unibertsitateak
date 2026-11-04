@@ -49,10 +49,11 @@
   return typeof value === 'number' ? new Intl.NumberFormat(window.UniI18n?.locale || 'es-ES',{maximumFractionDigits:3}).format(value) +
    (phase ? ' · '+esc(phase) : '') : esc(g['estado_'+year] || 'No consta');
  }
+ const universityLabel = (x, words=[]) => '<span class="compare-university" data-uni="'+esc(x.uni)+'" data-no-translate>'+highlightLabel(x.name,words)+'</span>';
  function result(a,b) {
   const pair=[a,b], price=pair.map(costs);
   const rows=[
-   ['Universidad',...pair.map(x=>esc(x.name))],
+   ['Universidad',...pair.map(x=>universityLabel(x))],
    ['Campus o sede',...pair.map(x=>esc(x.offer.campus))],
    ['Carrera',...pair.map(x=>esc(x.title))],
    ['Rama de conocimiento',...pair.map(x=>esc(x.offer.rama || 'No consta'))],
@@ -73,26 +74,89 @@
    '<div class="compare-scroll" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">Dato</th><th scope="col">Opción 1</th><th scope="col">Opción 2</th></tr></thead><tbody>'+
    rows.map(([label,x,y])=>'<tr><th scope="row">'+label+'</th><td>'+x+'</td><td>'+y+'</td></tr>').join('')+'</tbody></table></div>';
  }
+ function highlightLabel(label, words) {
+  const comparable=norm(label.trimStart());
+  const offset=label.length-label.trimStart().length;
+  const matched=new Set();
+  for(const word of words){
+   let start=comparable.indexOf(word);
+   while(start!==-1){
+    for(let i=start;i<start+word.length;i++)matched.add(i+offset);
+    start=comparable.indexOf(word,start+word.length);
+   }
+  }
+  let html='', marking=false;
+  for(let i=0;i<label.length;i++){
+   const next=matched.has(i);
+   if(next!==marking){html+=next?'<mark>':'</mark>';marking=next;}
+   html+=esc(label[i]);
+  }
+  return html+(marking?'</mark>':'');
+ }
+ function picker(root, options, i, saved, onChange) {
+  const input=root.querySelector('#compare-query-'+i);
+  const list=root.querySelector('#compare-options-'+i);
+  let value=options[saved]?.index == null ? '' : String(saved);
+  let matches=[], active=-1;
+  if(value!=='')input.value=options[value].label;
+  function highlight(index) {
+   active=index;
+   const items=list.querySelectorAll('[role=option]');
+   items.forEach((item,n)=>item.setAttribute('aria-selected',String(n===active)));
+   if(items[active]){
+    input.setAttribute('aria-activedescendant',items[active].id);
+    items[active].scrollIntoView({block:'nearest'});
+   } else input.removeAttribute('aria-activedescendant');
+  }
+  function close() {
+   list.hidden=true;
+   input.setAttribute('aria-expanded','false');
+   input.removeAttribute('aria-activedescendant');
+   active=-1;
+  }
+  function filter() {
+   const words=norm(value!=='' && input.value===options[value].label ? '' : input.value).split(/\s+/).filter(Boolean);
+   matches=options.filter(x=>words.every(w=>x.search.includes(w)));
+   list.innerHTML=matches.length?matches.map((x,n)=>
+    '<li role="option" data-no-translate aria-selected="false" id="compare-option-'+i+'-'+n+'" data-index="'+n+'">'+universityLabel(x,words)+highlightLabel(x.label.slice(x.name.length),words)+'</li>').join(''):
+    '<li role="presentation">No se han encontrado grados con ese texto.</li>';
+   list.hidden=false;
+   input.setAttribute('aria-expanded','true');
+   input.removeAttribute('aria-activedescendant');
+   active=-1;
+  }
+  function choose(index) {
+   const item=matches[index];
+   if(!item)return;
+   value=String(item.index);
+   input.value=item.label;
+   close();
+   onChange();
+  }
+  input.addEventListener('focus',filter);
+  input.addEventListener('click',()=>{if(list.hidden)filter();});
+  input.addEventListener('input',()=>{value='';filter();onChange();});
+  input.addEventListener('blur',close);
+  list.addEventListener('pointerdown',e=>{if(e.target.closest('[role=option]'))e.preventDefault();});
+  list.addEventListener('click',e=>{const item=e.target.closest('[role=option]');if(item)choose(Number(item.dataset.index));});
+  input.addEventListener('keydown',e=>{
+   if(e.key==='Escape'){close();return;}
+   if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+    e.preventDefault();if(list.hidden)filter();
+    if(matches.length)highlight(active<0?(e.key==='ArrowDown'?0:matches.length-1):
+     Math.max(0,Math.min(matches.length-1,active+(e.key==='ArrowDown'?1:-1))));
+   }else if(e.key==='Enter'&&!list.hidden&&(active>=0||matches.length===1)){
+    e.preventDefault();choose(active>=0?active:0);
+   }
+  });
+  return ()=>value;
+ }
  function mount(root, offers, saved, onChange) {
   const options=offers.map((x,index)=>({...x,index,label:[x.name,x.offer.campus,x.title].join(' – ')}));
   const box=root.querySelector('#comparison-result'), button=root.querySelector('#compare-run');
-  const picks=[0,1].map(i=>{
-   const input=root.querySelector('#compare-query-'+i), select=root.querySelector('#compare-pick-'+i);
-   const placeholder='Selecciona una oferta';
-   function filter(keep) {
-    const words=norm(input.value).split(/\s+/).filter(Boolean);
-    const matches=options.filter(x=>words.every(w=>norm(x.label+' '+x.offer.titulacion).includes(w)));
-    select.replaceChildren(new Option(window.UniI18n?.text(placeholder)||placeholder,''),
-     ...matches.map(x=>new Option(x.label,String(x.index))));
-    if (matches.some(x=>String(x.index)===keep)) select.value=keep;
-    else if(matches.length===1)select.value=String(matches[0].index);
-   }
-   filter(saved?.picks?.[i]);
-   input.addEventListener('input',()=>{filter(select.value);update();});
-   select.addEventListener('change',update);
-   return select;
-  });
-  function selected(){return picks.map(x=>x.value);}
+  for(const x of options)x.search=norm(x.label+' '+x.offer.titulacion+' '+x.offer.campus+' '+x.uni+' '+x.fullName);
+  const picks=[0,1].map(i=>picker(root,options,i,saved?.picks?.[i],update));
+  function selected(){return picks.map(read=>read());}
   function ready(){const [x,y]=selected();return x!==''&&y!==''&&x!==y;}
   function update(){button.disabled=!ready();box.innerHTML='';onChange({picks:selected(),shown:false});}
   function show(track){

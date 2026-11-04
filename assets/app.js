@@ -86,12 +86,12 @@
  }
  function renderCompare(){
   const title='Comparador de carreras';
-  const controls=[0,1].map(i=>'<div class="section-card compare-choice"><label for="compare-query-'+i+'">Opción '+(i+1)+'</label><input id="compare-query-'+i+'" type="search" placeholder="Universidad, campus o carrera"><select id="compare-pick-'+i+'" aria-label="Opción '+(i+1)+'"></select></div>').join('');
+   const controls=[0,1].map(i=>'<div class="section-card compare-choice"><label for="compare-query-'+i+'">Opción '+(i+1)+'</label><div class="compare-combobox"><input id="compare-query-'+i+'" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="compare-options-'+i+'" autocomplete="off" placeholder="Universidad, campus o carrera"><ul id="compare-options-'+i+'" role="listbox" aria-label="Opción '+(i+1)+'" class="compare-options" hidden></ul></div></div>').join('');
   main.innerHTML=top(title,title,'Busca por universidad, campus o carrera y elige dos ofertas distintas.')+
    '<div class="compare-controls">'+controls+'<button class="primary-button" type="button" id="compare-run" disabled><span aria-hidden="true">⇄</span> <span>Comparar</span></button></div><section id="comparison-result" aria-live="polite"></section>';
   const offers=Object.entries(datasets).flatMap(([uni,ds])=>ds.records.map(offer=>{
    const key=degreeKey(offer);
-   return {uni,key,offer,name:window.UniI18n?.text(CFG[uni].name)||CFG[uni].name,title:window.UniI18n?.degree(uni,key,offer.titulacion)||offer.titulacion};
+   return {uni,key,offer,name:uni==='navarra'?'UN':CFG[uni].short,fullName:CFG[uni].name,title:window.UniI18n?.degree(uni,key,offer.titulacion)||offer.titulacion};
   }));
   window.UniCompare.mount(main,offers,state.comparison,comparison=>{state.comparison=comparison;saveHistory();});
  }
