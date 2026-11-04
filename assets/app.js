@@ -76,7 +76,7 @@
  const backBtn=()=>`<button class="back-button" type="button" data-action="back">← Volver</button>`;
  function top(label,heading,description){return `<div class="page-top">${backBtn()}<div class="eyebrow">${safe(label)}</div><h1>${safe(heading)}</h1><p>${safe(description)}</p></div>`}
  function renderPortal(){
-  const card=(id,ordinal,category,headline,place,summary)=>`<button class="portal-card" data-uni="${id}" type="button"><span class="portal-logo-wrap"><img class="portal-logo" src="assets/logos/${id}.${['deusto','mondragon','uned'].includes(id)?'png':'svg'}" alt="" aria-hidden="true" width="180" height="72"></span><span class="portal-number">${ordinal} · ${category}</span><h2>${headline}</h2><strong>${place}</strong><p>${summary}</p><span class="portal-cta">Explorar grados <span aria-hidden="true">→</span></span></button>`;
+  const card=(id,ordinal,category,headline,place,summary)=>`<button class="portal-card" data-uni="${id}" type="button"><span class="portal-logo-wrap"><img class="portal-logo" src="${universityLogo(id)}" alt="" aria-hidden="true" width="180" height="72"></span><span class="portal-number">${ordinal} · ${category}</span><h2>${headline}</h2><strong>${place}</strong><p>${summary}</p><span class="portal-cta">Explorar grados <span aria-hidden="true">→</span></span></button>`;
   main.innerHTML=`<section class="hero portal-hero"><div class="eyebrow">Guía universitaria · cursos y precios identificados</div><h1>¿Qué universidad quieres explorar?</h1><p>Busca grados, compara campus y centros, consulta los requisitos académicos y examina los costes cuando están publicados.</p></section>
   <div class="compare-entry"><button type="button" class="primary-button" data-action="compare">⇄ <span>Comparador de carreras</span></button></div>
   ${favoritesPortal()}<div class="portal-label">Universidades públicas</div><div class="portal-grid portal-private">${card('ehu','01','Pública','EHU · Universidad del País Vasco','Araba, Gipuzkoa y Bizkaia','Notas de corte de 2025 y 2026; materias de Bachillerato que ponderan 0,1 o 0,2.')}${card('upna','02','Pública','UPNA · Universidad Pública de Navarra','Pamplona y Tudela','Notas de corte 2025 y 2026, materias que ponderan y su fase de evaluación.')}</div>
@@ -95,14 +95,16 @@
   }));
   window.UniCompare.mount(main,offers,state.comparison,comparison=>{state.comparison=comparison;saveHistory();});
  }
- function filterTop(university,heading,description){
-  const name=heading?'<span class="eyebrow">'+safe(university)+'</span>':'<h1>'+safe(university)+'</h1>';
+ const universityLogo=id=>`assets/logos/${id}.${['deusto','mondragon','uned'].includes(id)?'png':'svg'}`;
+ function filterTop(uni,heading,description){
+  const logo='<img class="filter-page-logo" data-logo-uni="'+safe(uni)+'" src="'+universityLogo(uni)+'" alt="'+safe(CFG[uni].name)+'">';
+  const name=heading?logo:'<h1>'+logo+'</h1>';
   return '<div class="page-top filter-page-top"><div class="filter-page-nav">'+backBtn()+name+'</div>'+
    (heading?'<h1>'+safe(heading)+'</h1>':'')+'<p>'+safe(description)+'</p></div>';
  }
  function renderUniversity(){
   const {uni}=state,cfg=CFG[uni],ds=datasets[uni],isE=isPublic(uni),counts=Object.fromEntries(cfg.campuses.map(c=>[c,ds.records.filter(g=>g.campus===c).length]));
-  main.innerHTML=`${filterTop(cfg.name,'','Busca una titulación o explora el catálogo por campus y rama de conocimiento.')}
+  main.innerHTML=`${filterTop(uni,'','Busca una titulación o explora el catálogo por campus y rama de conocimiento.')}
   <div class="home-grid">
   <section class="panel panel-wide"><div class="panel-tag">01 · Buscador</div><h2>Buscar una carrera</h2><p>Escribe al menos 3 caracteres. Si un grado se imparte en varios campus, el buscador lo mostrará una sola vez.</p><div class="search-wrap" id="search-wrap"><div class="search-control"><span class="search-icon">⌕</span><input id="degree-search" type="search" role="combobox" aria-expanded="false" aria-controls="search-suggestions" autocomplete="off" placeholder="Ej. Medicina, Derecho, Ingeniería…" value="${safe(state.searchText)}"></div><div id="search-suggestions" class="suggestions" role="listbox" hidden></div></div><div class="search-hint">Ignora mayúsculas y tildes · Mínimo 3 letras</div><div class="search-selection-filter">${selectionFilterHTML()}</div></section>
   <section class="panel panel-wide"><div class="panel-tag">02 · Ramas</div><h2>Rama de conocimiento</h2><p>Cinco categorías para filtrar las ofertas. En las privadas, la clasificación es orientativa cuando no se ha verificado la rama oficial de la titulación.</p><div class="theme-links branch-links">${RAMAS.map((r,i)=>`<button class="theme-card" type="button" data-open-rama="${safe(r)}"><span class="theme-illustration">${['Aa','∑','✚','§','⌘'][i]}</span><b>${safe(r)}</b><small>${ds.records.filter(g=>g.rama===r).length} ofertas</small></button>`).join('')}</div></section>
@@ -129,7 +131,7 @@
   const {uni,screen}=state, ds=datasets[uni], cfg=CFG[uni];const isCampus=screen==='campus';const isRama=screen==='rama';const isSubject=screen==='subject';const base=ds.records.filter(r=>isCampus?r.campus===state.campus:isRama?r.rama===state.rama:true);
   const centers=[...new Set(base.map(r=>r.centro).filter(Boolean))].sort(sortText), campuses=[...new Set(base.map(r=>r.campus))].sort(sortText);
   const header=isCampus?state.campus:isRama?state.rama:`Materias: ${state.materia||'Seleccionar asignatura'}`;
-  main.innerHTML=`${filterTop(cfg.short,header,isCampus?(isPublic(uni)?'Grados del campus. Filtra por centro, ordena por nota o nombre y consulta las ponderaciones sobre el nombre o con el libro en móvil.':'Grados del campus. Filtra por centro y ordena por nombre o precio.'):isRama?'Titulaciones de esta rama, con filtros y ordenación.':'Carreras para las que la materia seleccionada pondera en '+cfg.short+'.')}
+  main.innerHTML=`${filterTop(uni,header,isCampus?(isPublic(uni)?'Grados del campus. Filtra por centro, ordena por nota o nombre y consulta las ponderaciones sobre el nombre o con el libro en móvil.':'Grados del campus. Filtra por centro y ordena por nombre o precio.'):isRama?'Titulaciones de esta rama, con filtros y ordenación.':'Carreras para las que la materia seleccionada pondera en '+cfg.short+'.')}
   <div class="filter-bar filter-bar-extended">
    ${isCampus?`<div class="field"><label for="faculty-filter">Facultad / Escuela</label><select id="faculty-filter"><option value="">Todos los centros</option>${selectOptions(centers,state.facultad)}</select></div>`:`<div class="field"><label for="campus-filter">Campus</label><select id="campus-filter"><option value="">Todos los campus</option>${selectOptions(campuses,state.campus)}</select></div>`}
    <div class="field"><label for="list-query">Buscar carrera o centro</label><input id="list-query" type="search" placeholder="Buscar…" value="${safe(state.q)}"></div>

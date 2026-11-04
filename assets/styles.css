@@ -119,3 +119,6 @@
 
 .compare-differences { display: inline-flex; align-items: center; gap: .4rem; cursor: pointer; font-weight: 650; }
 #comparison-result:has(#compare-differences:checked) .compare-equal :is(th, td, span, a) { color: #586975; font-style: italic; }
+
+.filter-page-logo { display: block; width: auto; max-width: 132px; height: 32px; object-fit: contain; object-position: right; }
+.filter-page-logo[data-logo-uni="euneiz"] { background: #102c41; border-radius: 5px; padding: 4px; }
