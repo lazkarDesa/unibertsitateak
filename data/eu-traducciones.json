@@ -1689,7 +1689,6 @@
     "Las cuotas del centro pueden añadirse a los derechos que se abonan a EHU. La tarifa pública general no permite calcular la factura completa de este centro.": "Ikastegiaren kuotak EHUri ordaindutako eskubideei gehi dakizkieke. Tarifa publiko orokorrarekin ezin da ikastegi honen faktura osoa kalkulatu.",
     "Coste pendiente de verificación para esta oferta.": "Eskaintza honen kostua egiaztatzeko dago.",
     "Estimación sin becas ni bonificaciones, sin repetir asignaturas y manteniendo los precios indicados durante toda la carrera. No incluye alojamiento, manutención, materiales ni másteres posteriores.": "Estimazioa bekarik eta hobaririk gabe, ikasgaiak errepikatu gabe eta adierazitako prezioak karrera osoan mantenduz egina dago. Ez ditu ostatua, mantenua, materialak edo ondorengo masterrak barne hartzen.",
-    "Para empezar a decidir · 1.º de Bachillerato": "Erabakitzen hasteko · Batxilergoko 1. maila",
     "Imagina qué harías estudiando esta carrera": "Irudikatu zer egingo zenukeen karrera hau ikasita",
     "No necesitas saber ya tu profesión. Empieza por las preguntas que te interesan, las tareas que disfrutas y lo que te gustaría probar.": "Ez duzu oraindik zure lanbidea jakin behar. Hasi interesatzen zaizkizun galderekin, gustuko dituzun zereginekin eta probatu nahiko zenukeenarekin.",
     "¿Qué aprenderías?": "Zer ikasiko zenuke?",
@@ -2288,7 +2287,8 @@
     "Graba tres sonidos cotidianos y móntalos para contar una escena sin imágenes.": "Grabatu eguneroko hiru soinu eta muntatu eszena bat irudirik gabe kontatzeko.",
     "EUNEIZ sitúa Multimedia en Industrias Culturales y Creativas.": "EUNEIZek Multimedia Kultura eta Sormen Industrien arloan kokatzen du.",
     "02 · Ramas": "02 · Adarrak",
-    "03 · Campus": "03 · Campus"
+    "03 · Campus": "03 · Campus",
+    "Para empezar a decidir": "Erabakitzen hasteko"
   },
   "templates": [
     [
