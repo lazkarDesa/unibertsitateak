@@ -97,7 +97,7 @@
   }));
   window.UniCompare.mount(main,offers,state.comparison,comparison=>{state.comparison=comparison;saveHistory();});
  }
- const universityLogo=id=>`assets/logos/${id}.${['deusto','mondragon','uned'].includes(id)?'png':'svg'}`;
+ const universityLogo=id=>id==='upna'?'assets/logos/upna-official.png':`assets/logos/${id}.${['deusto','mondragon','uned'].includes(id)?'png':'svg'}`;
  function filterTop(uni,heading,description){
   const logo='<img class="filter-page-logo" data-logo-uni="'+safe(uni)+'" src="'+universityLogo(uni)+'" alt="'+safe(CFG[uni].name)+'">';
   const destination=window.UniI18n?.url(CFG[uni].website)||CFG[uni].website;
