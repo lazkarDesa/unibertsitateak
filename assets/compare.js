@@ -78,6 +78,7 @@
  }
  function result(a,b) {
   const pair=[a,b], price=pair.map(costs);
+  const isPrivate=x=>!territorial(x.uni)&&x.uni!=='uned';
   const rows=[
    ['Universidad',...pair.map(x=>universityLabel(x))],
    ['Campus o sede',...pair.map(x=>esc(x.offer.campus))],
@@ -87,8 +88,7 @@
    ['Créditos',...pair.map(x=>x.offer.ects ? x.offer.ects+' ECTS' : 'No consta')],
    ['Modalidad',...pair.map(x=>esc(x.offer.modalidad || 'No consta'))],
    ['Idioma de docencia',...pair.map(x=>languages(x.offer))],
-   ['Acceso',...pair.map(x=>territorial(x.uni)?'Admisión con nota de corte':x.uni==='uned'?'Acceso y matrícula UNED':'Puede haber prueba de acceso')],
-   ...(pair.some(x=>territorial(x.uni)) ? [2025,2026].map(year=>['Nota de corte '+year,...pair.map(x=>cutoff(x,year))]) : []),
+   ...(pair.some(x=>x.uni!=='uned') ? [2025,2026].map(year=>['Nota de corte '+year,...pair.map(x=>cutoff(x,year)),false,year]) : []),
    ...(pair.some(x=>territorial(x.uni)) ? [[window.UniI18n?.locale.startsWith('eu')?'EAESeko haztapenak':'Ponderaciones EBAU',...weightingCells(pair),true]] : []),
    ['Plazas',...pair.map(x=>{const s=window.ORIENTATION_DATA?.seats?.[x.uni]?.[x.offer.id];return s?esc(s.count)+(s.course?' · '+esc(s.course):''):'No consta';})],
    ['Primer curso',...price.map(x=>x[0])],
@@ -104,7 +104,14 @@
   return '<label class="compare-differences"><input type="checkbox" id="compare-differences"> <span data-no-translate>'+differencesLabel+'</span></label>'+
    '<p>Comprueba el curso y la fase de las notas. Los costes totales son estimaciones de matrícula.</p>'+
    '<div class="compare-scroll" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">Dato</th>'+headings+'</tr></thead><tbody>'+
-   rows.map(([label,x,y,individual])=>'<tr'+(!individual&&norm(x)===norm(y)?' class="compare-equal"':'')+'><th scope="row">'+label+'</th><td>'+x+'</td><td>'+y+'</td></tr>').join('')+'</tbody></table></div>';
+   rows.map(([label,x,y,individual,year])=>{
+    const cells=[x,y].map((value,i)=>{
+     if(year&&isPrivate(pair[i]))return year===2025?'<td rowspan="2">Puede haber prueba de acceso</td>':'';
+     return '<td>'+value+'</td>';
+    });
+    const equal=!individual&&(!year||!pair.some(isPrivate))&&norm(x)===norm(y);
+    return '<tr'+(equal?' class="compare-equal"':'')+'><th scope="row">'+label+'</th>'+cells.join('')+'</tr>';
+   }).join('')+'</tbody></table></div>';
  }
  function highlightLabel(label, words) {
   const comparable=norm(label.trimStart());
