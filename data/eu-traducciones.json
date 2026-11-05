@@ -2315,7 +2315,10 @@
     "Comprueba el curso y la fase de las notas. Los costes totales son estimaciones de matrícula.": "Egiaztatu noten ikasturtea eta fasea. Guztizko kostuak matrikularen estimazioak dira.",
     "Prácticas clínicas en centros públicos y privados. La ficha indica contacto con la profesión desde primero y un 40 % de formación práctica.": "Praktika klinikoak zentro publiko eta pribatuetan. Fitxak lehen mailatik lanbidearekin harremana eta prestakuntza praktikoaren % 40 adierazten ditu.",
     "92 ECTS de prácticas clínicas de segundo a cuarto, en ámbitos hospitalarios, comunitarios, sociosanitarios y de salud mental.": "92 ECTSko praktika klinikoak bigarren mailatik laugarrenera, ospitaleetan, komunitatean, arlo soziosanitarioan eta osasun mentalean.",
-    "Algunas asignaturas de Ciencias incluyen prácticas presenciales. Consulta los requisitos de tu plan y del centro asociado.": "Zientzietako irakasgai batzuek aurrez aurreko praktikak dituzte. Kontsultatu zure planaren eta ikastetxe elkartuaren baldintzak."
+    "Algunas asignaturas de Ciencias incluyen prácticas presenciales. Consulta los requisitos de tu plan y del centro asociado.": "Zientzietako irakasgai batzuek aurrez aurreko praktikak dituzte. Kontsultatu zure planaren eta ikastetxe elkartuaren baldintzak.",
+    "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar.": "2026–2027an ematen da. Lehen mailako ikasle berrien sarrera baieztatu gabe.",
+    "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.": "Atxikitako ikastegiaren eskaintza. Kontsultatu BAMen egutegia eta tarifak.",
+    "Doble grado con tarifa de primero publicada para 2026–2027.": "Gradu bikoitza, 2026–2027ko lehen mailako tarifa argitaratuta."
   },
   "templates": [
     [
@@ -2775,7 +2778,7 @@
       "ciencias de la actividad fisica y del deporte": "Jarduera Fisikoaren eta Kirolaren Zientzietako Gradua",
       "comunicacion": "Komunikazioa",
       "derecho": "Zuzenbideko Gradua",
-      "educacion primaria": "Lehen Hezkuntzako Gradua",
+      "educacion primaria": "Lehen Hezkuntza",
       "educacion social": "Gizarte Hezkuntza",
       "enfermeria": "Erizaintza",
       "filosofia, politica y economia": "Filosofia, Politika eta Ekonomia",
@@ -2798,7 +2801,11 @@
       "trabajo social": "Gizarte Lana",
       "ade + derecho": "EAZ + Zuzenbidea",
       "ade + ingenieria en tecnologias industriales": "EAZ + Industria Teknologien Ingeniaritza",
-      "ade + ingenieria informatica": "EAZ + Informatika Ingeniaritza"
+      "ade + ingenieria informatica": "EAZ + Informatika Ingeniaritza",
+      "industria digital (dual)": "Industria Digitala (duala)",
+      "turismo": "Turismoa",
+      "educacion infantil": "Haur Hezkuntza",
+      "derecho + relaciones laborales": "Zuzenbidea + Lan Harremanak"
     },
     "navarra": {
       "ingenieria en inteligencia artificial": "Adimen Artifizialaren Ingeniaritza",
