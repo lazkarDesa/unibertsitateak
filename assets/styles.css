@@ -129,3 +129,8 @@
 .compare-weights li { display: flex; justify-content: space-between; gap: .5rem; padding: .2rem .35rem; }
 .compare-weights strong { white-space: nowrap; }
 #comparison-result:has(#compare-differences:checked) .compare-weight-equal { background-color: #f2f3f5; color: #686d75; font-style: italic; }
+
+.portal-extra-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.portal-extra-grid .portal-grid { grid-template-columns: minmax(0, 1fr); }
+.portal-extra-grid h2.portal-label { font-size: inherit; }
+@media (max-width: 690px) { .portal-extra-grid { grid-template-columns: minmax(0, 1fr); gap: 0; } }
