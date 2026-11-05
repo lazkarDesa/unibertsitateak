@@ -204,7 +204,7 @@
   return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+label()+'</h1><p>'+
    tr('Elige una especialidad para consultar qué se estudia y cómo se accede.','Aukeratu espezialitate bat zer ikasten den eta nola sartzen den jakiteko.')+
    '</p></div>'+Object.entries(titles).map(([kind,title])=>'<section class="section-card"><h2>'+title[eu()]+'</h2>'+
-   groups.filter(group=>group[3]===kind).map(group=>'<section class="arts-center"><h3>'+center(group)+
+   groups.filter(group=>group[3]===kind).map(group=>'<section class="arts-center"><h3>'+centerLogo(group[0])+center(group)+
     ' <small>'+group[2]+'</small></h3><div class="portal-grid">'+
     offerings.filter(x=>x.group===group).map(x=>'<button class="portal-card" data-action="art-detail" data-art="'+x.id+
      '" type="button"><strong>'+x.specialty[eu()]+'</strong></button>').join('')+'</div></section>').join('')+
@@ -295,6 +295,7 @@
     "2025–2026ko erreferentziazko prezioa. Batxilergotik sartzeko ohiko bidea Diseinuko proba espezifikoa da. Kontsultatu zuzeneko sarbidea ematen duten titulazioak."
   ]
 };
+ const centerLogo=key=>{const id=key.startsWith('dantzerti')?'dantzerti':key;return ['musikene','digipen','dantzerti'].includes(id)?'<img class="center-brand-logo" src="assets/logos/'+id+'.png" alt="'+(id==='digipen'?'DigiPen Europe-Bilbao':id==='dantzerti'?'Dantzerti':'Musikene')+'">':'';};
  const fact = ([label,value]) => '<div class="fact"><dt>'+label+'</dt><dd>'+value+'</dd></div>';
  const card = (title,body) => '<section class="section-card"><h2>'+title+'</h2>'+body+'</section>';
  function detail(id,back,tab='ficha') {
@@ -325,7 +326,7 @@
    '</p><p>'+tr('Las ponderaciones de la EBAU no se aplican.','EAESeko haztapenak ez dira aplikatzen.')+'</p>'+
    (exam==null?'':'<dl class="fact-grid">'+fact([tr('Tasa de la prueba','Probaren tasa'),money(exam)])+'</dl>'));
   const academic=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
-   [tr('Centro','Ikastegia'),center(group)],[tr('Localidad','Herria'),group[2]+' '+window.UniMaps.button(center(group)+', '+group[2])],
+   [tr('Centro','Ikastegia'),center(group)],[tr('Localidad','Herria'),group[2]+' '+window.UniMaps.forArts(group[0])],
    [tr('Disciplina','Diziplina'),discipline],[tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),credits]
   ].map(fact).join('')+'</dl>');
   const sources=card(tr('Enlaces y fuentes','Estekak eta iturriak'),'<div class="sources-list">'+
@@ -336,7 +337,7 @@
   const orientation=card(tr('¿Qué es?','Zer da?'),'<p>'+specialty[2+eu()]+
    '</p><h3>'+tr('Salidas profesionales','Lanbide-aukerak')+'</h3><p>'+specialty[4+eu()]+'</p>');
   const tags=[discipline,title,duration,credits].map(value=>'<span class="pill">'+value+'</span>').join('');
-  return '<article data-no-translate><div class="page-top">'+back()+'<div class="eyebrow">'+center(group)+'</div></div>'+
+  return '<article data-no-translate><div class="page-top"><div class="filter-page-nav">'+back()+centerLogo(group[0])+'</div><div class="eyebrow">'+center(group)+'</div></div>'+
    '<div class="detail-title-override"><div class="detail-heading"><h1>'+specialty[eu()]+'</h1></div><div class="detail-tags">'+tags+'</div></div>'+
    '<div class="detail-tabs" role="tablist" aria-label="'+tr('Información de la carrera','Graduari buruzko informazioa')+'">'+
    tabButton('ficha',tr('Ficha y acceso','Fitxa eta sarbidea'))+tabButton('orientation',tr('¿Qué es?','Zer da?'))+'</div>'+
@@ -351,7 +352,7 @@
  ];
  const foreignLabel=()=>tr('Titulaciones extranjeras impartidas aquí','Hemen ematen diren atzerriko titulazioak');
  function foreignPortal(){
-  return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
+  return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><div>'+centerLogo('digipen')+'</div><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
  }
  const foreignDetails = [
   [
@@ -397,7 +398,7 @@
   const intro=tr('DigiPen expide estos títulos en Estados Unidos. La autorización para impartirlos en Bilbao no implica su homologación automática en España.',
    'DigiPenek Estatu Batuetan ematen ditu tituluak. Bilbon emateko baimenak ez dakar Espainian automatikoki homologatzea.');
   if(!degree)return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+foreignLabel()+'</h1><p>'+intro+
-   '</p></div><section class="section-card arts-center"><h2>'+centerName+' <small>Bilbao</small></h2><div class="portal-grid">'+
+   '</p></div><section class="section-card arts-center"><h2>'+centerLogo('digipen')+centerName+' <small>Bilbao</small></h2><div class="portal-grid">'+
    foreign.map((x,i)=>'<button class="portal-card" type="button" data-action="foreign-detail" data-art="'+i+'"><strong>'+x[eu()]+'</strong></button>').join('')+
    '</div></section></div>';
   const [credits,slug,admissions,overview,overviewEu,career,careerEu]=foreignDetails[index];
@@ -422,7 +423,7 @@
     tr('Para los programas de informática, revisa la preparación de matemáticas exigida.','Informatikako programetarako, begiratu eskatutako matematika-maila.'))+
    '</p><p>'+tr('Plazas de nuevo ingreso pendientes de verificar.','Ikasle berrientzako plaza kopurua egiaztatu gabe.')+'</p>');
   const facts=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
-   [tr('Centro','Ikastegia'),centerName],[tr('Sede','Egoitza'),'Zorrotzaurre · Bilbao '+window.UniMaps.button('DigiPen Ribera de Zorrotzaurre 2 Bilbao')],
+   [tr('Centro','Ikastegia'),centerName],[tr('Sede','Egoitza'),'Zorrotzaurre · Bilbao '+window.UniMaps.button('digipen')],
    [tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),creditText],
    [tr('Idioma','Hizkuntza'),tr('Inglés','Ingelesa')],[tr('Modalidad','Modalitatea'),tr('Presencial','Aurrez aurrekoa')]
   ].map(fact).join('')+'</dl>');
@@ -437,7 +438,7 @@
    '" aria-selected="'+(tab===key)+'" data-action="foreign-tab" data-tab="'+key+'">'+text+'</button>';
   const panel=(key,body,classes='')=>'<div id="foreign-panel-'+key+'" role="tabpanel" aria-labelledby="foreign-tab-'+key+
    '" class="'+classes+'"'+(tab===key?'':' hidden')+'>'+body+'</div>';
-  return '<article data-no-translate><div class="page-top">'+back()+'<div class="eyebrow">'+centerName+'</div></div>'+
+  return '<article data-no-translate><div class="page-top"><div class="filter-page-nav">'+back()+centerLogo('digipen')+'</div><div class="eyebrow">'+centerName+'</div></div>'+
    '<div class="detail-title-override"><div class="detail-heading"><h1>'+degree[eu()]+'</h1></div><p>'+degree[2]+'</p><div class="detail-tags">'+
    [tr('Título extranjero','Atzerriko titulua'),duration,creditText].map(value=>'<span class="pill">'+value+'</span>').join('')+'</div></div>'+
    '<div class="mini-alert admission-notice">'+intro+'</div><div class="detail-tabs" role="tablist" aria-label="'+
