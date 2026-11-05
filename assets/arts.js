@@ -295,39 +295,53 @@
     "2025–2026ko erreferentziazko prezioa. Batxilergotik sartzeko ohiko bidea Diseinuko proba espezifikoa da. Kontsultatu zuzeneko sarbidea ematen duten titulazioak."
   ]
 };
- function practicalDetails(id,link) {
-  const [first,total,exam,period,periodEu,fees,admission,requirements,requirementsEu]=practicalInfo[id];
-  const format=new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',useGrouping:'always'});
-  const money=value=>value==null?tr('Sin importe verificado','Zenbatekoa egiaztatu gabe'):
-   Array.isArray(value)?value.map(n=>format.format(n)).join(' – '):format.format(value);
-  const fields=[
-   [tr('Primer curso (60 ECTS)','Lehen maila (60 ECTS)'),first],
-   [tr('Grado completo · estimación','Gradu osoa · zenbatespena'),total],
-   ...(exam==null?[]:[[tr('Tasa de la prueba','Probaren tasa'),exam]])
-  ];
-  return '<section class="section-card"><h2>'+tr('Precios y requisitos','Prezioak eta baldintzak')+'</h2><p><strong>'+
-   (eu()&&periodEu?periodEu:period)+'</strong></p><dl>'+fields.map(([label,value])=>'<dt>'+label+'</dt><dd>'+money(value)+'</dd>').join('')+
-   '</dl><p>'+tr('Estimación de cuatro cursos a la tarifa indicada. Según el centro, puede haber gastos de expediente, seguro u otros cargos.',
-    'Lau ikasturteko zenbatespena adierazitako tarifarekin. Ikastegiaren arabera, espediente-, aseguru- edo bestelako gastuak egon daitezke.')+
-   '</p><p>'+tr(requirements,requirementsEu)+'</p><ul>'+(fees?'<li>'+link(fees,tr('Fuente de precios','Prezioen iturria'))+'</li>':'')+
-   '<li>'+link(admission,tr('Convocatoria o información oficial de acceso','Deialdia edo sarbideari buruzko informazio ofiziala'))+'</li></ul></section>';
- }
- function detail(id,back) {
+ const fact = ([label,value]) => '<div class="fact"><dt>'+label+'</dt><dd>'+value+'</dd></div>';
+ const card = (title,body) => '<section class="section-card"><h2>'+title+'</h2>'+body+'</section>';
+ function detail(id,back,tab='ficha') {
   const item=offerings.find(x=>x.id===id);
   if(!item)return catalog(back);
   const {group,specialty}=item;
+  const [first,total,exam,period,periodEu,fees,admission,requirements,requirementsEu]=practicalInfo[group[0]];
   const official=eu()&&group[6]?group[6]:group[5];
   const access=eu()&&group[0].startsWith('dantzerti')?'https://www.dantzerti.eus/eu/sarrera-probak/sarbidea':group[7];
-  const link=(href,text)=>'<a href="'+href+'" target="_blank" rel="noopener noreferrer">'+text+' ↗</a>';
-  return '<article data-no-translate><div class="page-top">'+back()+'<div class="eyebrow">'+center(group)+'</div><h1>'+specialty[eu()]+
-   '</h1><p>'+group[2]+' · '+tr('Grado en Enseñanzas Artísticas Superiores','Goi Mailako Arte Irakaskuntzetako Gradua')+' · '+titles[group[3]][eu()]+
-   ' · '+tr('4 años','4 urte')+' · 240 ECTS</p></div><section class="section-card"><h2>'+tr('¿Qué es?','Zer da?')+'</h2><p>'+
-   specialty[2+eu()]+'</p><h3>'+tr('Salidas profesionales','Lanbide-aukerak')+'</h3><p>'+specialty[4+eu()]+
-   '</p></section><section class="section-card"><h2>'+tr('Acceso','Sarbidea')+'</h2><p>'+group[8+eu()]+
-   '</p><p>'+tr('Las ponderaciones de la EBAU no se aplican. Consulta las plazas, el calendario y las tasas en la convocatoria oficial.',
-   'EAESeko haztapenak ez dira aplikatzen. Begiratu plazak, egutegia eta tasak deialdi ofizialean.')+'</p><ul><li>'+
-   link(official,tr('Oferta oficial del centro','Ikastegiaren eskaintza ofiziala'))+'</li>'+
-   (access?'<li>'+link(access,tr('Información de acceso','Sarbideari buruzko informazioa'))+'</li>':'')+'</ul></section>'+practicalDetails(group[0],link)+'</article>';
+  const link=(href,text)=>href?'<a href="'+href+'" target="_blank" rel="noopener noreferrer">'+text+' ↗</a>':'';
+  const format=new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',useGrouping:'always'});
+  const money=value=>value==null?tr('Sin importe verificado','Zenbatekoa egiaztatu gabe'):
+   Array.isArray(value)?value.map(n=>format.format(n)).join(' – '):format.format(value);
+  const discipline=titles[group[3]][eu()], duration=tr('4 años','4 urte'), credits='240 ECTS';
+  const title=tr('Grado en Enseñanzas Artísticas Superiores','Goi Mailako Arte Irakaskuntzetako Gradua');
+  const tabButton=(key,text)=>'<button type="button" id="arts-tab-'+key+'" role="tab" aria-controls="arts-panel-'+key+
+   '" aria-selected="'+(tab===key)+'" data-action="art-tab" data-tab="'+key+'">'+text+'</button>';
+  const panel=(key,body,classes='')=>'<div id="arts-panel-'+key+'" role="tabpanel" aria-labelledby="arts-tab-'+key+
+   '" class="'+classes+'"'+(tab===key?'':' hidden')+'>'+body+'</div>';
+  const prices=card(tr('Coste de los estudios','Ikasketen kostua'),'<p><strong>'+tr('Precios y requisitos','Prezioak eta baldintzak')+
+   ' · '+(eu()&&periodEu?periodEu:period)+'</strong></p><dl class="fact-grid">'+[
+    [tr('Primer curso (60 ECTS)','Lehen maila (60 ECTS)'),money(first)],
+    [tr('Grado completo · estimación','Gradu osoa · zenbatespena'),money(total)]
+   ].map(fact).join('')+'</dl><div class="cost-caveat">'+
+   tr('Estimación de cuatro cursos a la tarifa indicada. Según el centro, puede haber gastos de expediente, seguro u otros cargos.',
+    'Lau ikasturteko zenbatespena adierazitako tarifarekin. Ikastegiaren arabera, espediente-, aseguru- edo bestelako gastuak egon daitezke.')+'</div>');
+  const admissionCard=card(tr('Acceso y admisión','Sarbidea eta onarpena'),'<p>'+tr(requirements,requirementsEu)+'</p><p>'+group[8+eu()]+
+   '</p><p>'+tr('Las ponderaciones de la EBAU no se aplican.','EAESeko haztapenak ez dira aplikatzen.')+'</p>'+
+   (exam==null?'':'<dl class="fact-grid">'+fact([tr('Tasa de la prueba','Probaren tasa'),money(exam)])+'</dl>'));
+  const academic=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
+   [tr('Centro','Ikastegia'),center(group)],[tr('Localidad','Herria'),group[2]],
+   [tr('Disciplina','Diziplina'),discipline],[tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),credits]
+  ].map(fact).join('')+'</dl>');
+  const sources=card(tr('Enlaces y fuentes','Estekak eta iturriak'),'<div class="sources-list">'+
+   link(official,tr('Oferta oficial del centro','Ikastegiaren eskaintza ofiziala'))+
+   link(admission,tr('Convocatoria y plazos','Deialdia eta epeak'))+
+   (access!==admission?link(access,tr('Información de acceso','Sarbideari buruzko informazioa')):'')+
+   link(fees,tr('Fuente de precios','Prezioen iturria'))+'</div>');
+  const orientation=card(tr('¿Qué es?','Zer da?'),'<p>'+specialty[2+eu()]+
+   '</p><h3>'+tr('Salidas profesionales','Lanbide-aukerak')+'</h3><p>'+specialty[4+eu()]+'</p>');
+  const tags=[discipline,title,duration,credits].map(value=>'<span class="pill">'+value+'</span>').join('');
+  return '<article data-no-translate><div class="page-top">'+back()+'<div class="eyebrow">'+center(group)+'</div></div>'+
+   '<div class="detail-title-override"><div class="detail-heading"><h1>'+specialty[eu()]+'</h1></div><div class="detail-tags">'+tags+'</div></div>'+
+   '<div class="detail-tabs" role="tablist" aria-label="'+tr('Información de la carrera','Graduari buruzko informazioa')+'">'+
+   tabButton('ficha',tr('Ficha y acceso','Fitxa eta sarbidea'))+tabButton('orientation',tr('¿Qué es?','Zer da?'))+'</div>'+
+   panel('ficha','<div class="detail-main">'+prices+admissionCard+'</div><aside class="detail-sidebar">'+academic+sources+'</aside>','detail-layout')+
+   panel('orientation',orientation)+'</article>';
  }
  const foreign = [
   ['Arte Digital y Animación','Arte Digitala eta Animazioa','Digital Art and Animation','Creación de personajes, entornos y animación digital.','Pertsonaiak, inguruneak eta animazio digitala sortzea.'],
