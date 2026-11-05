@@ -207,6 +207,108 @@
    offerings.filter(x=>x.group[3]===kind).map(x=>'<button class="portal-card" data-action="art-detail" data-art="'+x.id+'" type="button"><strong>'+
     x.specialty[eu()]+'</strong><p>'+center(x.group)+' · '+x.group[2]+'</p></button>').join('')+'</div></section>').join('')+'</div>';
  }
+ const practicalInfo = {
+  "musikene": [
+    1588.2,
+    6352.8,
+    80,
+    "Última tarifa publicada por el centro",
+    "Ikastegiak argitaratutako azken tarifa",
+    "https://musikene.eus/grado/",
+    "https://musikene.eus/grado/acceso-y-admision/",
+    "Título de Bachiller o vía equivalente de la convocatoria y prueba específica. En Interpretación las plazas se publican por instrumento; en Dirección, por itinerario.",
+    "Batxiler-titulua edo deialdiko bide baliokidea eta proba espezifikoa. Interpretazioan plazak instrumentuka argitaratzen dira; Zuzendaritzan, ibilbideka."
+  ],
+  "dantzerti-drama": [
+    1380,
+    5520,
+    28.02,
+    "2026–2027",
+    null,
+    "https://www.euskadi.eus/contenidos/informacion/dantzerti_danza/es_def/adjuntos/Resolucion-matricula-dantzerti-superiores-26-27_cas.pdf",
+    "https://www.dantzerti.eus/es/actualidad/noticias/curso-2026-2027-pruebas-de-acceso",
+    "Bachillerato o vía alternativa admitida y prueba de interpretación. El centro indica 15 plazas en la convocatoria de junio.",
+    "Batxilergoa edo onartutako beste sarbide bat eta interpretazio-proba. Ikastegiak 15 plaza adierazten ditu ekaineko deialdian."
+  ],
+  "dantzerti-dance": [
+    1200,
+    4800,
+    28.02,
+    "2026–2027",
+    null,
+    "https://www.euskadi.eus/contenidos/informacion/dantzerti_danza/es_def/adjuntos/Resolucion-matricula-dantzerti-superiores-26-27_cas.pdf",
+    "https://www.dantzerti.eus/es/actualidad/noticias/curso-2026-2027-pruebas-de-acceso",
+    "Bachillerato o vía alternativa admitida y prueba de danza. El centro indica 15 plazas en la convocatoria de junio.",
+    "Batxilergoa edo onartutako beste sarbide bat eta dantza-proba. Ikastegiak 15 plaza adierazten ditu ekaineko deialdian."
+  ],
+  "idarte": [
+    656.4,
+    2625.6,
+    28.02,
+    "2026–2027",
+    null,
+    "https://www.euskadi.eus/contenidos/informacion/artisticas_superiores_diseinua/es_def/adjuntos/Resolucion-matricula-idarte-26-27-superiores_cas.pdf",
+    "https://www.idarte.eus/es/faq-es/",
+    "Desde Bachillerato se realiza la prueba específica de Diseño. Consulta el acceso directo si tienes un título de Técnico Superior de Artes Plásticas y Diseño.",
+    "Batxilergotik Diseinuko proba espezifikoa egiten da. Arte Plastikoetako eta Diseinuko goi-mailako teknikariaren titulua baduzu, kontsultatu zuzeneko sarbidea."
+  ],
+  "ied": [
+    [
+      11100,
+      15100
+    ],
+    [
+      44400,
+      60400
+    ],
+    null,
+    "2026–2027",
+    null,
+    "https://www.ied.es/other-pdf/Spain/Bilbao/Tarifas/Tarifas_Grado_IED_Bilbao.pdf",
+    "https://www.ied.es/estudiar-en-espana/titulo-de-grado-en-ensenanzas-artisticas-de-diseno",
+    "El precio incluye matrícula y enseñanza y depende de la tarifa aplicable. Consulta al centro la prueba de Diseño, los requisitos académicos y las vías de acceso directo.",
+    "Prezioak matrikula eta irakaskuntza barne hartzen ditu eta dagokion tarifaren araberakoa da. Galdetu ikastegian Diseinuko probaz, baldintza akademikoez eta zuzeneko sarbideaz."
+  ],
+  "navarra-music": [
+    null,
+    null,
+    61.79,
+    "2026–2027",
+    null,
+    null,
+    "https://www.navarra.es/documents/48192/24507905/ANEXO.pdf/dd344423-a1ed-88a0-002f-cba426f0a2d1",
+    "Bachiller, Técnico Superior, otro título superior o una vía alternativa admitida, más prueba específica. En 2026, inscripción del 11 al 22 de mayo y pruebas desde el 8 de junio. Mínimo de 5 en la prueba.",
+    "Batxiler-titulua, goi-mailako teknikariaren titulua, beste goi-mailako titulazio bat edo onartutako ordezko bidea, eta proba espezifikoa. 2026an, izen-ematea maiatzaren 11tik 22ra eta probak ekainaren 8tik aurrera. Proban gutxienez 5 puntu."
+  ],
+  "navarra-design": [
+    538.2,
+    2152.8,
+    null,
+    "2025–2026 · referencia",
+    "2025–2026 · erreferentzia",
+    "https://escueladeartesuperior.educacion.navarra.es/web/wp-content/uploads/2025/06/EASD-Matricula-4EESS-nuevo2025-26.pdf",
+    "https://escueladeartesuperior.educacion.navarra.es/web/matriculas/",
+    "Precio de referencia de 2025–2026. Desde Bachillerato, la vía habitual es la prueba específica de Diseño. Consulta las titulaciones que permiten acceso directo.",
+    "2025–2026ko erreferentziazko prezioa. Batxilergotik sartzeko ohiko bidea Diseinuko proba espezifikoa da. Kontsultatu zuzeneko sarbidea ematen duten titulazioak."
+  ]
+};
+ function practicalDetails(id,link) {
+  const [first,total,exam,period,periodEu,fees,admission,requirements,requirementsEu]=practicalInfo[id];
+  const format=new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',useGrouping:'always'});
+  const money=value=>value==null?tr('Sin importe verificado','Zenbatekoa egiaztatu gabe'):
+   Array.isArray(value)?value.map(n=>format.format(n)).join(' – '):format.format(value);
+  const fields=[
+   [tr('Primer curso (60 ECTS)','Lehen maila (60 ECTS)'),first],
+   [tr('Grado completo · estimación','Gradu osoa · zenbatespena'),total],
+   ...(exam==null?[]:[[tr('Tasa de la prueba','Probaren tasa'),exam]])
+  ];
+  return '<section class="section-card"><h2>'+tr('Precios y requisitos','Prezioak eta baldintzak')+'</h2><p><strong>'+
+   (eu()&&periodEu?periodEu:period)+'</strong></p><dl>'+fields.map(([label,value])=>'<dt>'+label+'</dt><dd>'+money(value)+'</dd>').join('')+
+   '</dl><p>'+tr('Estimación de cuatro cursos a la tarifa indicada. Según el centro, puede haber gastos de expediente, seguro u otros cargos.',
+    'Lau ikasturteko zenbatespena adierazitako tarifarekin. Ikastegiaren arabera, espediente-, aseguru- edo bestelako gastuak egon daitezke.')+
+   '</p><p>'+tr(requirements,requirementsEu)+'</p><ul>'+(fees?'<li>'+link(fees,tr('Fuente de precios','Prezioen iturria'))+'</li>':'')+
+   '<li>'+link(admission,tr('Convocatoria o información oficial de acceso','Deialdia edo sarbideari buruzko informazio ofiziala'))+'</li></ul></section>';
+ }
  function detail(id,back) {
   const item=offerings.find(x=>x.id===id);
   if(!item)return catalog(back);
@@ -222,7 +324,7 @@
    '</p><p>'+tr('Las ponderaciones de la EBAU no se aplican. Consulta las plazas, el calendario y las tasas en la convocatoria oficial.',
    'EAESeko haztapenak ez dira aplikatzen. Begiratu plazak, egutegia eta tasak deialdi ofizialean.')+'</p><ul><li>'+
    link(official,tr('Oferta oficial del centro','Ikastegiaren eskaintza ofiziala'))+'</li>'+
-   (access?'<li>'+link(access,tr('Información de acceso','Sarbideari buruzko informazioa'))+'</li>':'')+'</ul></section></article>';
+   (access?'<li>'+link(access,tr('Información de acceso','Sarbideari buruzko informazioa'))+'</li>':'')+'</ul></section>'+practicalDetails(group[0],link)+'</article>';
  }
  const foreign = [
   ['Arte Digital y Animación','Arte Digitala eta Animazioa','Digital Art and Animation','Creación de personajes, entornos y animación digital.','Pertsonaiak, inguruneak eta animazio digitala sortzea.'],
