@@ -2,7 +2,7 @@
  const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const eu=()=>window.UniI18n?.lang==='eu';
  function button(query){
-  return '<button type="button" class="map-button" data-map-query="'+esc(query)+'" aria-label="'+(eu()?'Ikusi mapan':'Ver en Google Maps')+'"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="#4285f4" d="M2 5l6-3 8 3 6-3v17l-6 3-8-3-6 3z"/><path fill="#fbbc04" d="M8 2v17l8 3V5z"/><path fill="#34a853" d="M2 22l20-20v7L9 22z"/><path fill="#ea4335" d="M16 1a6 6 0 0 0-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 0 0-6-6z"/><circle cx="16" cy="7" r="2" fill="white"/></svg></button>';
+  return '<button type="button" class="map-button" data-map-query="'+esc(query)+'" aria-label="'+(eu()?'Ikusi mapan':'Ver en Google Maps')+'"><svg viewBox="0 0 24 32" width="20" height="27" aria-hidden="true"><defs><clipPath id="map-pin-shape"><path d="M12 1C5.9 1 1 5.9 1 12c0 7.3 8.5 13.5 10.2 18.3.3.9 1.3.9 1.6 0C14.5 25.5 23 19.3 23 12 23 5.9 18.1 1 12 1zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10z" clip-rule="evenodd"/></clipPath></defs><g clip-path="url(#map-pin-shape)"><path fill="#4285f4" d="M0 0h24v32H0z"/><path fill="#1a73e8" d="M0 0h24L0 24z"/><path fill="#ea4335" d="M0 5l12 10L0 27z"/><path fill="#fbbc04" d="M0 27L24 3v12L7 32H0z"/><path fill="#34a853" d="M24 7v25H5z"/></g></svg></button>';
  }
  document.addEventListener('click',e=>{
   const b=e.target.closest('[data-map-query]');if(!b)return;
