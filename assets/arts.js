@@ -224,5 +224,23 @@
    link(official,tr('Oferta oficial del centro','Ikastegiaren eskaintza ofiziala'))+'</li>'+
    (access?'<li>'+link(access,tr('Información de acceso','Sarbideari buruzko informazioa'))+'</li>':'')+'</ul></section></article>';
  }
- window.UniArts = {portal,catalog,detail};
+ const foreign = [
+  ['Arte Digital y Animación','Arte Digitala eta Animazioa','Digital Art and Animation','Creación de personajes, entornos y animación digital.','Pertsonaiak, inguruneak eta animazio digitala sortzea.'],
+  ['Simulación Interactiva en Tiempo Real','Denbora Errealeko Simulazio Interaktiboa','Computer Science in Real-Time Interactive Simulation','Programación de motores, gráficos y simulaciones interactivas.','Motorrak, grafikoak eta simulazio interaktiboak programatzea.'],
+  ['Informática y Diseño de Videojuegos','Informatika eta Bideojokoen Diseinua','Computer Science and Game Design','Programación y diseño de reglas, niveles y experiencias de juego.','Jokoen arauak, mailak eta esperientziak diseinatu eta programatzea.'],
+  ['Informática en Inteligencia Artificial','Adimen Artifizialeko Informatika','Computer Science in Artificial Intelligence','Programación y aplicación de técnicas de inteligencia artificial.','Adimen artifizialeko teknikak programatu eta aplikatzea.']
+ ];
+ const foreignLabel=()=>tr('Titulaciones extranjeras impartidas aquí','Hemen ematen diren atzerriko titulazioak');
+ function foreignPortal(){
+  return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
+ }
+ function foreignView(index,back){
+  const degree=foreign[index];
+  const intro=tr('Los títulos los expide DigiPen en Estados Unidos. La autorización para impartirlos en Bilbao no implica su homologación automática en España.','Titulazioak DigiPenek ematen ditu Estatu Batuetan. Bilbon emateko baimenak ez dakar Espainian automatikoki homologatzea.');
+  const title=degree?degree[eu()]:foreignLabel();
+  const details=degree?'<section class="section-card"><h2>'+tr('¿Qué es?','Zer da?')+'</h2><p>'+degree[3+eu()]+'</p><h2>'+tr('Acceso','Sarbidea')+'</h2><p><a href="https://www.digipen.es/es/admisiones/como-matricularse" target="_blank" rel="noopener noreferrer">'+tr('Requisitos y solicitud en DigiPen','Baldintzak eta eskaera DigiPenen')+' ↗</a></p><p><a href="https://www.euskadi.eus/bopv2/datos/2026/02/2600867a.pdf" target="_blank" rel="noopener noreferrer">'+tr('Autorización del Gobierno Vasco','Eusko Jaurlaritzaren baimena')+' ↗</a></p></section>':
+   '<div class="portal-grid">'+foreign.map((x,i)=>'<button class="portal-card" type="button" data-action="foreign-detail" data-art="'+i+'"><strong>'+x[eu()]+'</strong><p>DigiPen Europe-Bilbao</p></button>').join('')+'</div>';
+  return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+title+'</h1><p>'+intro+'</p>'+(degree?'<p>'+degree[2]+' · Bilbao</p>':'')+'</div>'+details+'</div>';
+ }
+ window.UniArts = {portal,catalog,detail,foreignPortal,foreignView};
 })();

@@ -43,7 +43,7 @@
  const initial=()=>({screen:'portal',uni:null,campus:'',rama:'',materia:'',facultad:'',q:'',sort:'name',searchText:'',detailTab:'ficha',statusFilter:'all',shortlistFilter:'all'});
  const browserHistory=window.history;
  const savedRoute=browserHistory.state;
- const isAppRoute=entry=>entry?.uniExplorer===true&&entry.screenState&&['portal','university','campus','rama','subject','detail','favorites','compare','arts','art-detail'].includes(entry.screenState.screen)&&(entry.screenState.uni===null||Object.hasOwn(CFG,entry.screenState.uni));
+ const isAppRoute=entry=>entry?.uniExplorer===true&&entry.screenState&&['portal','university','campus','rama','subject','detail','favorites','compare','arts','art-detail','foreign','foreign-detail'].includes(entry.screenState.screen)&&(entry.screenState.uni===null||Object.hasOwn(CFG,entry.screenState.uni));
  let state=isAppRoute(savedRoute)?{...initial(),...savedRoute.screenState}:initial(),navigationIndex=isAppRoute(savedRoute)?savedRoute.index||0:0;
  const historyEntry=scroll=>({uniExplorer:true,screenState:{...state},scroll,index:navigationIndex});
  browserHistory.scrollRestoration='manual';
@@ -83,7 +83,7 @@
   ${favoritesPortal()}<div class="portal-label">Universidades públicas</div><div class="portal-grid portal-private">${card('ehu','01','Pública','EHU · Universidad del País Vasco','Araba, Gipuzkoa y Bizkaia','Notas de corte de 2025 y 2026; materias de Bachillerato que ponderan 0,1 o 0,2.')}${card('upna','02','Pública','UPNA · Universidad Pública de Navarra','Pamplona y Tudela','Notas de corte 2025 y 2026, materias que ponderan y su fase de evaluación.')}</div>
   <div class="portal-label">Universidades privadas</div><div class="portal-grid portal-private">${card('deusto','03','Privada','Deusto','Campus de Bilbao y Donostia','Grados, facultades, precios oficiales de primero y costes totales orientativos.')}${card('navarra','04','Privada','Universidad de Navarra','Pamplona y Tecnun · Donostia','Grados, programas combinados, precios de primero y costes totales orientativos.')}${card('mondragon','05','Privada','Mondragon Unibertsitatea','9 ubicaciones en Euskadi y red LEINN','Ingenierías, empresa, educación, cultura y gastronomía. Precios previstos 2027–2028 y fichas de orientación.')}${datasets.euneiz?card('euneiz','06','Privada','EUNEIZ','Vitoria-Gasteiz','Salud, deporte y tecnologías interactivas. Consulta plazas, admisión y precios.'):''}</div>
   <div class="portal-extra-grid">${datasets.uned?`<section><div class="portal-label">Universidades a distancia</div><div class="portal-grid">${card('uned','07','Pública · a distancia','UNED','Centros asociados en Euskadi y Navarra','Grados a distancia, precios públicos y centros de apoyo para tutorías, exámenes y prácticas.')}</div></section>`:''}
-  ${window.UniArts.portal()}</div>
+  ${window.UniArts.portal()}</div>${window.UniArts.foreignPortal()}
   <div class="helper-note"><span class="notice-symbol">ⓘ</span><span>Deusto y Universidad de Navarra: tarifas <strong>2026–2027</strong>. Mondragon: precios previstos <strong>2027–2028</strong>, provisionales. Consulta el curso en cada ficha. Los costes totales son extrapolaciones que no contemplan subidas posteriores, becas, alojamiento ni manutención. Las universidades públicas utilizan sus propias ponderaciones oficiales; no se aplican a las privadas.</span></div>`;
  }
  function renderCompare(){
@@ -208,7 +208,7 @@
    degree:group?.name,segment:group?.key||({campus:state.campus,rama:state.rama,subject:state.materia})[state.screen],
    tab:group?state.detailTab:null,title:group?.name||CFG[state.uni]?.name||state.screen});
  }
- function render(){const label=document.getElementById('active-university-label');label.textContent=state.screen==='favorites'?'Carreras seleccionadas':state.uni?CFG[state.uni].short:(datasets.euneiz&&datasets.uned?'Siete universidades':'Cinco universidades');hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='favorites')renderFavorites();else if(state.screen==='compare')renderCompare();else if(state.screen==='arts')main.innerHTML=window.UniArts.catalog(artsBack);else if(state.screen==='art-detail')main.innerHTML=window.UniArts.detail(state.art,artsBack);else if(state.screen==='university')renderUniversity();else if(['campus','rama','subject'].includes(state.screen))renderList();else if(state.screen==='detail')renderDetail();trackView();}
+ function render(){const label=document.getElementById('active-university-label');label.textContent=state.screen==='favorites'?'Carreras seleccionadas':state.uni?CFG[state.uni].short:(datasets.euneiz&&datasets.uned?'Siete universidades':'Cinco universidades');hidePopup();if(state.screen==='portal')renderPortal();else if(state.screen==='favorites')renderFavorites();else if(state.screen==='compare')renderCompare();else if(state.screen==='arts')main.innerHTML=window.UniArts.catalog(artsBack);else if(state.screen==='foreign'||state.screen==='foreign-detail')main.innerHTML=window.UniArts.foreignView(state.screen==='foreign-detail'?state.art:null,artsBack);else if(state.screen==='art-detail')main.innerHTML=window.UniArts.detail(state.art,artsBack);else if(state.screen==='university')renderUniversity();else if(['campus','rama','subject'].includes(state.screen))renderList();else if(state.screen==='detail')renderDetail();trackView();}
  function openDetail(id,uni=state.uni){if(!datasets[uni]?.lookup.has(id))return;go('detail',{uni,group:id,detailTab:'ficha'})}
  function openCampus(c){if(!CFG[state.uni].campuses.includes(c))return;go('campus',{campus:c,facultad:'',materia:'',q:'',sort:'name',statusFilter:'all'})}
  function openRama(r){if(!RAMAS.includes(r))return;go('rama',{rama:r,campus:'',facultad:'',materia:'',q:'',sort:'name',statusFilter:'all'})}
@@ -228,6 +228,8 @@
   else if(b.dataset.openDetail)openDetail(b.dataset.openDetail,b.dataset.detailUni||state.uni);
   else if(b.dataset.action==='detail-tab'){state.detailTab=b.dataset.tab==='orientation'?'orientation':'ficha';saveHistory();renderDetail();trackView();document.getElementById('tab-'+state.detailTab)?.focus();}
   else if(b.dataset.action==='back')goBack();
+  else if(b.dataset.action==='foreign')go('foreign',{uni:null});
+  else if(b.dataset.action==='foreign-detail')go('foreign-detail',{uni:null,art:b.dataset.art});
   else if(b.dataset.action==='arts')go('arts',{uni:null});
   else if(b.dataset.action==='art-detail')go('art-detail',{uni:null,art:b.dataset.art});
   else if(b.dataset.action==='compare')go('compare',{uni:null,comparison:null});
