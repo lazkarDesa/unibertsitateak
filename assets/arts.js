@@ -353,13 +353,97 @@
  function foreignPortal(){
   return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
  }
- function foreignView(index,back){
+ const foreignDetails = [
+  [
+    131,
+    "grado-en-bellas-artes-en-arte-digital-y-animacion",
+    "https://www.digipen.es/admissions/how-to-apply/bfa-in-digital-art-and-animation-admissions-requirements",
+    "Dibujo, diseño visual, modelado 3D y animación. En los proyectos creas personajes y escenas y aprendes a trabajar con otros perfiles de producción.",
+    "Marrazketa, ikus-diseinua, 3D modelaketa eta animazioa. Proiektuetan pertsonaiak eta eszenak sortzen dituzu, ekoizpeneko beste profilekin elkarlanean.",
+    "Animación 2D y 3D, modelado, arte conceptual y producción audiovisual.",
+    "2D eta 3D animazioa, modelaketa, arte kontzeptuala eta ikus-entzunezko ekoizpena."
+  ],
+  [
+    142,
+    "grado-en-ingenieria-informatica-en-simulacion-interactiva-en-tiempo-real",
+    "https://www.digipen.es/admissions/how-to-apply/bs-in-computer-science-in-real-time-interactive-simulation-admissions-requirements",
+    "Aprendes a programar la tecnología que mueve un videojuego o simulador: motores, gráficos, física y sistemas en tiempo real.",
+    "Bideojokoak eta simulagailuak mugitzen dituen teknologia programatzen ikasten duzu: motorrak, grafikoak, fisika eta denbora errealeko sistemak.",
+    "Programación de motores, gráficos, simulación y desarrollo de software.",
+    "Motorren, grafikoen eta simulazioen programazioa eta software-garapena."
+  ],
+  [
+    135,
+    "grado-en-ingenieria-informatica-y-diseno-de-videojuegos",
+    "https://www.digipen.es/es/admisiones/como-matricularse",
+    "Combinas programación en C y C++ con diseño de mecánicas y niveles. En equipo construyes prototipos y ajustas el juego a partir de pruebas.",
+    "C eta C++ programazioa mekaniken eta mailen diseinuarekin uztartzen duzu. Taldean prototipoak egin eta probetan oinarrituta jokoa doitzen duzu.",
+    "Programación de jugabilidad, diseño técnico, diseño de sistemas y herramientas para videojuegos.",
+    "Jokagarritasunaren programazioa, diseinu teknikoa, sistemen diseinua eta bideojokoetarako tresnak."
+  ],
+  [
+    134,
+    "grado-en-ingenieria-informatica-en-inteligencia-artificial",
+    "https://www.digipen.es/admissions/how-to-apply/bsai-computer-science-in-artificial-intelligence-admissions-requirements",
+    "Estudias programación y matemáticas para construir sistemas que aprenden de los datos. El plan incluye proyectos en equipo y técnicas de aprendizaje automático.",
+    "Programazioa eta matematika ikasten dituzu datuetatik ikasten duten sistemak sortzeko. Planak taldeko proiektuak eta ikaskuntza automatikoko teknikak ditu.",
+    "Desarrollo de software, aprendizaje automático y aplicación de IA en productos digitales.",
+    "Software-garapena, ikaskuntza automatikoa eta IA produktu digitaletan aplikatzea."
+  ]
+];
+ function foreignView(index,back,tab='ficha'){
   const degree=foreign[index];
-  const intro=tr('Los títulos los expide DigiPen en Estados Unidos. La autorización para impartirlos en Bilbao no implica su homologación automática en España.','Titulazioak DigiPenek ematen ditu Estatu Batuetan. Bilbon emateko baimenak ez dakar Espainian automatikoki homologatzea.');
-  const title=degree?degree[eu()]:foreignLabel();
-  const details=degree?'<section class="section-card"><h2>'+tr('¿Qué es?','Zer da?')+'</h2><p>'+degree[3+eu()]+'</p><h2>'+tr('Acceso','Sarbidea')+'</h2><p><a href="https://www.digipen.es/es/admisiones/como-matricularse" target="_blank" rel="noopener noreferrer">'+tr('Requisitos y solicitud en DigiPen','Baldintzak eta eskaera DigiPenen')+' ↗</a></p><p><a href="https://www.euskadi.eus/bopv2/datos/2026/02/2600867a.pdf" target="_blank" rel="noopener noreferrer">'+tr('Autorización del Gobierno Vasco','Eusko Jaurlaritzaren baimena')+' ↗</a></p></section>':
-   '<div class="portal-grid">'+foreign.map((x,i)=>'<button class="portal-card" type="button" data-action="foreign-detail" data-art="'+i+'"><strong>'+x[eu()]+'</strong><p>DigiPen Europe-Bilbao</p></button>').join('')+'</div>';
-  return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+title+'</h1><p>'+intro+'</p>'+(degree?'<p>'+degree[2]+' · Bilbao</p>':'')+'</div>'+details+'</div>';
+  const centerName='DigiPen Europe-Bilbao';
+  const intro=tr('DigiPen expide estos títulos en Estados Unidos. La autorización para impartirlos en Bilbao no implica su homologación automática en España.',
+   'DigiPenek Estatu Batuetan ematen ditu tituluak. Bilbon emateko baimenak ez dakar Espainian automatikoki homologatzea.');
+  if(!degree)return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+foreignLabel()+'</h1><p>'+intro+
+   '</p></div><section class="section-card arts-center"><h2>'+centerName+' <small>Bilbao</small></h2><div class="portal-grid">'+
+   foreign.map((x,i)=>'<button class="portal-card" type="button" data-action="foreign-detail" data-art="'+i+'"><strong>'+x[eu()]+'</strong></button>').join('')+
+   '</div></section></div>';
+  const [credits,slug,admissions,overview,overviewEu,career,careerEu]=foreignDetails[index];
+  const plan='https://www.digipen.es/es/estudios/'+slug;
+  const tuition='https://www.digipen.es/admissions/tuition-and-fees';
+  const order='https://www.euskadi.eus/bopv2/datos/2026/02/2600867a.pdf';
+  const link=(href,text)=>'<a href="'+href+'" target="_blank" rel="noopener noreferrer">'+text+' ↗</a>';
+  const money=new Intl.NumberFormat(window.UniI18n?.locale||'es-ES',{style:'currency',currency:'EUR',useGrouping:'always',maximumFractionDigits:0});
+  const duration=tr('4 años','4 urte'), creditText=credits+tr(' créditos estadounidenses',' kreditu estatubatuar');
+  const prices=card(tr('Coste de los estudios','Ikasketen kostua'),'<p>2026–2027 · '+tr('Matrícula a tiempo completo','Lanaldi osoko matrikula')+'</p><dl class="fact-grid">'+[
+   [tr('Primer curso · tarifa UE','Lehen maila · EBko tarifa'),money.format(14000)],
+   [tr('Cuatro años · estimación UE','Lau urte · EBko zenbatespena'),money.format(56000)],
+   [tr('Primer curso · no residentes UE','Lehen maila · EBtik kanpoko egoiliarrak'),money.format(18000)],
+   [tr('Cuatro años · estimación no residentes UE','Lau urte · EBtik kanpoko egoiliarren zenbatespena'),money.format(72000)]
+  ].map(fact).join('')+'</dl><div class="cost-caveat">'+tr(
+   'Estimaciones con la tarifa anual constante. Aparte, DigiPen indica 60 € de solicitud, 150 € de inscripción, 80 € por semestre entre administración y tecnología y unos 480 € al año en libros.',
+   'Urteko tarifa berdina mantenduta egindako zenbatespenak. DigiPenek beste gastu hauek adierazten ditu: 60 € eskaeragatik, 150 € izen-emateagatik, 80 € seihilekoko administrazio eta teknologiagatik eta urtean 480 € inguru liburuetan.')+'</div>');
+  const access=card(tr('Acceso y admisión','Sarbidea eta onarpena'),'<p>'+tr(
+   'Preinscripción en DigiPen y evaluación de la solicitud a lo largo del año. Prepara el expediente académico y la acreditación de inglés. Consulta en la ficha del programa los documentos y el ensayo de admisión.',
+   'Egin aurreinskripzioa DigiPenen. Eskaerak urtean zehar ebaluatzen dira. Prestatu ikasketa-espedientea eta ingelesaren egiaztagiria. Begiratu programaren fitxan agiriak eta onarpenerako idazlana.')+'</p><p>'+
+   (index==='0'||index===0?tr('Arte Digital y Animación exige un portafolio artístico propio.','Arte Digitala eta Animazioa egiteko norberaren arte-portfolioa aurkeztu behar da.'):
+    tr('Para los programas de informática, revisa la preparación de matemáticas exigida.','Informatikako programetarako, begiratu eskatutako matematika-maila.'))+
+   '</p><p>'+tr('Plazas de nuevo ingreso pendientes de verificar.','Ikasle berrientzako plaza kopurua egiaztatu gabe.')+'</p>');
+  const facts=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
+   [tr('Centro','Ikastegia'),centerName],[tr('Sede','Egoitza'),'Zorrotzaurre · Bilbao'],
+   [tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),creditText],
+   [tr('Idioma','Hizkuntza'),tr('Inglés','Ingelesa')],[tr('Modalidad','Modalitatea'),tr('Presencial','Aurrez aurrekoa')]
+  ].map(fact).join('')+'</dl>');
+  const sources=card(tr('Enlaces y fuentes','Estekak eta iturriak'),'<div class="sources-list">'+
+   link(plan,tr('Ficha oficial','Fitxa ofiziala'))+link(plan+'/requisitos-academicos',tr('Plan y créditos','Ikasketa-plana eta kredituak'))+
+   link(admissions,tr('Requisitos de admisión','Onarpen-baldintzak'))+link(tuition,tr('Matrícula y tasas','Matrikula eta tasak'))+
+   link(order,tr('Autorización del Gobierno Vasco','Eusko Jaurlaritzaren baimena'))+'</div>');
+  const orientation=card(tr('¿Qué es?','Zer da?'),'<p>'+tr(overview,overviewEu)+'</p><h3>'+
+   tr('Salidas profesionales','Lanbide-aukerak')+'</h3><p>'+tr(career,careerEu)+'</p><p>'+
+   link(plan,tr('Proyectos y ejemplos del centro','Ikastegiko proiektuak eta adibideak'))+'</p>');
+  const tabButton=(key,text)=>'<button type="button" id="foreign-tab-'+key+'" role="tab" aria-controls="foreign-panel-'+key+
+   '" aria-selected="'+(tab===key)+'" data-action="foreign-tab" data-tab="'+key+'">'+text+'</button>';
+  const panel=(key,body,classes='')=>'<div id="foreign-panel-'+key+'" role="tabpanel" aria-labelledby="foreign-tab-'+key+
+   '" class="'+classes+'"'+(tab===key?'':' hidden')+'>'+body+'</div>';
+  return '<article data-no-translate><div class="page-top">'+back()+'<div class="eyebrow">'+centerName+'</div></div>'+
+   '<div class="detail-title-override"><div class="detail-heading"><h1>'+degree[eu()]+'</h1></div><p>'+degree[2]+'</p><div class="detail-tags">'+
+   [tr('Título extranjero','Atzerriko titulua'),duration,creditText].map(value=>'<span class="pill">'+value+'</span>').join('')+'</div></div>'+
+   '<div class="mini-alert admission-notice">'+intro+'</div><div class="detail-tabs" role="tablist" aria-label="'+
+   tr('Información de la carrera','Graduari buruzko informazioa')+'">'+tabButton('ficha',tr('Ficha y acceso','Fitxa eta sarbidea'))+
+   tabButton('orientation',tr('¿Qué es?','Zer da?'))+'</div>'+panel('ficha','<div class="detail-main">'+prices+access+
+   '</div><aside class="detail-sidebar">'+facts+sources+'</aside>','detail-layout')+panel('orientation',orientation)+'</article>';
  }
  window.UniArts = {portal,catalog,detail,foreignPortal,foreignView};
 })();
