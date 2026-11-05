@@ -156,3 +156,7 @@
 .filter-page-nav .center-brand-logo { width: 240px; max-width: 42vw; height: 110px; object-fit: contain; }
 .filter-page-nav .filter-page-logo { width: 200px; max-width: 38vw; height: 64px; object-fit: contain; }
 @media(max-width:690px){.filter-page-nav .center-brand-logo{width:180px;height:85px;max-width:54vw}.filter-page-nav .filter-page-logo{width:150px;height:52px;max-width:48vw}}
+
+@media screen {
+ .detail-heading .favorite-button { position: fixed; right: max(20px, calc((100vw - 1160px) / 2)); bottom: max(20px, env(safe-area-inset-bottom)); z-index: 40; box-shadow: 0 4px 18px #102c4133; min-height: 44px; max-width: min(240px, calc(100vw - 40px)); padding: 10px 14px; font-size: 13px; }
+}
