@@ -295,7 +295,7 @@
     "2025–2026ko erreferentziazko prezioa. Batxilergotik sartzeko ohiko bidea Diseinuko proba espezifikoa da. Kontsultatu zuzeneko sarbidea ematen duten titulazioak."
   ]
 };
- const centerLogo=key=>{const id=key.startsWith('dantzerti')?'dantzerti':key;return ['musikene','digipen','dantzerti','idarte','ied'].includes(id)?'<img class="center-brand-logo" src="assets/logos/'+id+'.png" alt="'+(id==='digipen'?'DigiPen Europe-Bilbao':id==='dantzerti'?'Dantzerti':id==='idarte'?'IDarte':id==='ied'?'IED Kunsthal':'Musikene')+'">':'';};
+ const centerLogo=key=>{const id=key.startsWith('dantzerti')?'dantzerti':key;return ['musikene','digipen','dantzerti','idarte','ied','navarra-music'].includes(id)?'<img class="center-brand-logo" src="assets/logos/'+id+'.png" alt="'+(id==='digipen'?'DigiPen Europe-Bilbao':id==='dantzerti'?'Dantzerti':id==='idarte'?'IDarte':id==='ied'?'IED Kunsthal':id==='navarra-music'?'Conservatorio Superior de Música de Navarra':'Musikene')+'">':'';};
  const fact = ([label,value]) => '<div class="fact"><dt>'+label+'</dt><dd>'+value+'</dd></div>';
  const card = (title,body) => '<section class="section-card"><h2>'+title+'</h2>'+body+'</section>';
  function detail(id,back,tab='ficha') {
