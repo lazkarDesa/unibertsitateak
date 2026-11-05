@@ -201,7 +201,7 @@
    tr('Grados oficiales y pruebas específicas de acceso.','Gradu ofizialak eta sarbide-proba espezifikoak.')+'</p></button></div></section>';
  }
  function catalog(back) {
-  return '<div data-no-translate><div class="page-top">'+back()+'<h1>'+label()+'</h1><p>'+
+  return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+label()+'</h1><p>'+
    tr('Elige una especialidad para consultar qué se estudia y cómo se accede.','Aukeratu espezialitate bat zer ikasten den eta nola sartzen den jakiteko.')+
    '</p></div>'+Object.entries(titles).map(([kind,title])=>'<section class="section-card"><h2>'+title[eu()]+'</h2><div class="portal-grid">'+
    offerings.filter(x=>x.group[3]===kind).map(x=>'<button class="portal-card" data-action="art-detail" data-art="'+x.id+'" type="button"><strong>'+
