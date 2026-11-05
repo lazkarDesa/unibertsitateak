@@ -148,3 +148,5 @@
 .branch-links .theme-card:disabled :is(b, small, .theme-illustration) { color: inherit; }
 .branch-links .theme-card:disabled .theme-illustration { background: #e6ecee; }
 .branch-links .theme-card:disabled:hover { transform: none; box-shadow: none; }
+
+.map-button{display:inline-flex;align-items:center;vertical-align:middle;background:white;border:1px solid #ccd9df;border-radius:6px;padding:4px;margin-inline-end:6px;cursor:pointer}#location-dialog{width:min(900px,94vw);border:1px solid #ccd9df;border-radius:12px;padding:16px}#location-dialog::backdrop{background:#0008}.map-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.map-heading h2{font-size:18px}.map-heading button{font-size:24px;background:none;border:0}#location-dialog iframe{width:100%;height:60vh;border:0}

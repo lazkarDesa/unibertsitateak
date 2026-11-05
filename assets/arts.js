@@ -325,7 +325,7 @@
    '</p><p>'+tr('Las ponderaciones de la EBAU no se aplican.','EAESeko haztapenak ez dira aplikatzen.')+'</p>'+
    (exam==null?'':'<dl class="fact-grid">'+fact([tr('Tasa de la prueba','Probaren tasa'),money(exam)])+'</dl>'));
   const academic=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
-   [tr('Centro','Ikastegia'),center(group)],[tr('Localidad','Herria'),group[2]],
+   [tr('Centro','Ikastegia'),center(group)],[tr('Localidad','Herria'),group[2]+' '+window.UniMaps.button(center(group)+', '+group[2])],
    [tr('Disciplina','Diziplina'),discipline],[tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),credits]
   ].map(fact).join('')+'</dl>');
   const sources=card(tr('Enlaces y fuentes','Estekak eta iturriak'),'<div class="sources-list">'+
@@ -422,7 +422,7 @@
     tr('Para los programas de informática, revisa la preparación de matemáticas exigida.','Informatikako programetarako, begiratu eskatutako matematika-maila.'))+
    '</p><p>'+tr('Plazas de nuevo ingreso pendientes de verificar.','Ikasle berrientzako plaza kopurua egiaztatu gabe.')+'</p>');
   const facts=card(tr('Datos académicos','Datu akademikoak'),'<dl class="fact-grid">'+[
-   [tr('Centro','Ikastegia'),centerName],[tr('Sede','Egoitza'),'Zorrotzaurre · Bilbao'],
+   [tr('Centro','Ikastegia'),centerName],[tr('Sede','Egoitza'),'Zorrotzaurre · Bilbao '+window.UniMaps.button('DigiPen Ribera de Zorrotzaurre 2 Bilbao')],
    [tr('Duración','Iraupena'),duration],[tr('Créditos','Kredituak'),creditText],
    [tr('Idioma','Hizkuntza'),tr('Inglés','Ingelesa')],[tr('Modalidad','Modalitatea'),tr('Presencial','Aurrez aurrekoa')]
   ].map(fact).join('')+'</dl>');
