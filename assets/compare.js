@@ -202,7 +202,11 @@
    if(!ready())return;
    box.innerHTML=result(...selected().map(i=>options[Number(i)]));
    onChange({picks:selected(),shown:true});
-   if(track)window.UniAnalytics?.emit('comparison_view');
+   if(track){
+    const [first,second]=selected().map(i=>options[Number(i)]);
+    window.UniAnalytics?.emit('comparison_view',{screen_name:'compare',university:first.uni,degree:first.offer.titulacion,
+     comparison_university_2:second.uni,comparison_degree_2:second.offer.titulacion});
+   }
   }
   button.disabled=!ready();
   button.addEventListener('click',()=>show(true));

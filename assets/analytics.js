@@ -12,7 +12,7 @@
  function view(route) {
   const path = [route.screen, route.uni, route.segment, route.tab].filter(Boolean)
    .map(encodeURIComponent).join('/');
-  const current = {screen_name: route.screen, university: route.uni || null, degree: route.degree || null,
+  const current = {teaching_center:route.center || null, screen_name: route.screen, university: route.uni || null, degree: route.degree || null,
    page_title: [route.title, 'Uni Explorer'].filter(Boolean).join(' · '),
    page_location: new URL('./#/' + path, window.location.href).href};
   if (!enabled || current.page_location === lastLocation) return;
@@ -20,6 +20,7 @@
   lastLocation = current.page_location;
   const kind = {university:'university_view', detail:route.tab === 'orientation' ? 'orientation_view' : 'degree_view', favorites:'favorites_view'};
   if (kind[route.screen]) emit(kind[route.screen], current);
+  if (['art-detail','foreign-detail'].includes(route.screen)) emit(route.tab==='orientation'?'orientation_view':'degree_view', current);
  }
  function gtag(){window.dataLayer.push(arguments);}
  if (enabled) {

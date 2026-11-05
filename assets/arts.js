@@ -445,5 +445,10 @@
    tabButton('orientation',tr('¿Qué es?','Zer da?'))+'</div>'+panel('ficha','<div class="detail-main">'+prices+access+
    '</div><aside class="detail-sidebar">'+facts+sources+'</aside>','detail-layout')+panel('orientation',orientation)+'</article>';
  }
- window.UniArts = {portal,catalog,detail,foreignPortal,foreignView};
+ function analyticsEntry(screen,id) {
+  if(screen==='foreign-detail'&&foreign[id])return {name:foreign[id][0],center:'DigiPen Europe-Bilbao'};
+  const item=screen==='art-detail'&&offerings.find(x=>x.id===id);
+  if(item)return {name:item.specialty[0],center:Array.isArray(item.group[1])?item.group[1][0]:item.group[1]};
+ }
+ window.UniArts = {portal,catalog,detail,foreignPortal,foreignView,analyticsEntry};
 })();
