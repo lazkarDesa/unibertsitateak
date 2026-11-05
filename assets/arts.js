@@ -203,9 +203,12 @@
  function catalog(back) {
   return '<div class="arts-catalog" data-no-translate><div class="page-top">'+back()+'<h1>'+label()+'</h1><p>'+
    tr('Elige una especialidad para consultar qué se estudia y cómo se accede.','Aukeratu espezialitate bat zer ikasten den eta nola sartzen den jakiteko.')+
-   '</p></div>'+Object.entries(titles).map(([kind,title])=>'<section class="section-card"><h2>'+title[eu()]+'</h2><div class="portal-grid">'+
-   offerings.filter(x=>x.group[3]===kind).map(x=>'<button class="portal-card" data-action="art-detail" data-art="'+x.id+'" type="button"><strong>'+
-    x.specialty[eu()]+'</strong><p>'+center(x.group)+' · '+x.group[2]+'</p></button>').join('')+'</div></section>').join('')+'</div>';
+   '</p></div>'+Object.entries(titles).map(([kind,title])=>'<section class="section-card"><h2>'+title[eu()]+'</h2>'+
+   groups.filter(group=>group[3]===kind).map(group=>'<section class="arts-center"><h3>'+center(group)+
+    ' <small>'+group[2]+'</small></h3><div class="portal-grid">'+
+    offerings.filter(x=>x.group===group).map(x=>'<button class="portal-card" data-action="art-detail" data-art="'+x.id+
+     '" type="button"><strong>'+x.specialty[eu()]+'</strong></button>').join('')+'</div></section>').join('')+
+   '</section>').join('')+'</div>';
  }
  const practicalInfo = {
   "musikene": [
