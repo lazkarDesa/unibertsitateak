@@ -143,3 +143,8 @@
 .arts-center + .arts-center { margin-top: 12px; }
 .arts-center h3 { margin: 0 0 6px; font-size: 1rem; }
 .arts-center h3 small { margin-inline-start: .35rem; color: var(--ink-2); font-weight: 400; }
+
+.branch-links .theme-card:disabled { color: #62747d; background: #f4f6f7; border-color: #dce4e7; opacity: 1; }
+.branch-links .theme-card:disabled :is(b, small, .theme-illustration) { color: inherit; }
+.branch-links .theme-card:disabled .theme-illustration { background: #e6ecee; }
+.branch-links .theme-card:disabled:hover { transform: none; box-shadow: none; }
