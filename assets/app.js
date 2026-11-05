@@ -100,7 +100,8 @@
  const universityLogo=id=>`assets/logos/${id}.${['deusto','mondragon','uned'].includes(id)?'png':'svg'}`;
  function filterTop(uni,heading,description){
   const logo='<img class="filter-page-logo" data-logo-uni="'+safe(uni)+'" src="'+universityLogo(uni)+'" alt="'+safe(CFG[uni].name)+'">';
-  const name=heading?logo:'<h1>'+logo+'</h1>';
+  const destination=window.UniI18n?.url(CFG[uni].website)||CFG[uni].website;
+  const name='<a href="'+safe(destination)+'" target="_blank" rel="noopener noreferrer">'+logo+'</a>';
   return '<div class="page-top filter-page-top"><div class="filter-page-nav">'+backBtn()+name+'</div>'+
    (heading?'<h1>'+safe(heading)+'</h1>':'')+'<p>'+safe(description)+'</p></div>';
  }

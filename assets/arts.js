@@ -295,7 +295,22 @@
     "2025–2026ko erreferentziazko prezioa. Batxilergotik sartzeko ohiko bidea Diseinuko proba espezifikoa da. Kontsultatu zuzeneko sarbidea ematen duten titulazioak."
   ]
 };
- const centerLogo=key=>{const id=key.startsWith('dantzerti')?'dantzerti':key;return ['musikene','digipen','dantzerti','idarte','ied','navarra-music','navarra-design'].includes(id)?'<img class="center-brand-logo" src="assets/logos/'+id+'.png" alt="'+(id==='digipen'?'DigiPen Europe-Bilbao':id==='dantzerti'?'Dantzerti':id==='idarte'?'IDarte':id==='ied'?'IED Kunsthal':id==='navarra-music'?'Conservatorio Superior de Música de Navarra':id==='navarra-design'?'Escuela de Arte de Pamplona':'Musikene')+'">':'';};
+ const logoWebsites={
+  musikene:['https://musikene.eus/','https://musikene.eus/?lang=eu'],
+  dantzerti:['https://www.dantzerti.eus/es/inicio','https://www.dantzerti.eus/eu/sarrera-probak/zer_da_dantzerti'],
+  idarte:['https://www.idarte.eus/es/','https://www.idarte.eus/'],
+  ied:['https://www.ied.es/kunsthal-bilbao'],
+  digipen:['https://www.digipen.es/es/'],
+  'navarra-music':['https://csmn.es/'],
+  'navarra-design':['https://escueladeartesuperior.educacion.navarra.es/web/']
+ };
+ const centerLogo=(key,linked=true)=>{
+  const id=key.startsWith('dantzerti')?'dantzerti':key;
+  const urls=logoWebsites[id];if(!urls)return '';
+  const image='<img class="center-brand-logo" src="assets/logos/'+id+'.png" alt="'+(id==='digipen'?'DigiPen Europe-Bilbao':id==='dantzerti'?'Dantzerti':id==='idarte'?'IDarte':id==='ied'?'IED Kunsthal':id==='navarra-music'?'Conservatorio Superior de Música de Navarra':id==='navarra-design'?'Escuela de Arte de Pamplona':'Musikene')+'">';
+  const destination=eu()&&urls[1]?urls[1]:urls[0];
+  return linked?'<a href="'+destination+'" target="_blank" rel="noopener noreferrer">'+image+'</a>':image;
+ };
  const fact = ([label,value]) => '<div class="fact"><dt>'+label+'</dt><dd>'+value+'</dd></div>';
  const card = (title,body) => '<section class="section-card"><h2>'+title+'</h2>'+body+'</section>';
  function detail(id,back,tab='ficha') {
@@ -352,7 +367,7 @@
  ];
  const foreignLabel=()=>tr('Titulaciones extranjeras impartidas aquí','Hemen ematen diren atzerriko titulazioak');
  function foreignPortal(){
-  return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><div>'+centerLogo('digipen')+'</div><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
+  return '<section data-no-translate><h2 class="portal-label">'+foreignLabel()+'</h2><div class="portal-grid"><button class="portal-card" data-action="foreign" type="button"><div>'+centerLogo('digipen',false)+'</div><h2>DigiPen Europe-Bilbao</h2><p>'+tr('Cuatro titulaciones estadounidenses autorizadas en Bilbao.','Bilbon baimendutako Estatu Batuetako lau titulazio.')+'</p></button></div></section>';
  }
  const foreignDetails = [
   [
