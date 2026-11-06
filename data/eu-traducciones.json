@@ -1409,7 +1409,7 @@
     "Euskara": "Euskara",
     "Español": "Gaztelania",
     "Euskera": "Euskara",
-    "Inglés": "Ingelesa",
+    "Inglés": "ingelesa",
     "Francés": "Frantsesa",
     "Alemán": "Alemana",
     "Italiano": "Italiera",
@@ -2318,7 +2318,23 @@
     "Algunas asignaturas de Ciencias incluyen prácticas presenciales. Consulta los requisitos de tu plan y del centro asociado.": "Zientzietako irakasgai batzuek aurrez aurreko praktikak dituzte. Kontsultatu zure planaren eta ikastetxe elkartuaren baldintzak.",
     "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar.": "2026–2027an ematen da. Lehen mailako ikasle berrien sarrera baieztatu gabe.",
     "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.": "Atxikitako ikastegiaren eskaintza. Kontsultatu BAMen egutegia eta tarifak.",
-    "Doble grado con tarifa de primero publicada para 2026–2027.": "Gradu bikoitza, 2026–2027ko lehen mailako tarifa argitaratuta."
+    "Doble grado con tarifa de primero publicada para 2026–2027.": "Gradu bikoitza, 2026–2027ko lehen mailako tarifa argitaratuta.",
+    "Castellano, Euskera, Inglés": "Gaztelania, euskara, ingelesa",
+    "castellano": "gaztelania",
+    "castellano (posibilidad de cursar asignaturas en inglés y euskera)": "gaztelania (irakasgaiak egiteko aukera hizkuntzan ingelesa eta euskara)",
+    "castellano (posibilidad de cursar algunas asignaturas en euskera e inglés)": "gaztelania (zenbait irakasgai egiteko aukera hizkuntzan euskara eta ingelesa)",
+    "castellano (posibilidad de asignaturas en inglés y euskera)": "gaztelania (irakasgaiak egiteko aukera hizkuntzan ingelesa eta euskara)",
+    "castellano (posibilidad de asignaturas en inglés)": "gaztelania (irakasgaiak egiteko aukera hizkuntzan ingelesa)",
+    "castellano (posibilidad de asignaturas en euskera e inglés)": "gaztelania (irakasgaiak egiteko aukera hizkuntzan euskara eta ingelesa)",
+    "castellano e inglés (B2 requerido)": "gaztelania eta ingelesa (B2 behar da)",
+    "bilingüe, castellano e inglés (B2 requerido)": "elebiduna, gaztelania eta ingelesa (B2 behar da)",
+    "Este grado se puede cursar en: Castellano Euskera": "Gradu hau hizkuntza hauetan egin daiteke: gaztelania euskara",
+    "Castellano (grado íntegro en castellano) Euskera (grado íntegro en euskera)": "gaztelania (gradu osoa gaztelaniaz) euskara (gradu osoa euskaraz)",
+    "Este grado se pueder cursar en bilingüe, castellano e inglés (B2 requerido) bilingüe euskera e inglés (B2 requerido)": "Gradu hau hizkuntza hauetan egin daiteke: elebiduna, gaztelania eta ingelesa (B2 behar da) elebiduna euskara eta ingelesa (B2 behar da)",
+    "bilingüe, castellano e inglés (B2 requerido) bilingüe euskera e inglés (B2 requerido)": "elebiduna, gaztelania eta ingelesa (B2 behar da) elebiduna euskara eta ingelesa (B2 behar da)",
+    "Este doble grado se pueder cursar en Castellano (grado íntegro en castellano) Euskera (grado íntegro en euskera)": "Gradu bikoitz hau hizkuntza hauetan egin daiteke: gaztelania (gradu osoa gaztelaniaz) euskara (gradu osoa euskaraz)",
+    "castellano (posibilidad de cursar algunas asignaturas en euskera)": "gaztelania (zenbait irakasgai egiteko aukera hizkuntzan euskara)",
+    "castellano (posibilidad de cursar algunas asignaturas inglés y euskera)": "gaztelania (zenbait irakasgai egiteko aukera ingelesa eta euskara)"
   },
   "templates": [
     [
