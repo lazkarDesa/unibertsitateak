@@ -1,13 +1,13 @@
 # Ayuda y manual de Uni Explorer
 
-Revisión: 3 de noviembre de 2026.
+Revisión: 6 de noviembre de 2026.
 
-El icono **? Ayuda** de la cabecera está disponible en todas las rutas y abre una ventana contextual grande. El perfil y el selector de interés incorporan además su propio acceso. La ventana permite consultar los 16 temas, ampliar las capturas, descargar el PDF y cerrar con la X, Escape o el fondo exterior; al cerrar devuelve el foco al control que la abrió.
+La ayuda contextual cubre 23 temas en castellano y euskera: navegación, perfil, filtros, ponderaciones, interés, comparador, fichas, costes, mapas, QEDU, UNED, enseñanzas artísticas y titulaciones extranjeras. Incluye las novedades de plazas, idiomas, prácticas y el filtro por campus de la ficha.
 
-El contenido común del PDF y de las ventanas está en `data/ayuda-contenido.json` y su versión JavaScript. Las 22 capturas anotadas de `assets/help/` muestran un perfil y valoraciones de ejemplo. El manual es `docs/manual-uni-explorer.pdf`, con índice enlazado y marcadores. Abrir ayuda no modifica el perfil, las valoraciones, los filtros ni la ruta.
+Cada idioma tiene 55 capturas propias y anotadas: 27 de ordenador y 28 de móvil. Las imágenes móviles muestran la distribución real y el botón del libro; no son recortes de la versión de ordenador. La ayuda elige las capturas de móvil hasta 690 px y permite cambiar entre ambas vistas con el selector Capturas.
 
-Las rutas de inicio, universidad, campus, rama, asignatura, ficha pública, ficha privada, orientación y carreras seleccionadas tienen un tema inicial propio. También hay temas de perfil, ponderaciones, compatibilidad, empleo, estados de interés, móvil y datos locales.
+El contenido se guarda en data/ayuda-contenido.json y data/ayuda-contenido-eu.json, con sus envoltorios JavaScript. Las imágenes están en assets/help y assets/help-eu; las de móvil, en la subcarpeta mobile de cada idioma. Los textos, las marcas numeradas y las imágenes deben revisarse juntos.
 
-No se cargan librerías, analítica o imágenes de terceros para esta función. Las capturas y el PDF se sirven con la aplicación. Cuando cambie una pantalla o una regla, deben revisarse el texto, las marcas numeradas y el PDF juntos.
+Los manuales docs/manual-uni-explorer.pdf y docs/manual-uni-explorer-eu.pdf incluyen ambas vistas, índice enlazado y marcadores. Las pantallas largas se dividen en varias páginas para facilitar su lectura. Los ejemplos no sustituyen las fuentes oficiales ni las fechas de cada dato.
 
-Validación: pruebas de rutas de ayuda, apertura y cierre con retorno de foco, conservación de ruta, cobertura de capturas, enlace al manual y regresión de las funciones existentes. El PDF se renderiza para comprobar la maquetación y las marcas se contrastan con las capturas originales.
+La ayuda no modifica perfil, selección, filtros ni ruta. Conserva el retorno del foco al cerrarse y los eventos de uso y descarga del PDF. La revisión se valida con pruebas de cobertura bilingüe y móvil, comprobación visual de capturas y renderizado de los PDF.
