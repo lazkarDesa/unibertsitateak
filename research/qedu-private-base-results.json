@@ -1,0 +1,16 @@
+[
+  {
+    "record": "031:31006511:2504218",
+    "status": 200,
+    "url": "https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas",
+    "file": "research/qedu-private-pages/unav-ade-base.html",
+    "checked": "2026-11-06"
+  },
+  {
+    "record": "031:31006511:2504217",
+    "status": 200,
+    "url": "https://www.unav.edu/web/grado-en-economia",
+    "file": "research/qedu-private-pages/unav-economia-base.html",
+    "checked": "2026-11-06"
+  }
+]

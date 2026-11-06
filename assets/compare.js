@@ -7,7 +7,7 @@
  const languageFlags = [
   [/castellano|español|gaztelania/i, 'es', 'Castellano'],
   [/euskera|euskara|vasco/i, 'eu', 'Euskera'],
-  [/inglés|english|ingelesa/i, 'gb', 'Inglés']
+  [/ingl[eé]s|english|ingelesa/i, 'gb', 'Inglés']
  ];
  const officialLink = (url,label) => /^https:\/\//.test(url || '') ?
   '<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>' : '';

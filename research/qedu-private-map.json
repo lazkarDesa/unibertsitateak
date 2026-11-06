@@ -1,0 +1,698 @@
+{
+  "deusto": {
+    "DEUSTO_A2F05C58C4": {
+      "record": "030:48008422:2501204",
+      "scope": "exact"
+    },
+    "DEUSTO_CB0337ED9E": {
+      "record": "030:48008422:2501204",
+      "scope": "exact"
+    },
+    "DEUSTO_DEF8806258": {
+      "record": "030:48009372:2504021",
+      "scope": "exact"
+    },
+    "DEUSTO_1FE454564E": {
+      "record": "030:48009372:2504021",
+      "scope": "exact"
+    },
+    "DEUSTO_FA36F2BE2D": {
+      "record": "030:48012905:2502954",
+      "scope": "exact"
+    },
+    "DEUSTO_57E1DA384E": {
+      "record": "030:48012905:2502954",
+      "scope": "exact"
+    },
+    "DEUSTO_F96FC19DB6": {
+      "record": "030:48012711:2500546",
+      "scope": "exact"
+    },
+    "DEUSTO_CC9266E296": {
+      "record": "030:48008409:2500547",
+      "scope": "exact"
+    },
+    "DEUSTO_65B34C0A84": {
+      "record": "030:48008409:2500547",
+      "scope": "exact"
+    },
+    "DEUSTO_41A965CE4C": {
+      "record": "030:48012905:2500549",
+      "scope": "exact"
+    },
+    "DEUSTO_B67F189767": {
+      "record": "030:48012905:2500549",
+      "scope": "exact"
+    },
+    "DEUSTO_383CE0F568": {
+      "record": "030:48012899:2504512",
+      "scope": "exact"
+    },
+    "DEUSTO_06329EB625": {
+      "record": "030:48012899:2504512",
+      "scope": "exact"
+    },
+    "DEUSTO_BBF06C8105": {
+      "record": "030:48012711:2503546",
+      "scope": "exact"
+    },
+    "DEUSTO_4005F85B4A": {
+      "record": "030:48012899:2504124",
+      "scope": "exact"
+    },
+    "DEUSTO_2AA8CE1647": {
+      "record": "030:48009372:2504460",
+      "scope": "exact"
+    },
+    "DEUSTO_E6121A20BC": {
+      "record": "030:48009372:2503148",
+      "scope": "exact"
+    },
+    "DEUSTO_AEE8DDE2C7": {
+      "record": "030:48009372:2503123",
+      "scope": "exact"
+    },
+    "DEUSTO_25024F8314": {
+      "record": "030:48009372:2500555",
+      "scope": "exact"
+    },
+    "DEUSTO_DF66D537E5": {
+      "record": "030:48009372:2503147",
+      "scope": "exact"
+    },
+    "DEUSTO_C943CAA910": {
+      "record": "030:48009372:2500556",
+      "scope": "exact"
+    },
+    "DEUSTO_B597D9F74B": {
+      "record": "030:48009372:2500556",
+      "scope": "exact"
+    },
+    "DEUSTO_70EDD83149": {
+      "record": "030:48009372:1500010",
+      "scope": "exact"
+    },
+    "DEUSTO_2800606D06": {
+      "record": "030:48009372:2503149",
+      "scope": "exact"
+    },
+    "DEUSTO_19F1A02DD0": {
+      "record": "030:48009372:2504114",
+      "scope": "exact"
+    },
+    "DEUSTO_70696FC890": {
+      "record": "030:48012711:2500558",
+      "scope": "exact"
+    },
+    "DEUSTO_136E9D8343": {
+      "record": "030:48012899:2503884",
+      "scope": "exact"
+    },
+    "DEUSTO_627AA5ACA7": {
+      "record": "030:48012899:2500560",
+      "scope": "exact"
+    },
+    "DEUSTO_ECF6A67685": {
+      "record": "030:48012711:2502804",
+      "scope": "exact"
+    },
+    "DEUSTO_C0986C5FFF": {
+      "record": "030:48012711:2500561",
+      "scope": "exact"
+    },
+    "DEUSTO_A627277BAF": {
+      "record": "030:48012711:2500561",
+      "scope": "exact"
+    },
+    "DEUSTO_17A646EE14": {
+      "record": "030:48008495:7000077",
+      "scope": "exact"
+    },
+    "DEUSTO_B80B622429": {
+      "record": "030:48008495:7000077",
+      "scope": "exact"
+    },
+    "DEUSTO_54103FC8B3": {
+      "record": "030:48008495:7000647",
+      "scope": "exact"
+    },
+    "DEUSTO_3A083612CE": {
+      "record": "030:48008495:7000078",
+      "scope": "exact"
+    },
+    "audit-turismo": {
+      "record": "030:48012711:2500562",
+      "scope": "exact"
+    },
+    "audit-bam-infantil": {
+      "record": "030:48012723:2500548",
+      "scope": "exact"
+    },
+    "audit-bam-primaria": {
+      "record": "030:48012723:2500549",
+      "scope": "exact"
+    },
+    "audit-derecho-rrll": {
+      "record": "030:48008409:7000644",
+      "scope": "exact"
+    },
+    "DEUSTO_95D92A2FA0": {
+      "record": "030:48008422:2501204",
+      "scope": "base-degree"
+    },
+    "DEUSTO_69D4AC753E": {
+      "record": "030:48008422:2501204",
+      "scope": "base-degree"
+    },
+    "DEUSTO_56BEA379C3": {
+      "record": "030:48012905:2500550",
+      "scope": "exact"
+    },
+    "DEUSTO_11867277B9": {
+      "record": "030:48012711:2500559",
+      "scope": "exact"
+    },
+    "DEUSTO_D19B6320A1": {
+      "record": "030:48012711:2503144",
+      "scope": "exact"
+    }
+  },
+  "navarra": {
+    "UNIVERSIDAD DE NAVARRA_23E4929148": {
+      "record": "031:20006286:1500243",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_2442E70F60": {
+      "record": "031:20006286:2500951",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_4F5A23ED7F": {
+      "record": "031:20006286:2501056",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_BC7DFEEB6F": {
+      "record": "031:31006557:2503657",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_3F426E995E": {
+      "record": "031:31006600:2504234",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_6CDCFB4420": {
+      "record": "031:31006612:2500589",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_25CF3704AD": {
+      "record": "031:31006570:2501235",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_FC37858EEB": {
+      "record": "031:31006569:2500946",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_610A39CE16": {
+      "record": "031:31006533:2500591",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_79C6C105D0": {
+      "record": "031:31006612:2503391",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_F89AF2CC65": {
+      "record": "031:31009340:2500860",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_B0D695A7E4": {
+      "record": "031:31006582:2500592",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_7055635E0F": {
+      "record": "031:31006582:2500727",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_74A0425AD7": {
+      "record": "031:20006286:2500949",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_D14319EB44": {
+      "record": "031:20006286:2501058",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_831894877A": {
+      "record": "031:20006286:2500950",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_09A1B32D30": {
+      "record": "031:20006286:2500990",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_17F6D6FB88": {
+      "record": "031:31006594:2503724",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_A07444F281": {
+      "record": "031:31009327:2503801",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_3A31F91152": {
+      "record": "031:31009340:2502926",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_06DB306FA4": {
+      "record": "031:31006594:2503120",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_AB7F8EA4A7": {
+      "record": "031:20006286:2501057",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_E8D5257478": {
+      "record": "031:31009340:2500593",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_9610C29950": {
+      "record": "031:31006594:2503121",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_F7AC3340D6": {
+      "record": "031:31006570:2503211",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_58B7A1D875": {
+      "record": "031:31006569:2500588",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_4F816B1199": {
+      "record": "031:31006569:2500945",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_D4996A921A": {
+      "record": "031:31006569:2502932",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_5920112D53": {
+      "record": "031:31006594:2504554",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_72687146B8": {
+      "record": "031:31009340:2500861",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_1B324F6430": {
+      "record": "031:31006594:7000912",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_53F6434781": {
+      "record": "031:31006651:7000283",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_520171F61D": {
+      "record": "031:31006570:7000766",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_3998451730": {
+      "record": "031:31006582:7000075",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_6FD1AAB452": {
+      "record": "031:20006286:7000924",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_E30319448F": {
+      "record": "031:31006569:7000574",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_EF40ED1B44": {
+      "record": "031:31006612:1500616",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_F95315351B": {
+      "record": "031:31006557:2503362",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_15C0070345": {
+      "record": "031:20006286:2500990",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_ACCCB4E5A9": {
+      "record": "031:31006511:2504218",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_BAACAC3C2E": {
+      "record": "031:31006511:2504218",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_75E7550D40": {
+      "record": "031:31006594:7000069",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_C8332AA147": {
+      "record": "031:31006511:2504218",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_24BFFC3E42": {
+      "record": "031:31006533:2500591",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_C70FE6B0D7": {
+      "record": "031:31006533:2500591",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_D2A9867E81": {
+      "record": "031:31006511:7001103",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_4922E05B8F": {
+      "record": "031:31006511:7001102",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_423E5A39C0": {
+      "record": "031:31006511:2504218",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_C37B644F44": {
+      "record": "031:31006533:2500591",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_8A6C91C5AB": {
+      "record": "031:31006533:2500591",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_1005CAB1DC": {
+      "record": "031:31006594:7000070",
+      "scope": "exact"
+    },
+    "UNIVERSIDAD DE NAVARRA_26496BB0E1": {
+      "record": "031:31006511:2504217",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_E98629FFAB": {
+      "record": "031:31006511:2504217",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_FE096D9E79": {
+      "record": "031:31006569:2500588",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_B41577E083": {
+      "record": "031:31006582:2500592",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_F2E82B4327": {
+      "record": "031:31009340:2500861",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_D6116177AC": {
+      "record": "031:31006594:2503121",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_8754B08745": {
+      "record": "031:31006582:2500727",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_FAB723F687": {
+      "record": "031:31006600:2504234",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_7B0652A798": {
+      "record": "031:31006569:2500946",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_E9213C7913": {
+      "record": "031:31006569:2500945",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_A76BDE28B6": {
+      "record": "031:31006569:2502932",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_C12517ACC6": {
+      "record": "031:20006286:2500950",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_C8E373237C": {
+      "record": "031:31006570:2503211",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_3092372B81": {
+      "record": "031:31006570:2503211",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_270F7839A2": {
+      "record": "031:31006594:2503121",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_95852D0CAB": {
+      "record": "031:31006594:2503120",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_38F5D6D7FB": {
+      "record": "031:31006594:2503724",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_1CA4027D11": {
+      "record": "031:31006569:2500588",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_0A4FC92D4B": {
+      "record": "031:31006569:2500946",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_9FC8860AB3": {
+      "record": "031:31006569:2500945",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_238E7F0C59": {
+      "record": "031:31006582:2500727",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_A39C1611E7": {
+      "record": "031:31006594:2504554",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_C7BBFFF6DE": {
+      "record": "031:31009340:2500860",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_D97C92CCA4": {
+      "record": "031:31006511:2504217",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_FE10C594E0": {
+      "record": "031:31006612:2500589",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_5C2EE76793": {
+      "record": "031:31006570:2501235",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_D7017DB14D": {
+      "record": "031:31006570:2501235",
+      "scope": "base-degree"
+    },
+    "UNIVERSIDAD DE NAVARRA_1F9D5FD6DC": {
+      "record": "031:31006570:2501235",
+      "scope": "base-degree"
+    }
+  },
+  "mondragon": {
+    "MU_5B0719893912": {
+      "record": "061:20006195:2500197",
+      "scope": "exact"
+    },
+    "MU_E30476F61B62": {
+      "record": "061:20006195:2500197",
+      "scope": "exact"
+    },
+    "MU_BD5397B5D88A": {
+      "record": "061:20006195:2500035",
+      "scope": "exact"
+    },
+    "MU_D3632455710E": {
+      "record": "061:20006195:2500037",
+      "scope": "exact"
+    },
+    "MU_A649F2D1EA12": {
+      "record": "061:20006195:2500199",
+      "scope": "exact"
+    },
+    "MU_93FA34406C2A": {
+      "record": "061:20006195:2500036",
+      "scope": "exact"
+    },
+    "MU_2E75539B137C": {
+      "record": "061:20006195:2502828",
+      "scope": "exact"
+    },
+    "MU_6668E2021A80": {
+      "record": "061:20006195:2502830",
+      "scope": "exact"
+    },
+    "MU_64571838BD59": {
+      "record": "061:20006195:2504522",
+      "scope": "exact"
+    },
+    "MU_CCE53848A43F": {
+      "record": "061:20006195:2503651",
+      "scope": "exact"
+    },
+    "MU_D843C5F7D087": {
+      "record": "061:20006195:2503651",
+      "scope": "exact"
+    },
+    "MU_85710221267B": {
+      "record": "061:20006195:2503651",
+      "scope": "exact"
+    },
+    "MU_19FF9915A7CB": {
+      "record": "061:20006195:2502851",
+      "scope": "exact"
+    },
+    "MU_3C91038F1194": {
+      "record": "061:20006468:2500586",
+      "scope": "exact"
+    },
+    "MU_17686CA4BE36": {
+      "record": "061:20006468:2500587",
+      "scope": "exact"
+    },
+    "MU_1AFC0D3319D0": {
+      "record": "061:20006468:2500587",
+      "scope": "exact"
+    },
+    "MU_1133239C4FAE": {
+      "record": "061:20006468:2500585",
+      "scope": "exact"
+    },
+    "MU_7F5AB86BB7E4": {
+      "record": "061:20006468:1500474",
+      "scope": "exact"
+    },
+    "MU_B6FA9A24C252": {
+      "record": "061:20009585:2502671",
+      "scope": "exact"
+    },
+    "MU_AF5743E954BF": {
+      "record": "061:20006201:2503947",
+      "scope": "exact"
+    },
+    "MU_09760A1F00A9": {
+      "record": "061:20006201:2500121",
+      "scope": "exact"
+    },
+    "MU_9109E4DB24B3": {
+      "record": "061:20006201:2500121",
+      "scope": "exact"
+    },
+    "MU_2DA1C52522B3": {
+      "record": "061:20006201:2500121",
+      "scope": "exact"
+    },
+    "MU_0F13A12E1081": {
+      "record": "061:20006201:2500121",
+      "scope": "base-degree"
+    },
+    "MU_BD63D3C84D94": {
+      "record": "061:20006201:2500121",
+      "scope": "base-degree"
+    },
+    "MU_07D6873AF2A5": {
+      "record": "061:20006201:2500121",
+      "scope": "base-degree"
+    },
+    "MU_9B955270CDB8": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_D5880248BDB0": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_6DE3677D6F42": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_43863240D2C2": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_79FF6B4D8F5C": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_8513A183A51E": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_6F7F9D92F020": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_921C3A30EEBC": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_48119E984FE5": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_94E74CAA3A60": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_F4CAF2E9F8C8": {
+      "record": "061:20006201:2501277",
+      "scope": "exact"
+    },
+    "MU_62C1E09E8A89": {
+      "record": "061:20006468:2504144",
+      "scope": "exact"
+    }
+  },
+  "euneiz": {
+    "euneiz-01": {
+      "record": "098:01003240:2504745",
+      "scope": "exact"
+    },
+    "euneiz-02": {
+      "record": "098:01003240:2504560",
+      "scope": "exact"
+    },
+    "euneiz-03": {
+      "record": "098:01003239:2504557",
+      "scope": "exact"
+    },
+    "euneiz-04": {
+      "record": "098:01003240:2504744",
+      "scope": "exact"
+    },
+    "euneiz-05": {
+      "record": "098:01003239:2504558",
+      "scope": "exact"
+    },
+    "euneiz-06": {
+      "record": "098:01003239:1500223",
+      "scope": "exact"
+    },
+    "euneiz-07": {
+      "record": "098:01003240:2504559",
+      "scope": "exact"
+    },
+    "euneiz-08": {
+      "record": "098:01003239:1500498",
+      "scope": "exact"
+    },
+    "euneiz-10": {
+      "record": "098:01003239:1500497",
+      "scope": "exact"
+    },
+    "euneiz-12": {
+      "record": "098:01003239:7001420",
+      "scope": "exact"
+    },
+    "euneiz-09": {
+      "record": "098:01003240:2504561",
+      "scope": "exact"
+    }
+  }
+}

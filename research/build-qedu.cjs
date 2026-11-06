@@ -9,7 +9,9 @@ const key=g=>norm(g.nombre_corto||g.titulacion).replace(/\s*\((?:plan nuevo|nuev
 const entities={aacute:'á',eacute:'é',iacute:'í',oacute:'ó',uacute:'ú',ntilde:'ñ',uuml:'ü',nbsp:' ',amp:'&',quot:'"',ordf:'ª',euro:'€'};
 const plain=x=>String(x||'').replace(/<[^>]*>/g,' ').replace(/&([a-z]+);/gi,(a,b)=>entities[b]||a).replace(/\s+/g,' ').trim();
 const records={};for(const q of raw){const id=[q.card.codUniv,q.card.codCentro,q.card.codTitula].join(':');records[id]={id,codes:{university:q.card.codUniv,center:q.card.codCentro,title:q.card.codTitula},detail:q.detail,employment:typeof q.employment==='object'?q.employment:null,checked};}
-const out={meta:{checked,source:'https://www.ciencia.gob.es/qedu.html',methodology:'https://www.ciencia.gob.es/qedu/AyudaQEDU.html',endpoint:'https://www.ciencia.gob.es/home/qedu/main/zona02/0',employmentYearsAfterGraduation:4,employmentCohort:null,employmentReferenceYear:null,admissionMeanCourse:null},records,offers:map,groups:{ehu:{},upna:{}}};
+const previous=read('data/qedu-datos.json');
+const retained=Object.fromEntries(Object.entries(previous.records||{}).filter(([,r])=>!['020','035'].includes(r.codes.university)));
+const out={meta:{checked,source:'https://www.ciencia.gob.es/qedu.html',methodology:'https://www.ciencia.gob.es/qedu/AyudaQEDU.html',endpoint:'https://www.ciencia.gob.es/home/qedu/main/zona02/0',employmentYearsAfterGraduation:4,employmentCohort:null,employmentReferenceYear:null,admissionMeanCourse:null},records:{...retained,...records},offers:{...previous.offers,...map},groups:{...previous.groups,ehu:{},upna:{}}};
 const audit=[];let languages=0;const orientation=read('data/orientacion-datos.json');
 for(const uni of ['ehu','upna']){const d=read('data/'+uni+'-datos.json');for(const g of d.grados.filter(g=>g.oferta_2026!==false)){
  const q=records[map[uni][g.id]],file='research/qedu-universities/'+g.id+'.html';let html=fs.existsSync(file)?fs.readFileSync(file,'utf8'):'';

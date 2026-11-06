@@ -13819,462 +13819,1240 @@
     },
     "deusto": {
       "DEUSTO_69D4AC753E": {
-        "count": 450,
+        "count": 250,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
         "course": null,
-        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/deusto-finance-programme",
-        "checked": "2026-11-02",
+        "checked": "2026-11-06",
+        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/deusto-finance-programme?idSeccion=2",
         "campus": "Bilbao"
       },
       "DEUSTO_A2F05C58C4": {
-        "count": 450,
-        "course": null,
+        "count": 250,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ade",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_CB0337ED9E": {
-        "count": 450,
-        "course": null,
+        "count": 200,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ade",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_37B5BE87F9": {
         "count": 100,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/scientiis-religiosis",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_B0D067B010": {
         "count": 100,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/baccalaureatus-in-theologia",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_DEF8806258": {
-        "count": 90,
+        "count": 60,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ciencia-de-datos-e-inteligencia-artificial",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_1FE454564E": {
-        "count": 90,
+        "count": 30,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ciencia-de-datos-e-inteligencia-artificial",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_FA36F2BE2D": {
         "count": 80,
+        "scope": "campus",
+        "note": "Plazas publicadas para este campus.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/cafyd",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_57E1DA384E": {
-        "count": 80,
+        "count": 30,
+        "scope": "campus",
+        "note": "Plazas publicadas para este campus.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/cafyd",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_F96FC19DB6": {
         "count": 75,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/comunicacion",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_CC9266E296": {
-        "count": 450,
-        "course": null,
+        "count": 300,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/derecho",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_65B34C0A84": {
-        "count": 450,
-        "course": null,
+        "count": 80,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/derecho",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_41A965CE4C": {
         "count": 60,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-primaria",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_B67F189767": {
         "count": 60,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-primaria",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_56BEA379C3": {
         "count": 80,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-social",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_383CE0F568": {
-        "count": 180,
-        "course": null,
+        "count": 100,
+        "scope": "campus",
+        "note": "Plazas publicadas para este campus.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/enfermeria",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_06329EB625": {
-        "count": 180,
-        "course": null,
+        "count": 80,
+        "scope": "campus",
+        "note": "Plazas publicadas para este campus.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/enfermeria",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_BBF06C8105": {
         "count": 40,
-        "course": null,
+        "scope": "degree",
+        "note": "",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/filosofia-politica-economia",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_4005F85B4A": {
-        "count": 120,
-        "course": null,
+        "count": 90,
+        "scope": "degree",
+        "note": "120 (90 asignadas al Grado y 30 Doble Grado)",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/fisioterapia",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_2AA8CE1647": {
         "count": 45,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-biomedica",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_E6121A20BC": {
         "count": 40,
+        "scope": "degree",
+        "note": "40 (grado) 10 (doble grado)",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-electonica-industrial-automatica",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_AEE8DDE2C7": {
         "count": 60,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-diseno-industrial",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_25024F8314": {
         "count": 60,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-organizacion-industrial",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_DF66D537E5": {
         "count": 100,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-tecnologias-industriales",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_C943CAA910": {
         "count": 235,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-informatica1",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_B597D9F74B": {
         "count": 235,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-informatica1",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_70EDD83149": {
         "count": 50,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-matematica",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_2800606D06": {
         "count": 50,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-mecanica",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_19F1A02DD0": {
         "count": 45,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-robotica",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_11867277B9": {
         "count": 65,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/management-languages-international-trade",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_D19B6320A1": {
         "count": 35,
+        "scope": "degree",
+        "note": "35 plazas para el grado + Language&Technology y 15 para el doble grado de LCV+LLMM",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/lengua-cultura-vasca",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_70696FC890": {
-        "count": 75,
-        "course": null,
+        "count": 60,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/lenguas-modernas",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_136E9D8343": {
         "count": 80,
-        "course": null,
+        "scope": "degree",
+        "note": "",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/medicina",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_627AA5ACA7": {
         "count": 180,
+        "scope": "degree",
+        "note": "",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/psicologia",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_ECF6A67685": {
         "count": 175,
-        "course": null,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-internacionales",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_C0986C5FFF": {
         "count": 135,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/trabajo-social",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_A627277BAF": {
         "count": 135,
+        "scope": "shared",
+        "note": "Total conjunto del título, compartido entre campus o programas. No consta un desglose para esta oferta.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/trabajo-social",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_17A646EE14": {
-        "count": 450,
-        "course": null,
+        "count": 250,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-derecho",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_B80B622429": {
-        "count": 450,
-        "course": null,
+        "count": 200,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-derecho",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
       },
       "DEUSTO_54103FC8B3": {
-        "count": 450,
-        "course": null,
+        "count": 250,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": "2027–2028",
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-ingenieria-tecnologias-industriales",
-        "checked": "2026-11-02",
         "campus": "Bilbao"
       },
       "DEUSTO_3A083612CE": {
-        "count": 450,
+        "count": 200,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
         "course": null,
+        "checked": "2026-11-06",
         "source": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-informatica",
-        "checked": "2026-11-02",
         "campus": "Donostia-San Sebastián"
+      },
+      "DEUSTO_95D92A2FA0": {
+        "count": 200,
+        "scope": "shared",
+        "note": "Plazas compartidas entre programas de este campus; no son plazas exclusivas de esta opción.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ade",
+        "campus": "Donostia-San Sebastián"
+      },
+      "audit-industria": {
+        "count": 40,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/grado-dual-industria-digital",
+        "campus": "Vitoria-Gasteiz"
+      },
+      "audit-turismo": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/turismo",
+        "campus": "Bilbao"
+      },
+      "audit-derecho-rrll": {
+        "count": 65,
+        "scope": "degree",
+        "note": "65 plazas en total (30 Relaciones Laborales y 35 plazas Derecho+RRLL)",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-laborales",
+        "campus": "Bilbao"
+      },
+      "audit-bam-infantil": {
+        "count": 60,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "audit-bam-primaria": {
+        "count": 135,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
       }
     },
-    "navarra": {},
+    "navarra": {
+      "UNIVERSIDAD DE NAVARRA_23E4929148": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-inteligencia-artificial",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_2442E70F60": {
+        "count": 150,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-tecnologias-industriales",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_4F5A23ED7F": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-biomedica",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_BC7DFEEB6F": {
+        "count": 100,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-estudios-de-arquitectura",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_3F426E995E": {
+        "count": 200,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-medicina",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_FC37858EEB": {
+        "count": 50,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-quimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_F89AF2CC65": {
+        "count": 40,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-educacion-infantil",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_B0D695A7E4": {
+        "count": 130,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-farmacia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_7055635E0F": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-nutricion-humana-y-dietetica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_F95315351B": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-diseno",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_74A0425AD7": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-mecanica",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_D14319EB44": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-electronica-industrial",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_831894877A": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-organizacion-industrial",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_09A1B32D30": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-diseno-industrial-y-desarrollo-de-productos",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_17F6D6FB88": {
+        "count": 50,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-filosofia-politica-y-economia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_A07444F281": {
+        "count": 70,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-gestion-aplicada-applied-management",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_AB7F8EA4A7": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-electrica",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_E8D5257478": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-pedagogia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_58B7A1D875": {
+        "count": 100,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-biologia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_4F816B1199": {
+        "count": 120,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-bioquimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_D4996A921A": {
+        "count": 40,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ciencias-ambientales",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_5920112D53": {
+        "count": 40,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-lengua-y-literatura",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_72687146B8": {
+        "count": 50,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-educacion-primaria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_15C0070345": {
+        "count": 90,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-diseno-industrial-y-desarrollo-de-productos",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_FE096D9E79": {
+        "count": 100,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-biologia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_B41577E083": {
+        "count": 130,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-farmacia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_F2E82B4327": {
+        "count": 50,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-educacion-primaria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_8754B08745": {
+        "count": 90,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-nutricion-humana-y-dietetica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_FAB723F687": {
+        "count": 200,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-medicina",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_7B0652A798": {
+        "count": 50,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-quimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_E9213C7913": {
+        "count": 120,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-bioquimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_A76BDE28B6": {
+        "count": 40,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ciencias-ambientales",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_C12517ACC6": {
+        "count": 90,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-ingenieria-en-organizacion-industrial",
+        "campus": "Donostia-San Sebastián"
+      },
+      "UNIVERSIDAD DE NAVARRA_38F5D6D7FB": {
+        "count": 50,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-filosofia-politica-y-economia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_1CA4027D11": {
+        "count": 100,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-biologia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_0A4FC92D4B": {
+        "count": 50,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-quimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_9FC8860AB3": {
+        "count": 120,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-bioquimica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_238E7F0C59": {
+        "count": 90,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-nutricion-humana-y-dietetica",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_A39C1611E7": {
+        "count": 40,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-lengua-y-literatura",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_C7BBFFF6DE": {
+        "count": 40,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-educacion-infantil",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_610A39CE16": {
+        "count": 130,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-enfermeria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_ACCCB4E5A9": {
+        "count": 230,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_BAACAC3C2E": {
+        "count": 230,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_C8332AA147": {
+        "count": 230,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_24BFFC3E42": {
+        "count": 130,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-enfermeria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_C70FE6B0D7": {
+        "count": 130,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-enfermeria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_423E5A39C0": {
+        "count": 230,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_C37B644F44": {
+        "count": 130,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-enfermeria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_8A6C91C5AB": {
+        "count": 130,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-enfermeria",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_26496BB0E1": {
+        "count": 80,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-economia",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_E98629FFAB": {
+        "count": 80,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-economia",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_D97C92CCA4": {
+        "count": 80,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-economia",
+        "course": null,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento."
+      },
+      "UNIVERSIDAD DE NAVARRA_06B1446FF9": {
+        "count": 90,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-comunicacion-corporativa",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_EF40ED1B44": {
+        "count": 50,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-periodismo",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_6CDCFB4420": {
+        "count": 75,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-creacion-audiovisual",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_25CF3704AD": {
+        "count": 300,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-derecho",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_79C6C105D0": {
+        "count": 100,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-marketing",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_06DB306FA4": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-filosofia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_F7AC3340D6": {
+        "count": 125,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-relaciones-internacionales",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_FE10C594E0": {
+        "count": 75,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-creacion-audiovisual",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_C8E373237C": {
+        "count": 125,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-relaciones-internacionales",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_3092372B81": {
+        "count": 125,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-relaciones-internacionales",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_95852D0CAB": {
+        "count": 60,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-filosofia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_5C2EE76793": {
+        "count": 300,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-derecho",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_D7017DB14D": {
+        "count": 300,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-derecho",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_1F9D5FD6DC": {
+        "count": 300,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-derecho",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_9610C29950": {
+        "count": 60,
+        "scope": "degree",
+        "note": "",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-historia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_D6116177AC": {
+        "count": 60,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-historia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_270F7839A2": {
+        "count": 60,
+        "scope": "shared",
+        "note": "Plazas del grado oficial de base, compartidas con sus programas. No son plazas exclusivas del complemento.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.unav.edu/web/grado-en-historia",
+        "campus": "Pamplona"
+      },
+      "UNIVERSIDAD DE NAVARRA_3A31F91152": {
+        "count": 70,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      }
+    },
     "mondragon": {
       "MU_A0C6BAA166A3": {
         "count": 40,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
+        "campus": "Bilbao"
       },
       "MU_5B0719893912": {
         "count": 110,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_E30476F61B62": {
         "count": 110,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+        "campus": "Goierri (Ordizia)"
       },
       "MU_BD5397B5D88A": {
         "count": 70,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_D3632455710E": {
         "count": 65,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_A649F2D1EA12": {
         "count": 60,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_93FA34406C2A": {
         "count": 60,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_2E75539B137C": {
         "count": 40,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-energia",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-energia",
+        "campus": "Hernani (Galarreta)"
       },
       "MU_6668E2021A80": {
         "count": 40,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_64571838BD59": {
         "count": 40,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
+        "campus": "Bilbao"
       },
       "MU_CCE53848A43F": {
         "count": 120,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "campus": "Arrasate-Mondragón"
       },
       "MU_D843C5F7D087": {
         "count": 120,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "campus": "Bilbao"
       },
       "MU_85710221267B": {
         "count": 120,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+        "campus": "Hernani (Galarreta)"
       },
       "MU_3C91038F1194": {
         "count": 150,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-educacion-infantil",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-educacion-infantil",
+        "campus": "Eskoriatza"
       },
       "MU_17686CA4BE36": {
         "count": 225,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
+        "campus": "Eskoriatza"
       },
       "MU_1AFC0D3319D0": {
         "count": 225,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-educacion-primaria",
+        "campus": "Bilbao"
       },
       "MU_B17859D3175D": {
         "count": 50,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-pedagogia",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-pedagogia",
+        "campus": "Eskoriatza"
       },
       "MU_84DF1E24E1E6": {
         "count": 50,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-pedagogia",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad total publicada para el título, sin reparto verificado entre sedes. No sumar estas plazas por campus."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-pedagogia",
+        "campus": "Bilbao"
       },
       "MU_1133239C4FAE": {
         "count": 50,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
+        "campus": "Aretxabaleta"
       },
       "MU_7F5AB86BB7E4": {
         "count": 50,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
+        "campus": "Aretxabaleta"
       },
       "MU_62C1E09E8A89": {
         "count": 40,
-        "course": null,
-        "source": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
-        "checked": "2026-11-03",
         "scope": "degree",
-        "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
+        "campus": "Bilbao"
       },
       "MU_B6FA9A24C252": {
         "count": 100,
@@ -14283,92 +15061,269 @@
         "checked": "2026-11-03",
         "scope": "degree",
         "note": "Capacidad publicada en la ficha; confirma el curso y la disponibilidad en admisión."
+      },
+      "MU_19FF9915A7CB": {
+        "count": 40,
+        "scope": "degree",
+        "note": "Total publicado para el título; no se desglosa por cada sede o itinerario.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales",
+        "campus": "Hernani (Galarreta)"
+      },
+      "MU_AF5743E954BF": {
+        "count": 50,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_09760A1F00A9": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_9109E4DB24B3": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_2DA1C52522B3": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_0F13A12E1081": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_BD63D3C84D94": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_07D6873AF2A5": {
+        "count": 215,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_9B955270CDB8": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_D5880248BDB0": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_6DE3677D6F42": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_43863240D2C2": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_79FF6B4D8F5C": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_8513A183A51E": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_6F7F9D92F020": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_921C3A30EEBC": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_48119E984FE5": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_94E74CAA3A60": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
+      },
+      "MU_F4CAF2E9F8C8": {
+        "count": 440,
+        "scope": "degree",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.ciencia.gob.es/qedu.html",
+        "note": "QEDU: total del título, sin desglose por campus o programa y sin curso explícito. Confirmar la oferta vigente con la universidad."
       }
     },
     "euneiz": {
       "euneiz-01": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-en-arte-para-videojuegos/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-arte-para-videojuegos/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-02": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-ciberseguridad/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-ciberseguridad/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-03": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-ciencias-actividad-fisica-deporte/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-ciencias-actividad-fisica-deporte/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-04": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-diseno-desarrollo-videojuegos/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-diseno-desarrollo-videojuegos/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-05": {
         "count": 60,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-fisioterapia/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-fisioterapia/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-06": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-en-gestion-deportiva/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-gestion-deportiva/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-07": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-multimedia/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-multimedia/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-08": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-en-podologia/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-podologia/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-09": {
         "count": 40,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-produccion-musical/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-produccion-musical/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-10": {
         "count": 60,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/grado-en-psicologia/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-psicologia/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-11": {
         "count": 60,
         "scope": "degree",
-        "checked": "2026-11-04",
-        "course": "2026–2027",
-        "source": "https://www.euneiz.com/grados-universitarios/grado-en-enfermeria/"
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
+        "course": null,
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/grado-en-enfermeria/",
+        "campus": "Vitoria-Gasteiz"
       },
       "euneiz-12": {
         "count": 15,
         "scope": "degree",
-        "checked": "2026-11-04",
+        "note": "Plazas de nuevo ingreso publicadas por EUNEIZ.",
         "course": null,
-        "source": "https://www.euneiz.com/grados-universitarios/doble-titulacion-fisioterapia-y-ciencias-de-la-actividad-fisica-y-el-deporte/"
+        "checked": "2026-11-06",
+        "source": "https://www.euneiz.com/grados-universitarios/doble-titulacion-fisioterapia-y-ciencias-de-la-actividad-fisica-y-el-deporte/",
+        "campus": "Vitoria-Gasteiz"
       }
     },
     "uned": {}

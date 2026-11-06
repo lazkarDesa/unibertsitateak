@@ -1,0 +1,3 @@
+$jobs=@(@{record='031:31006511:2504218';url='https://www.unav.edu/web/grado-en-administracion-y-direccion-de-empresas';file='research/qedu-private-pages/unav-ade-base.html'},@{record='031:31006511:2504217';url='https://www.unav.edu/web/grado-en-economia';file='research/qedu-private-pages/unav-economia-base.html'})
+$out=@();foreach($j in $jobs){try{Invoke-WebRequest $j.url -OutFile $j.file -UseBasicParsing -TimeoutSec 30;$out+=@{record=$j.record;url=$j.url;file=$j.file;status=200;checked=(Get-Date).ToUniversalTime().ToString('yyyy-MM-dd')}}catch{$out+=@{record=$j.record;url=$j.url;error=$_.Exception.Message}}}
+$out | ConvertTo-Json | Set-Content research/qedu-private-base-results.json -Encoding utf8

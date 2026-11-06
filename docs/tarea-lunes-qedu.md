@@ -21,3 +21,17 @@ Pendientes iniciales de correspondencia EHU: Double Bachelors degree in Business
 Validar los JSON/JS sincronizados, ejecutar tests/qedu.test.cjs y las pruebas de orientación, traducción y fichas afectadas. Publicar cambios autorizados en main, comprobar GitHub Pages y la URL pública en castellano y euskera. Entregar resumen con cambios, diferencias pendientes, fuentes y cursos. Si no hay novedades, indicar que la revisión se ha realizado sin alterar datos.
 
 La tarea debe poder acceder a Internet y publicar en ese repositorio. En la oficina usar el proxy configurado del equipo; en casa conexión directa. No guardar credenciales ni la dirección de un proxy con contraseña en el repositorio.
+
+## Ampliación a universidades privadas
+
+Incluir también Deusto (código QEDU 030), Universidad de Navarra (031), Mondragon (061) y EUNEIZ (098). Sus correspondencias revisadas están en research/qedu-private-map.json y la revisión por oferta en docs/revision-qedu-privadas.json. Reconstruir con research/build-qedu-private.cjs tras renovar las descargas; research/fetch-qedu-private.ps1 descarga QEDU y research/fetch-qedu-private-pages.ps1 consulta las fichas oficiales. Conservar los registros de las otras universidades cuando se actualice solo una parte.
+
+Para las privadas, priorizar plazas e idiomas de la ficha universitaria. QEDU sí devuelve algunas cifras de plazas privadas pese a lo que describe su ayuda: conservarlas como contraste o respaldo con curso no indicado, nunca como oferta actual por campus si el registro no lo desglosa. No mostrar notas de corte públicas ni precios QEDU no disponibles. Diferenciar centro propio y adscrito (BAM no es la Facultad de Educación de Deusto); excluir de la aplicación centros de otras provincias como Voxel Madrid salvo nueva autorización.
+
+Los títulos propios y diplomas complementarios no tienen una ficha QEDU independiente. Se puede enlazar el grado oficial de base con advertencia expresa, sin atribuir sus indicadores al complemento. No confundir planes anteriores y nuevos: Periodismo UN, por ejemplo, tiene más de un registro. Mantener los casos dudosos como pendientes, sin adjudicarles estadísticas de otro plan.
+
+EUNEIZ: los idiomas se han verificado en las memorias que enlaza la universidad; la evidencia con código de título, página y URL está en research/qedu-euneiz-language-evidence.json. Renovar esas memorias antes de reconstruir la revisión. El idioma de las pruebas de acceso o del sitio web no demuestra el idioma de docencia. La memoria de Producción Musical y Sonido enumera numerosas lenguas: confirmar la docencia efectiva antes de mostrar idiomas como verificados.
+
+Mantener ES/EU para nuevas notas de alcance y fuentes de idiomas. En la ventana QEDU conservar la separación entre acceso e inserción laboral, la consulta en directo y el respaldo fechado. Ejecutar también tests/qedu-private.test.cjs y tests/detail-campus.test.cjs.
+
+Deusto: si la descarga directa devuelve 403, consultar sus fichas oficiales mediante la herramienta de búsqueda o navegador. Conservar únicamente los campos comprobados (idioma, plazas, alcance, URL, fecha) en research/qedu-deusto-web-fields.json. El constructor solo utiliza las comprobaciones cuya fecha coincide con la descarga QEDU; no renovar fechas sin volver a consultar la fuente. Las páginas HTML, PDF y extracciones son material de trabajo local y deben descargarse de nuevo al actualizar.

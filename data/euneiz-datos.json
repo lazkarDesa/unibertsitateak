@@ -5,7 +5,8 @@
     ],
     "curso_precio": "2027–2028",
     "fuente_oferta": "https://www.euneiz.com/grados-universitarios/",
-    "fuente_precio": "https://www.euneiz.com/informacion-academica/"
+    "fuente_precio": "https://www.euneiz.com/informacion-academica/",
+    "qedu_checked": "2026-11-06"
   },
   "grados": [
     {
@@ -29,7 +30,16 @@
       "coste_total_est": 36480,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003240:2504745",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_Arte_Videojuegos_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-02",
@@ -52,7 +62,16 @@
       "coste_total_est": 37680,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003240:2504560",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_Ciberseguridad_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-03",
@@ -75,7 +94,16 @@
       "coste_total_est": 35400,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:2504557",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_CAFYD_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-04",
@@ -98,7 +126,16 @@
       "coste_total_est": 36480,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003240:2504744",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_Diseno_Desarrollo_Videojuegos_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-05",
@@ -121,7 +158,16 @@
       "coste_total_est": 35400,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:2504558",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_Fisioterapia_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-06",
@@ -144,7 +190,16 @@
       "coste_total_est": 33840,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:1500223",
+      "pagina_idiomas": 2,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2024/09/m-g-gestion-deportiva.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-07",
@@ -168,7 +223,16 @@
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
       "observaciones": "EUNEIZ sitúa Multimedia en Industrias Culturales y Creativas.",
-      "clasificacion_rama": "Clasificación orientativa por contenido"
+      "clasificacion_rama": "Clasificación orientativa por contenido",
+      "qedu_id": "098:01003240:2504559",
+      "pagina_idiomas": 4,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2024/09/m-g-multimedia.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-08",
@@ -191,7 +255,16 @@
       "coste_total_est": 35400,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:1500498",
+      "pagina_idiomas": 2,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2025/07/Doc7_MEMORIA_SEDE_Web-Grado-Podologia.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-09",
@@ -214,7 +287,12 @@
       "coste_total_est": 37680,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003240:2504561",
+      "idiomas": null,
+      "estado_idiomas": "Pendiente de confirmación de la docencia efectiva",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2024/09/m-g-produccion-musica-sonido.pdf",
+      "pagina_idiomas": 4
     },
     {
       "id": "euneiz-10",
@@ -237,7 +315,16 @@
       "coste_total_est": 35400,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:1500497",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2025/05/Doc7_G_Psicologia_MemoriaSEDE_070425.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-11",
@@ -260,7 +347,15 @@
       "coste_total_est": 35400,
       "curso_precio": "2027–2028",
       "creditos_primero": 60,
-      "observaciones": "EUNEIZ exige una prueba presencial de acceso para Enfermería."
+      "observaciones": "EUNEIZ exige una prueba presencial de acceso para Enfermería.",
+      "pagina_idiomas": 3,
+      "idiomas": "Castellano",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/07/GradoEnfermeria_MemoriaVerificacion_julio26.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "euneiz-12",
@@ -283,7 +378,15 @@
       "coste_total_est": 54722.5,
       "curso_precio": "2027–2028",
       "creditos_primero": 78,
-      "observaciones": ""
+      "observaciones": "",
+      "qedu_id": "098:01003239:7001420",
+      "idiomas": "Castellano (grados componentes; confirmar el itinerario del doble grado)",
+      "fuente_idiomas": "https://www.euneiz.com/wp-content/uploads/2026/10/MEMORIA_G_Fisioterapia_Mod1_SEDE.pdf",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     }
   ]
 }

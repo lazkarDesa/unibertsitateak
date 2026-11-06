@@ -29,7 +29,8 @@
       "LEINN · Seúl",
       "LEINN · Puebla (México)"
     ],
-    "nota": "9 ubicaciones de campus en Euskadi y sedes de la red LEINN. Las fichas pueden señalar elección de sede para primero sin asegurar que todos los cursos se completen allí. Precios previstos 2027–2028, pendientes de aprobación según la tabla oficial."
+    "nota": "9 ubicaciones de campus en Euskadi y sedes de la red LEINN. Las fichas pueden señalar elección de sede para primero sin asegurar que todos los cursos se completen allí. Precios previstos 2027–2028, pendientes de aprobación según la tabla oficial.",
+    "qedu_checked": "2026-11-06"
   },
   "grados": [
     {
@@ -75,7 +76,13 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Título pendiente de verificación según la ficha oficial. Confirma la aprobación y la oferta definitiva antes de solicitar admisión. La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": false
+      "precio_credito_derivado": false,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-diseno-desarrollo-productos-digitales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false
     },
     {
       "id": "MU_5B0719893912",
@@ -120,7 +127,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500197"
     },
     {
       "id": "MU_E30476F61B62",
@@ -165,7 +179,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-mecanica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500197"
     },
     {
       "id": "MU_BD5397B5D88A",
@@ -210,7 +231,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-diseno-industrial-desarrollo-producto",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500035"
     },
     {
       "id": "MU_D3632455710E",
@@ -255,7 +283,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-organizacion-industrial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500037"
     },
     {
       "id": "MU_A649F2D1EA12",
@@ -300,7 +335,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-electronica-industrial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500199"
     },
     {
       "id": "MU_93FA34406C2A",
@@ -345,7 +387,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-informatica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2500036"
     },
     {
       "id": "MU_2E75539B137C",
@@ -390,7 +439,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-energia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2502828"
     },
     {
       "id": "MU_6668E2021A80",
@@ -435,7 +491,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-biomedica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2502830"
     },
     {
       "id": "MU_64571838BD59",
@@ -480,7 +543,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-fisica-aplicada-industria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2504522"
     },
     {
       "id": "MU_CCE53848A43F",
@@ -525,7 +595,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2503651"
     },
     {
       "id": "MU_D843C5F7D087",
@@ -570,7 +647,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2503651"
     },
     {
       "id": "MU_85710221267B",
@@ -615,7 +699,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-mecatronica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2503651"
     },
     {
       "id": "MU_19FF9915A7CB",
@@ -660,7 +751,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Enseñanzas en proceso de amortización. Consulta continuidad y alternativas: no se confirma una oferta de nuevo ingreso. La ficha de algunas ingenierías permite elegir sede o idioma para el primer curso. Comprueba dónde se completan los cursos superiores y las condiciones del recorrido dual. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": false
+      "precio_credito_derivado": false,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-ingenieria-ecotecnologias-procesos-industriales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006195:2502851"
     },
     {
       "id": "MU_AF5743E954BF",
@@ -705,7 +803,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-business-data-analytics",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2503947"
     },
     {
       "id": "MU_09760A1F00A9",
@@ -750,7 +855,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_9109E4DB24B3",
@@ -795,7 +907,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_2DA1C52522B3",
@@ -840,7 +959,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_0F13A12E1081",
@@ -885,7 +1011,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_BD63D3C84D94",
@@ -930,7 +1063,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_07D6873AF2A5",
@@ -975,7 +1115,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La tabla económica distingue los itinerarios Dual y Dual+, con precios diferentes. Confirma con la facultad las condiciones del itinerario y su disponibilidad en la sede elegida. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-administracion-direccion-empresas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2500121"
     },
     {
       "id": "MU_9B955270CDB8",
@@ -1020,7 +1167,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_D5880248BDB0",
@@ -1065,7 +1219,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_6DE3677D6F42",
@@ -1110,7 +1271,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_43863240D2C2",
@@ -1127,7 +1295,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1155,7 +1323,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_79FF6B4D8F5C",
@@ -1172,7 +1347,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1200,7 +1375,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_8513A183A51E",
@@ -1217,7 +1399,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1245,7 +1427,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_6F7F9D92F020",
@@ -1262,7 +1451,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1290,7 +1479,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_921C3A30EEBC",
@@ -1307,7 +1503,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1335,7 +1531,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_48119E984FE5",
@@ -1352,7 +1555,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1380,7 +1583,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": false
+      "precio_credito_derivado": false,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_94E74CAA3A60",
@@ -1397,7 +1607,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1425,7 +1635,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_F4CAF2E9F8C8",
@@ -1442,7 +1659,7 @@
       "ects": 240,
       "plan_base_ects": 240,
       "anos": 4,
-      "idiomas": "Consultar laboratorio; la ficha general recoge español, euskera e inglés",
+      "idiomas": "Español, Euskera, Inglés",
       "modalidad": "Semipresencial · laboratorio colaborador",
       "formacion_dual": false,
       "url_grado": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
@@ -1470,7 +1687,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad distingue sus campus de Euskadi de los laboratorios LEINN de la red internacional, desarrollados con entidades colaboradoras. Las modalidades, condiciones y precios pueden variar por sede. Sede de la red LEINN, no un campus universitario propio. Consulta la entidad colaboradora, las condiciones y el título expedido. La tabla oficial incluye una nota específica sobre la financiación de los viajes de LEINN; revisa sus condiciones. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-liderazgo-emprendedor-innovacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006201:2501277"
     },
     {
       "id": "MU_3C91038F1194",
@@ -1515,7 +1739,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-educacion-infantil",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:2500586"
     },
     {
       "id": "MU_17686CA4BE36",
@@ -1560,7 +1791,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-educacion-primaria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:2500587"
     },
     {
       "id": "MU_1AFC0D3319D0",
@@ -1605,7 +1843,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-educacion-primaria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:2500587"
     },
     {
       "id": "MU_B17859D3175D",
@@ -1650,7 +1895,13 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad presenta este recorrido como segundo grado de 120 ECTS en dos años, dirigido a personas con estudios previos. En 2026–2027 se prioriza a tituladas en Educación Infantil o Primaria. Confirma las vías de acceso antes de considerarlo una entrada directa desde Bachillerato. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": false
+      "precio_credito_derivado": false,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-pedagogia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false
     },
     {
       "id": "MU_84DF1E24E1E6",
@@ -1695,7 +1946,13 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "La universidad presenta este recorrido como segundo grado de 120 ECTS en dos años, dirigido a personas con estudios previos. En 2026–2027 se prioriza a tituladas en Educación Infantil o Primaria. Confirma las vías de acceso antes de considerarlo una entrada directa desde Bachillerato. Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": false
+      "precio_credito_derivado": false,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-pedagogia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false
     },
     {
       "id": "MU_1133239C4FAE",
@@ -1740,7 +1997,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-comunicacion-audiovisual",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:2500585"
     },
     {
       "id": "MU_7F5AB86BB7E4",
@@ -1785,7 +2049,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-industrias-culturales-creativas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:1500474"
     },
     {
       "id": "MU_62C1E09E8A89",
@@ -1830,7 +2101,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-humanidades-digitales-globales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20006468:2504144"
     },
     {
       "id": "MU_B6FA9A24C252",
@@ -1875,7 +2153,14 @@
       "estado_ponderaciones": "Universidad privada: consultar admisión propia",
       "observaciones": "Tarifas publicadas como previstas y pendientes de aprobación por el Consejo Rector.",
       "oferta_publicada": true,
-      "precio_credito_derivado": true
+      "precio_credito_derivado": true,
+      "fuente_idiomas": "https://www.mondragon.edu/es/grado-gastronomia-artes-culinarias",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "061:20009585:2502671"
     }
   ]
 }

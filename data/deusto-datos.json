@@ -15,7 +15,8 @@
       "Donostia-San Sebastián"
     ],
     "precios_verificados_primero": 41,
-    "precios_estimados_total": 41
+    "precios_estimados_total": 41,
+    "qedu_checked": "2026-11-06"
   },
   "grados": [
     {
@@ -30,7 +31,7 @@
       "tipo": "Grado / programa combinado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -55,7 +56,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/deusto-business-analytics-programme",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008422:2501204"
     },
     {
       "id": "DEUSTO_69D4AC753E",
@@ -69,7 +77,7 @@
       "tipo": "Grado / programa combinado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -94,7 +102,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/deusto-finance-programme?idSeccion=2",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008422:2501204"
     },
     {
       "id": "DEUSTO_A2F05C58C4",
@@ -108,7 +123,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés (opción 100 % en inglés)",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -133,7 +148,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ade",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008422:2501204"
     },
     {
       "id": "DEUSTO_CB0337ED9E",
@@ -147,7 +169,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés (opción 100 % en inglés)",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -172,7 +194,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ade",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008422:2501204"
     },
     {
       "id": "DEUSTO_37B5BE87F9",
@@ -186,7 +215,7 @@
       "tipo": "Grado",
       "rama": "Artes y Humanidades",
       "area_universidad": "Teología",
-      "idiomas": null,
+      "idiomas": "Español",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -211,7 +240,13 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/scientiis-religiosis",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "DEUSTO_B0D067B010",
@@ -225,7 +260,7 @@
       "tipo": "Grado",
       "rama": "Artes y Humanidades",
       "area_universidad": "Teología",
-      "idiomas": null,
+      "idiomas": "Español",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -250,7 +285,13 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/baccalaureatus-in-theologia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "DEUSTO_DEF8806258",
@@ -264,7 +305,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -289,7 +330,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ciencia-de-datos-e-inteligencia-artificial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2504021"
     },
     {
       "id": "DEUSTO_1FE454564E",
@@ -303,7 +351,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -328,7 +376,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ciencia-de-datos-e-inteligencia-artificial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2504021"
     },
     {
       "id": "DEUSTO_FA36F2BE2D",
@@ -342,7 +397,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Educación y Deporte",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -367,7 +422,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/cafyd",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012905:2502954"
     },
     {
       "id": "DEUSTO_57E1DA384E",
@@ -381,7 +443,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Educación y Deporte",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -406,7 +468,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/cafyd",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012905:2502954"
     },
     {
       "id": "DEUSTO_F96FC19DB6",
@@ -420,7 +489,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Comunicación",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -445,7 +514,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/comunicacion",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500546"
     },
     {
       "id": "DEUSTO_CC9266E296",
@@ -459,7 +535,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Derecho",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -484,7 +560,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/derecho",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008409:2500547"
     },
     {
       "id": "DEUSTO_65B34C0A84",
@@ -498,7 +581,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Derecho",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -523,7 +606,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/derecho",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008409:2500547"
     },
     {
       "id": "DEUSTO_41A965CE4C",
@@ -537,7 +627,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Educación y Deporte",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -562,7 +652,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-primaria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012905:2500549"
     },
     {
       "id": "DEUSTO_B67F189767",
@@ -576,7 +673,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Educación y Deporte",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -601,7 +698,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-primaria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012905:2500549"
     },
     {
       "id": "DEUSTO_56BEA379C3",
@@ -615,7 +719,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Social",
-      "idiomas": null,
+      "idiomas": "Español - Euskera",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -640,7 +744,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/educacion-social",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48012905:2500550"
     },
     {
       "id": "DEUSTO_383CE0F568",
@@ -654,7 +765,7 @@
       "tipo": "Grado",
       "rama": "Ciencias de la Salud",
       "area_universidad": "Salud",
-      "idiomas": null,
+      "idiomas": "Castellano (grupo de Bilbao)",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -679,7 +790,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/enfermeria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48012899:2504512"
     },
     {
       "id": "DEUSTO_06329EB625",
@@ -693,7 +811,7 @@
       "tipo": "Grado",
       "rama": "Ciencias de la Salud",
       "area_universidad": "Salud",
-      "idiomas": null,
+      "idiomas": "Euskera (grupo de Donostia-San Sebastián)",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -718,7 +836,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/enfermeria",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": false,
+      "idioma_euskera": true,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48012899:2504512"
     },
     {
       "id": "DEUSTO_BBF06C8105",
@@ -732,7 +857,7 @@
       "tipo": "Grado",
       "rama": "Artes y Humanidades",
       "area_universidad": "Política y Relaciones Internacionales",
-      "idiomas": null,
+      "idiomas": "Español - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -757,7 +882,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/filosofia-politica-economia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2503546"
     },
     {
       "id": "DEUSTO_4005F85B4A",
@@ -771,7 +903,7 @@
       "tipo": "Grado",
       "rama": "Ciencias de la Salud",
       "area_universidad": "Salud",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -796,7 +928,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/fisioterapia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012899:2504124"
     },
     {
       "id": "DEUSTO_2AA8CE1647",
@@ -810,7 +949,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -835,7 +974,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-biomedica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2504460"
     },
     {
       "id": "DEUSTO_E6121A20BC",
@@ -849,7 +995,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -874,7 +1020,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-electonica-industrial-automatica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2503148"
     },
     {
       "id": "DEUSTO_AEE8DDE2C7",
@@ -888,7 +1041,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -913,7 +1066,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-diseno-industrial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2503123"
     },
     {
       "id": "DEUSTO_25024F8314",
@@ -927,7 +1087,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -952,7 +1112,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-organizacion-industrial",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2500555"
     },
     {
       "id": "DEUSTO_DF66D537E5",
@@ -966,7 +1133,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -991,7 +1158,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-tecnologias-industriales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2503147"
     },
     {
       "id": "DEUSTO_C943CAA910",
@@ -1005,7 +1179,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1030,7 +1204,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-informatica1",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2500556"
     },
     {
       "id": "DEUSTO_B597D9F74B",
@@ -1044,7 +1225,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1069,7 +1250,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-informatica1",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2500556"
     },
     {
       "id": "DEUSTO_70EDD83149",
@@ -1083,7 +1271,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1108,7 +1296,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-matematica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:1500010"
     },
     {
       "id": "DEUSTO_2800606D06",
@@ -1122,7 +1317,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1147,7 +1342,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-mecanica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2503149"
     },
     {
       "id": "DEUSTO_19F1A02DD0",
@@ -1161,7 +1363,7 @@
       "tipo": "Grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1186,7 +1388,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/ingenieria-robotica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48009372:2504114"
     },
     {
       "id": "DEUSTO_11867277B9",
@@ -1200,7 +1409,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Lenguas",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1225,7 +1434,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "No localizado en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/management-languages-international-trade",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500559"
     },
     {
       "id": "DEUSTO_D19B6320A1",
@@ -1239,7 +1455,7 @@
       "tipo": "Grado",
       "rama": "Artes y Humanidades",
       "area_universidad": "Lenguas",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1264,7 +1480,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/lengua-cultura-vasca",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2503144"
     },
     {
       "id": "DEUSTO_70696FC890",
@@ -1278,7 +1501,7 @@
       "tipo": "Grado",
       "rama": "Artes y Humanidades",
       "area_universidad": "Lenguas",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1303,7 +1526,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/lenguas-modernas",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500558"
     },
     {
       "id": "DEUSTO_136E9D8343",
@@ -1317,7 +1547,7 @@
       "tipo": "Grado",
       "rama": "Ciencias de la Salud",
       "area_universidad": "Salud",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1342,7 +1572,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/medicina",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012899:2503884"
     },
     {
       "id": "DEUSTO_627AA5ACA7",
@@ -1356,7 +1593,7 @@
       "tipo": "Grado",
       "rama": "Ciencias de la Salud",
       "area_universidad": "Salud",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1381,7 +1618,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/psicologia",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012899:2500560"
     },
     {
       "id": "DEUSTO_ECF6A67685",
@@ -1395,7 +1639,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Política y Relaciones Internacionales",
-      "idiomas": null,
+      "idiomas": "Español - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1420,7 +1664,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-internacionales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2502804"
     },
     {
       "id": "DEUSTO_C0986C5FFF",
@@ -1434,7 +1685,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Social",
-      "idiomas": null,
+      "idiomas": "Español - Euskera",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1459,7 +1710,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/trabajo-social",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500561"
     },
     {
       "id": "DEUSTO_A627277BAF",
@@ -1473,7 +1731,7 @@
       "tipo": "Grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Social",
-      "idiomas": null,
+      "idiomas": "Español - Euskera",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1498,7 +1756,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/trabajo-social",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500561"
     },
     {
       "id": "DEUSTO_17A646EE14",
@@ -1512,7 +1777,7 @@
       "tipo": "Doble grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1537,7 +1802,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-derecho",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008495:7000077"
     },
     {
       "id": "DEUSTO_B80B622429",
@@ -1551,7 +1823,7 @@
       "tipo": "Doble grado",
       "rama": "Ciencias Sociales y Jurídicas",
       "area_universidad": "Empresa",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1576,7 +1848,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-derecho",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008495:7000077"
     },
     {
       "id": "DEUSTO_54103FC8B3",
@@ -1590,7 +1869,7 @@
       "tipo": "Doble grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1615,7 +1894,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-ingenieria-tecnologias-industriales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008495:7000647"
     },
     {
       "id": "DEUSTO_3A083612CE",
@@ -1629,7 +1915,7 @@
       "tipo": "Doble grado",
       "rama": "Ingeniería y Arquitectura",
       "area_universidad": "Ingeniería",
-      "idiomas": null,
+      "idiomas": "Español - Euskera - Inglés",
       "nota_2025": null,
       "nota_2026": null,
       "estado_2025": "No publicada",
@@ -1654,7 +1940,14 @@
       "otras_tasas_2026": null,
       "detalle_coste": "Matrícula y 8 plazos de enseñanza incluidos en el precio del primer curso; seguro escolar u otras tasas, si proceden, aparte.",
       "estado_precio": "Publicado / equivalencia identificada en tabla oficial 2026-27",
-      "precio_curso": "2026-2027"
+      "precio_curso": "2026-2027",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/ade-informatica",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48008495:7000078"
     },
     {
       "id": "audit-industria",
@@ -1675,7 +1968,13 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial / Dual",
-      "observaciones": "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar."
+      "observaciones": "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar.",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/grado-dual-industria-digital",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false
     },
     {
       "id": "audit-turismo",
@@ -1687,7 +1986,7 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "ects": 240,
       "anos": 4,
-      "idiomas": "Español, Euskera, Inglés",
+      "idiomas": "Español - Euskera - Inglés",
       "url_grado": "https://www.deusto.es/es/inicio/estudia/estudios/grado/turismo",
       "url_centro": "https://www.deusto.es/es/inicio/estudia/estudios/grado/turismo",
       "fuente_admision": "https://www.deusto.es/es/inicio/estudia/admision/admision-grados",
@@ -1696,7 +1995,14 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial",
-      "observaciones": "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar."
+      "observaciones": "Docencia en 2026–2027. Nuevo ingreso en primero pendiente de confirmar.",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/turismo",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": true,
+      "idioma_ingles": true,
+      "idioma_frances": false,
+      "qedu_id": "030:48012711:2500562"
     },
     {
       "id": "audit-bam-infantil",
@@ -1717,7 +2023,8 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial",
-      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM."
+      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.",
+      "qedu_id": "030:48012723:2500548"
     },
     {
       "id": "audit-bam-primaria",
@@ -1738,7 +2045,8 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial",
-      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM."
+      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.",
+      "qedu_id": "030:48012723:2500549"
     },
     {
       "id": "audit-derecho-rrll",
@@ -1750,7 +2058,7 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "ects": null,
       "anos": null,
-      "idiomas": null,
+      "idiomas": "Español",
       "url_grado": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-laborales",
       "url_centro": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-laborales",
       "fuente_admision": "https://www.deusto.es/es/inicio/estudia/admision/admision-grados",
@@ -1759,7 +2067,14 @@
       "precio_curso": "2026-2027",
       "tipo": "Doble grado",
       "modalidad": "Presencial",
-      "observaciones": "Doble grado con tarifa de primero publicada para 2026–2027."
+      "observaciones": "Doble grado con tarifa de primero publicada para 2026–2027.",
+      "fuente_idiomas": "https://www.deusto.es/es/inicio/estudia/estudios/grado/relaciones-laborales",
+      "estado_idiomas": "Verificado en ficha oficial el 2026-11-06",
+      "idioma_castellano": true,
+      "idioma_euskera": false,
+      "idioma_ingles": false,
+      "idioma_frances": false,
+      "qedu_id": "030:48008409:7000644"
     }
   ]
 }
