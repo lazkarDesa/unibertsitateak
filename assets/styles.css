@@ -176,3 +176,5 @@
 @media(max-width:690px){.university-panels .university-mobile-explanation,.filter-page-top:has(+ .university-panels)>p{display:none}}
 
 @media(max-width:690px){.university-panels .branch-links .theme-card:disabled{display:none}}
+
+@media(max-width:690px){.university-panels .search-hint{display:none}}
