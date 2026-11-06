@@ -181,3 +181,10 @@
 
 .mobile-block-number{display:none}
 @media(max-width:690px){.university-panels .desktop-panel-tag{display:none}.university-panels .university-block-title{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin:0 0 12px}.university-panels .mobile-block-number{display:inline}}
+
+@media(max-width:690px){
+ .university-panels{grid-template-columns:minmax(0,1fr);min-width:0;width:100%}
+ .university-panels .panel,.university-panels .search-wrap,.university-panels .search-control,.university-panels .theme-card,.university-panels .route-tile{min-width:0;max-width:100%}
+ .university-panels .theme-card b,.university-panels .route-tile b{overflow-wrap:anywhere}
+ .university-panels .subject-lookup,.university-panels .subject-lookup select{width:100%;min-width:0;max-width:100%}
+}
