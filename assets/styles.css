@@ -160,3 +160,15 @@
 @media screen {
  .detail-heading .favorite-button { position: fixed; right: max(20px, calc((100vw - 1160px) / 2)); top: var(--interest-button-top, 190px); bottom: auto; z-index: 40; box-shadow: 0 4px 18px #102c4133; min-height: 44px; max-width: min(240px, calc(100vw - 40px)); padding: 10px 14px; font-size: 13px; }
 }
+
+.interest-mobile-label,.weighting-mobile-title{display:none}
+@media(max-width:690px){
+ .degree-page-top > p{display:none}
+ .detail-heading .interest-button-label,.weighting-desktop-title,.weighting-footnote{display:none}
+ .detail-heading .interest-mobile-label,.weighting-mobile-title{display:inline}
+ .detail-heading .favorite-button{padding:6px 8px;gap:4px;font-size:12px;min-height:38px;max-width:110px}
+ #panel-ficha > .detail-main{display:flex;flex-direction:column}
+ #panel-ficha .degree-weights{order:1}
+ #panel-ficha .degree-campus{order:2}
+ #panel-ficha .degree-cost{order:3}
+}
