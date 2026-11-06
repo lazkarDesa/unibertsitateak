@@ -172,3 +172,5 @@
  #panel-ficha .degree-campus{order:2}
  #panel-ficha .degree-cost{order:3}
 }
+
+@media(max-width:690px){.university-panels .university-mobile-explanation,.filter-page-top:has(+ .university-panels)>p{display:none}}
