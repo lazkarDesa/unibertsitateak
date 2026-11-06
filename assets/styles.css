@@ -178,3 +178,6 @@
 @media(max-width:690px){.university-panels .branch-links .theme-card:disabled{display:none}}
 
 @media(max-width:690px){.university-panels .search-hint{display:none}}
+
+.mobile-block-number{display:none}
+@media(max-width:690px){.university-panels .desktop-panel-tag{display:none}.university-panels .university-block-title{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin:0 0 12px}.university-panels .mobile-block-number{display:inline}}
