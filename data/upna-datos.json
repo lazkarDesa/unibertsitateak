@@ -10,7 +10,7 @@
     ],
     "nota_campus": "Pamplona incluye Arrosadia y Ciencias de la Salud. El doble grado Fisioterapia/CAFD combina Tudela y Pamplona.",
     "conteo_ofertas": 41,
-    "conteo_ponderaciones_no_cero": 564,
+    "conteo_ponderaciones_no_cero": 763,
     "fuente_ponderaciones": "https://www2.unavarra.es/gesadj/Estudios/acceso_matricula/Anexoponderacion_2026_2027_cas.pdf",
     "fuente_notas_2025_2026": "https://www2.unavarra.es/gesadj/Estudios/acceso_matricula/notas_corte/2026/NOTASDECORTE2026-7_octubre.pdf",
     "fuente_sitio": "https://www.unavarra.es/sites/estudios/",
@@ -779,7 +779,7 @@
       "variacion": -0.003,
       "ponderaciones": [
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 1
@@ -2242,7 +2242,19 @@
           "pagina_pdf": 1
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 1
@@ -2436,7 +2448,19 @@
           "pagina_pdf": 1
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 1
@@ -2630,7 +2654,19 @@
           "pagina_pdf": 1
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 1
@@ -2824,7 +2860,19 @@
           "pagina_pdf": 1
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 1
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 1
@@ -3018,19 +3066,31 @@
           "pagina_pdf": 2
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
-          "coeficiente": 0.2,
-          "fase": "Fase voluntaria",
-          "pagina_pdf": 2
-        },
-        {
-          "materia": "Lengua Extranjera II (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
           "coeficiente": 0.1,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.1,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.1,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -3254,19 +3314,31 @@
           "pagina_pdf": 2
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
-          "coeficiente": 0.2,
-          "fase": "Fase voluntaria",
-          "pagina_pdf": 2
-        },
-        {
-          "materia": "Lengua Extranjera II (fase voluntaria)",
+          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
           "coeficiente": 0.1,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Lengua Extranjera II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.1,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.1,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -3508,6 +3580,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -3527,6 +3605,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -3780,6 +3864,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -3799,6 +3889,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -4052,6 +4148,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -4071,6 +4173,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -4324,6 +4432,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -4343,6 +4457,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -4596,6 +4716,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -4615,6 +4741,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -4868,6 +5000,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -4887,6 +5025,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -5140,6 +5284,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -5159,6 +5309,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -5412,6 +5568,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -5431,6 +5593,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -5684,6 +5852,12 @@
           "pagina_pdf": 2
         },
         {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.2,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
           "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
@@ -5703,6 +5877,12 @@
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.2,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.2,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -5951,7 +6131,13 @@
         },
         {
           "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
-          "coeficiente": 0.2,
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
@@ -5969,12 +6155,18 @@
         },
         {
           "materia": "Lengua Extranjera II (fase voluntaria)",
-          "coeficiente": 0.1,
+          "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.1,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.1,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -6205,7 +6397,13 @@
         },
         {
           "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
-          "coeficiente": 0.2,
+          "coeficiente": 0.1,
+          "fase": "Fase voluntaria",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Lengua Vasca y Literatura II (fase voluntaria)",
+          "coeficiente": 0.1,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
@@ -6223,12 +6421,18 @@
         },
         {
           "materia": "Lengua Extranjera II (fase voluntaria)",
-          "coeficiente": 0.1,
+          "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
         {
           "materia": "Dibujo Artístico II",
+          "coeficiente": 0.1,
+          "fase": "Asignatura de modalidad",
+          "pagina_pdf": 2
+        },
+        {
+          "materia": "Dibujo Técnico Aplicado a las Artes Plásticas y Diseño II",
           "coeficiente": 0.1,
           "fase": "Asignatura de modalidad",
           "pagina_pdf": 2
@@ -6686,13 +6890,13 @@
       "variacion": 0.28,
       "ponderaciones": [
         {
-          "materia": "Lengua Castellana y Literatura II (fase voluntaria)",
+          "materia": "Historia de la Filosofía (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2
         },
         {
-          "materia": "Historia de España (fase voluntaria)",
+          "materia": "Lengua Extranjera II (fase voluntaria)",
           "coeficiente": 0.2,
           "fase": "Fase voluntaria",
           "pagina_pdf": 2

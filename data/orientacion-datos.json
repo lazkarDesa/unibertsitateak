@@ -7833,6 +7833,85 @@
         },
         "noEmploymentReason": "El informe no permite un índice con una muestra suficiente y datos completos.",
         "employmentLinks": []
+      },
+      "industria digital (dual)": {
+        "title": "Industria Digital (dual)",
+        "families": [
+          "mu-digital"
+        ],
+        "source": {
+          "url": "https://www.deusto.es/es/inicio/estudia/estudios/grado/grado-dual-industria-digital",
+          "title": "Industria Digital (dual)",
+          "checked": "2026-11-16"
+        },
+        "note": "En Vitoria-Gasteiz, el primer curso es presencial. La formación en empresa empieza a partir de segundo para quienes acceden desde Bachillerato.",
+        "links": [
+          {
+            "url": "https://www.deusto.es/es/inicio/estudia/estudios/grado/grado-dual-industria-digital/plan-de-estudios",
+            "name": "Plan de estudios"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "",
+        "employmentLinks": []
+      },
+      "turismo": {
+        "title": "Turismo",
+        "families": [
+          "tourism"
+        ],
+        "source": {
+          "url": "https://www.deusto.es/es/inicio/estudia/estudios/grado/turismo",
+          "title": "Turismo",
+          "checked": "2026-11-16"
+        },
+        "note": "El grado estudia cómo se diseñan, gestionan y transforman los servicios y destinos turísticos.",
+        "links": [],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "",
+        "employmentLinks": []
+      },
+      "educacion infantil": {
+        "title": "Educación Infantil",
+        "families": [
+          "infant"
+        ],
+        "source": {
+          "url": "https://www.deusto.es/es/inicio/somos-deusto/centros-universitarios/centros-adscritos",
+          "title": "Educación Infantil",
+          "checked": "2026-11-16"
+        },
+        "note": "La oferta de Bilbao corresponde a BAM, escuela de magisterio adscrita a Deusto.",
+        "links": [],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "",
+        "employmentLinks": []
+      },
+      "derecho + relaciones laborales": {
+        "title": "Derecho + Relaciones Laborales",
+        "families": [
+          "law",
+          "labor"
+        ],
+        "source": {
+          "url": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/derecho-relaciones-laborales",
+          "title": "Derecho + Relaciones Laborales",
+          "checked": "2026-11-16"
+        },
+        "note": "El plan de cinco años combina formación jurídica, relaciones laborales y gestión de personas. Termina con dos trabajos de fin de grado.",
+        "links": [
+          {
+            "url": "https://www.deusto.es/es/inicio/estudia/estudios/doble-grado/derecho-relaciones-laborales/plan-de-estudios",
+            "name": "Plan de estudios"
+          }
+        ],
+        "videos": [],
+        "employment": null,
+        "noEmploymentReason": "",
+        "employmentLinks": []
       }
     },
     "navarra": {

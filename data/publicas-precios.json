@@ -462,16 +462,16 @@
         "course": "2026–2027",
         "source": "https://www.euskadi.eus/bopv2/datos/2026/06/2602642a.pdf",
         "sourcePage": 10,
-        "degreeSource": "https://www.ehu.eus/es/web/graduak/grado-enfermeria-alava",
+        "degreeSource": "https://www.ehu.eus/es/web/graduak/grado-enfermeria-alava/matricula",
         "rateMin": 18.92,
         "rateMax": 18.92,
         "ects": 240,
         "firstCredits": 60,
         "firstCreditsVerified": false,
-        "firstMin": null,
-        "firstMax": null,
-        "totalMin": null,
-        "totalMax": null,
+        "firstMin": 1135.2,
+        "firstMax": 1135.2,
+        "totalMin": 4540.8,
+        "totalMax": 4540.8,
         "mixed": false,
         "affiliated": true,
         "degreePageRate": 18.92,
@@ -479,7 +479,8 @@
           "opening": 27.96,
           "annual": 30.68,
           "schoolInsurance": 1.12
-        }
+        },
+        "publicRateVerifiedForCenter": true
       },
       "EHU_AR_FDD28840B7": {
         "title": "Estudios Ingleses",
