@@ -8224,8 +8224,13 @@
           "title": "Educación Infantil",
           "checked": "2026-11-16"
         },
-        "note": "La oferta de Bilbao corresponde a BAM, escuela de magisterio adscrita a Deusto.",
-        "links": [],
+        "note": "BAM imparte esta oferta en Derio en 2026–2027. El traslado al Campo Volantín de Bilbao está previsto para septiembre de 2027.",
+        "links": [
+          {
+            "name": "Sede actual y traslado previsto",
+            "url": "https://bizkeliza.org/noticia/la-escuela-universitaria-de-magisterio-bam-abrira-una-nueva-sede-en-campo-volantin-en-2027/"
+          }
+        ],
         "videos": [],
         "employment": null,
         "noEmploymentReason": "",
@@ -10033,9 +10038,9 @@
         "source": {
           "url": "https://www.unav.edu/web/instituto-superior-de-ciencias-religiosas/estudios-oficiales/bachillerato-en-ciencias-religiosas",
           "title": "Bachillerato en ciencias religiosas",
-          "checked": "2026-11-02"
+          "checked": "2026-11-16"
         },
-        "note": "Estudios eclesiásticos: comprueba el carácter del título, su reconocimiento civil y los requisitos de acceso y de ejercicio que te interesen. No deben confundirse con un grado civil de nombre parecido.",
+        "note": "El bachillerato canónico dura tres años (180 ECTS). El reconocimiento civil como grado en España requiere un curso complementario de 60 ECTS.",
         "links": [],
         "videos": [],
         "employment": null,

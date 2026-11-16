@@ -2167,8 +2167,8 @@
     {
       "id": "audit-bam-infantil",
       "universidad": "Deusto",
-      "campus": "Bilbao",
-      "municipio": "Bilbao",
+      "campus": "Derio",
+      "municipio": "Derio",
       "titulacion": "Educación Infantil",
       "centro": "Begoñako Andra Mari (BAM)",
       "rama": "Ciencias Sociales y Jurídicas",
@@ -2183,14 +2183,16 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial",
-      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.",
-      "qedu_id": "030:48012723:2500548"
+      "observaciones": "BAM imparte esta oferta en Derio en 2026–2027. El traslado al Campo Volantín de Bilbao está previsto para septiembre de 2027.",
+      "qedu_id": "030:48012723:2500548",
+      "curso_oferta": "2026-2027",
+      "fuente_oferta": "https://bizkeliza.org/noticia/bam-inicia-un-curso-especial/"
     },
     {
       "id": "audit-bam-primaria",
       "universidad": "Deusto",
-      "campus": "Bilbao",
-      "municipio": "Bilbao",
+      "campus": "Derio",
+      "municipio": "Derio",
       "titulacion": "Educación Primaria",
       "centro": "Begoñako Andra Mari (BAM)",
       "rama": "Ciencias Sociales y Jurídicas",
@@ -2205,8 +2207,10 @@
       "precio_curso": "2026-2027",
       "tipo": "Grado",
       "modalidad": "Presencial",
-      "observaciones": "Oferta del centro adscrito. Consulta directamente el calendario y las tarifas de BAM.",
-      "qedu_id": "030:48012723:2500549"
+      "observaciones": "BAM imparte esta oferta en Derio en 2026–2027. El traslado al Campo Volantín de Bilbao está previsto para septiembre de 2027.",
+      "qedu_id": "030:48012723:2500549",
+      "curso_oferta": "2026-2027",
+      "fuente_oferta": "https://bizkeliza.org/noticia/bam-inicia-un-curso-especial/"
     },
     {
       "id": "audit-derecho-rrll",
