@@ -16,7 +16,7 @@
     "advertencia": "Transcripción de las tablas del PDF; validar antes de usar para una decisión administrativa de admisión.",
     "conteo_ofertas": 109,
     "conteo_ofertas_activas": 108,
-    "conteo_ponderaciones_no_cero": 537,
+    "conteo_ponderaciones_no_cero": 529,
     "nota_comparabilidad": "Las notas 2025 (cierre del proceso) y 2026 (fichas de convocatoria ordinaria/extraordinaria) pueden ser de fases diferentes: delta solo orientativo.",
     "ramas_conocimiento": [
       "Artes y Humanidades",
@@ -875,7 +875,7 @@
       "ponderacion_ids": "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 8,
+      "num_materias_ponderan": 9,
       "id_ponderacion": "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -933,7 +933,7 @@
       "ponderacion_ids": "EDUCACIÓN INFANTIL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 25,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN INFANTIL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -991,7 +991,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN PRIMARIA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -1049,7 +1049,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN PRIMARIA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -1628,7 +1628,7 @@
       "ponderacion_ids": "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS|DERECHO",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 19,
+      "num_materias_ponderan": 18,
       "id_ponderacion": "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS|DERECHO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -1744,7 +1744,7 @@
       "ponderacion_ids": "DERECHO",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 12,
+      "num_materias_ponderan": 11,
       "id_ponderacion": "DERECHO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2208,7 +2208,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA|EDUCACIÓN INFANTIL",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 52,
+      "num_materias_ponderan": 48,
       "id_ponderacion": "EDUCACIÓN PRIMARIA|EDUCACIÓN INFANTIL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2266,7 +2266,7 @@
       "ponderacion_ids": "ANTROPOLOGÍA SOCIAL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 24,
+      "num_materias_ponderan": 23,
       "id_ponderacion": "ANTROPOLOGÍA SOCIAL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2323,7 +2323,7 @@
       "ponderacion_ids": "EDUCACIÓN INFANTIL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 25,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN INFANTIL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2381,7 +2381,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN PRIMARIA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2439,7 +2439,7 @@
       "ponderacion_ids": "EDUCACIÓN SOCIAL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 22,
+      "num_materias_ponderan": 20,
       "id_ponderacion": "EDUCACIÓN SOCIAL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2497,7 +2497,7 @@
       "ponderacion_ids": "PEDAGOGÍA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 14,
+      "num_materias_ponderan": 12,
       "id_ponderacion": "PEDAGOGÍA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -2555,7 +2555,7 @@
       "ponderacion_ids": "FILOSOFÍA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 23,
+      "num_materias_ponderan": 20,
       "id_ponderacion": "FILOSOFÍA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3191,7 +3191,7 @@
       "ponderacion_ids": "PERIODISMO|PUBLICIDAD Y RELACIONES PÚBLICAS",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 25,
+      "num_materias_ponderan": 30,
       "id_ponderacion": "PERIODISMO|PUBLICIDAD Y RELACIONES PÚBLICAS",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3249,7 +3249,7 @@
       "ponderacion_ids": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA|SOCIOLOGÍA",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 26,
       "id_ponderacion": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA|SOCIOLOGÍA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3307,7 +3307,7 @@
       "ponderacion_ids": "COMUNICACIÓN AUDIOVISUAL|PERIODISMO",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 26,
+      "num_materias_ponderan": 30,
       "id_ponderacion": "COMUNICACIÓN AUDIOVISUAL|PERIODISMO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3365,7 +3365,7 @@
       "ponderacion_ids": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 14,
+      "num_materias_ponderan": 13,
       "id_ponderacion": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3423,7 +3423,7 @@
       "ponderacion_ids": "COMUNICACIÓN AUDIOVISUAL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 13,
+      "num_materias_ponderan": 15,
       "id_ponderacion": "COMUNICACIÓN AUDIOVISUAL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3481,7 +3481,7 @@
       "ponderacion_ids": "PERIODISMO",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 13,
+      "num_materias_ponderan": 15,
       "id_ponderacion": "PERIODISMO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3538,7 +3538,7 @@
       "ponderacion_ids": "PUBLICIDAD Y RELACIONES PÚBLICAS",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 12,
+      "num_materias_ponderan": 15,
       "id_ponderacion": "PUBLICIDAD Y RELACIONES PÚBLICAS",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -3654,7 +3654,7 @@
       "ponderacion_ids": "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS|DERECHO",
       "ponderacion_modalidad": "maxima_nota_entre_componentes",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 19,
+      "num_materias_ponderan": 18,
       "id_ponderacion": "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS|DERECHO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -4799,7 +4799,7 @@
       "ponderacion_ids": "DERECHO",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 12,
+      "num_materias_ponderan": 11,
       "id_ponderacion": "DERECHO",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -4857,7 +4857,7 @@
       "ponderacion_ids": "EDUCACIÓN INFANTIL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 25,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN INFANTIL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -4915,7 +4915,7 @@
       "ponderacion_ids": "EDUCACIÓN INFANTIL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 25,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN INFANTIL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -4973,7 +4973,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN PRIMARIA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -5031,7 +5031,7 @@
       "ponderacion_ids": "EDUCACIÓN PRIMARIA",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 27,
+      "num_materias_ponderan": 24,
       "id_ponderacion": "EDUCACIÓN PRIMARIA",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -5089,7 +5089,7 @@
       "ponderacion_ids": "EDUCACIÓN SOCIAL",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "No",
-      "num_materias_ponderan": 22,
+      "num_materias_ponderan": 20,
       "id_ponderacion": "EDUCACIÓN SOCIAL",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -5901,7 +5901,7 @@
       "ponderacion_ids": "INGENIERÍA EN TECNOLOGÍA DE TELECOMUNICACIÓN",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "Sí",
-      "num_materias_ponderan": 3,
+      "num_materias_ponderan": 2,
       "id_ponderacion": "INGENIERÍA EN TECNOLOGÍA DE TELECOMUNICACIÓN",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -6248,7 +6248,7 @@
       "ponderacion_ids": "INGENIERÍA EN DIGITALIZACIÓN INDUSTRIAL Y CIBERSEGURIDAD",
       "ponderacion_modalidad": "directa",
       "bachillerato_prioritario": "Sí",
-      "num_materias_ponderan": 3,
+      "num_materias_ponderan": 2,
       "id_ponderacion": "INGENIERÍA EN DIGITALIZACIÓN INDUSTRIAL Y CIBERSEGURIDAD",
       "curso_oferta": "2026-2027",
       "idioma_castellano": true,
@@ -7540,15 +7540,6 @@
       "grado_ponderacion": "INGENIERÍA EN DIGITALIZACIÓN INDUSTRIAL Y CIBERSEGURIDAD",
       "rama": "Ingeniería y Arquitectura",
       "bachillerato_prioritario": true,
-      "materia": "Dibujo Técnico II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "INGENIERÍA EN DIGITALIZACIÓN INDUSTRIAL Y CIBERSEGURIDAD",
-      "rama": "Ingeniería y Arquitectura",
-      "bachillerato_prioritario": true,
       "materia": "Física",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -7595,15 +7586,6 @@
       "rama": "Ingeniería y Arquitectura",
       "bachillerato_prioritario": true,
       "materia": "Química",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "INGENIERÍA EN TECNOLOGÍA DE TELECOMUNICACIÓN",
-      "rama": "Ingeniería y Arquitectura",
-      "bachillerato_prioritario": true,
-      "materia": "Dibujo Técnico II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -8485,15 +8467,6 @@
       "grado_ponderacion": "FILOSOFÍA",
       "rama": "Artes y Humanidades",
       "bachillerato_prioritario": false,
-      "materia": "Geografía",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "FILOSOFÍA",
-      "rama": "Artes y Humanidades",
-      "bachillerato_prioritario": false,
       "materia": "Griego II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -8557,15 +8530,6 @@
       "grado_ponderacion": "FILOSOFÍA",
       "rama": "Artes y Humanidades",
       "bachillerato_prioritario": false,
-      "materia": "Lengua Castellana y Literatura II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "FILOSOFÍA",
-      "rama": "Artes y Humanidades",
-      "bachillerato_prioritario": false,
       "materia": "Lengua Vasca y Literatura II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -8603,15 +8567,6 @@
       "rama": "Artes y Humanidades",
       "bachillerato_prioritario": false,
       "materia": "Química",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "FILOSOFÍA",
-      "rama": "Artes y Humanidades",
-      "bachillerato_prioritario": false,
-      "materia": "Segunda Lengua Extranjera II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -9070,15 +9025,6 @@
       "grado_ponderacion": "ANTROPOLOGÍA SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Historia del Arte",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "ANTROPOLOGÍA SOCIAL",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Inglés",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -9160,10 +9106,10 @@
       "grado_ponderacion": "ANTROPOLOGÍA SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Segunda Lengua Extranjera II",
-      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Geología y Ciencias Ambientales",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA",
@@ -9277,15 +9223,6 @@
       "grado_ponderacion": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Química",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "CIENCIA POLÍTICA Y GESTIÓN PÚBLICA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Segunda Lengua Extranjera II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -9362,6 +9299,15 @@
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+    },
+    {
+      "grado_ponderacion": "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Química",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "CRIMINOLOGÍA",
@@ -9571,6 +9517,24 @@
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
     },
     {
+      "grado_ponderacion": "COMUNICACIÓN AUDIOVISUAL",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia del Arte",
+      "coeficiente": 0.2
+    },
+    {
+      "grado_ponderacion": "COMUNICACIÓN AUDIOVISUAL",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Movimientos Culturales y Artísticos",
+      "coeficiente": 0.2
+    },
+    {
       "grado_ponderacion": "DERECHO",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
@@ -9647,15 +9611,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Lengua Vasca y Literatura II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "DERECHO",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Matemáticas II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -9791,15 +9746,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Diseño",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN INFANTIL",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Empresa y Diseño de Modelos de Negocio",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -9926,15 +9872,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Matemáticas Aplicadas a las Ciencias Sociales II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN INFANTIL",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Movimientos Culturales y Artísticos",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -9967,6 +9904,15 @@
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
     },
     {
+      "grado_ponderacion": "EDUCACIÓN INFANTIL",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia del Arte",
+      "coeficiente": 0.2
+    },
+    {
       "grado_ponderacion": "EDUCACIÓN PRIMARIA",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
@@ -10024,15 +9970,6 @@
       "grado_ponderacion": "EDUCACIÓN PRIMARIA",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Empresa y Diseño de Modelos de Negocio",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN PRIMARIA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Física",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -10061,15 +9998,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Geología y Ciencias Ambientales",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN PRIMARIA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Griego II",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -10169,15 +10097,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Matemáticas Aplicadas a las Ciencias Sociales II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN PRIMARIA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Movimientos Culturales y Artísticos",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -10258,15 +10177,6 @@
       "grado_ponderacion": "EDUCACIÓN SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Diseño",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN SOCIAL",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Empresa y Diseño de Modelos de Negocio",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -10330,15 +10240,6 @@
       "grado_ponderacion": "EDUCACIÓN SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Historia de la Música y de la Danza",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "EDUCACIÓN SOCIAL",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Inglés",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -10393,19 +10294,19 @@
       "grado_ponderacion": "EDUCACIÓN SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Movimientos Culturales y Artísticos",
-      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia del Arte",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "EDUCACIÓN SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Segunda Lengua Extranjera II",
-      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Química",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "GEOGRAFÍA Y ORDENACIÓN DEL TERRITORIO",
@@ -10474,15 +10375,6 @@
       "grado_ponderacion": "GEOGRAFÍA Y ORDENACIÓN DEL TERRITORIO",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Latín II",
-      "coeficiente": 0.1,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "GEOGRAFÍA Y ORDENACIÓN DEL TERRITORIO",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Lengua Castellana y Literatura II",
       "coeficiente": 0.1,
       "curso_inicio": "2026-2027",
@@ -10505,6 +10397,15 @@
       "coeficiente": 0.1,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+    },
+    {
+      "grado_ponderacion": "GEOGRAFÍA Y ORDENACIÓN DEL TERRITORIO",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia del Arte",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "GESTIÓN DE NEGOCIOS",
@@ -10672,15 +10573,6 @@
       "grado_ponderacion": "PEDAGOGÍA",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Diseño",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "PEDAGOGÍA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
       "materia": "Historia de España",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
@@ -10745,15 +10637,6 @@
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
       "materia": "Matemáticas Aplicadas a las Ciencias Sociales II",
-      "coeficiente": 0.2,
-      "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
-    },
-    {
-      "grado_ponderacion": "PEDAGOGÍA",
-      "rama": "Ciencias Sociales y Jurídicas",
-      "bachillerato_prioritario": false,
-      "materia": "Movimientos Culturales y Artísticos",
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
@@ -10876,6 +10759,24 @@
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
     },
     {
+      "grado_ponderacion": "PERIODISMO",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Matemáticas II",
+      "coeficiente": 0.2
+    },
+    {
+      "grado_ponderacion": "PERIODISMO",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Movimientos Culturales y Artísticos",
+      "coeficiente": 0.2
+    },
+    {
       "grado_ponderacion": "PUBLICIDAD Y RELACIONES PÚBLICAS",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
@@ -10984,13 +10885,31 @@
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
     },
     {
-      "grado_ponderacion": "RELACIONES LABORALES Y RECURSOS HUMANOS",
+      "grado_ponderacion": "PUBLICIDAD Y RELACIONES PÚBLICAS",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Historia de España",
-      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia del Arte",
+      "coeficiente": 0.2
+    },
+    {
+      "grado_ponderacion": "PUBLICIDAD Y RELACIONES PÚBLICAS",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Matemáticas II",
+      "coeficiente": 0.2
+    },
+    {
+      "grado_ponderacion": "PUBLICIDAD Y RELACIONES PÚBLICAS",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Movimientos Culturales y Artísticos",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "RELACIONES LABORALES Y RECURSOS HUMANOS",
@@ -11000,6 +10919,15 @@
       "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+    },
+    {
+      "grado_ponderacion": "RELACIONES LABORALES Y RECURSOS HUMANOS",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "bachillerato_prioritario": false,
+      "curso_inicio": "2026-2027",
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Historia de la Filosofía",
+      "coeficiente": 0.2
     },
     {
       "grado_ponderacion": "SOCIOLOGÍA",
@@ -11149,8 +11077,8 @@
       "grado_ponderacion": "TRABAJO SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Literatura Dramática",
-      "coeficiente": 0.1,
+      "materia": "Matemáticas Aplicadas a las Ciencias Sociales II",
+      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
       "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
     },
@@ -11158,10 +11086,10 @@
       "grado_ponderacion": "TRABAJO SOCIAL",
       "rama": "Ciencias Sociales y Jurídicas",
       "bachillerato_prioritario": false,
-      "materia": "Matemáticas Aplicadas a las Ciencias Sociales II",
-      "coeficiente": 0.2,
       "curso_inicio": "2026-2027",
-      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast"
+      "fuente": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/parametros2026_cast",
+      "materia": "Lengua Castellana y Literatura II",
+      "coeficiente": 0.1
     }
   ]
 }

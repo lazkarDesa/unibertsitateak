@@ -281,9 +281,9 @@
       "precio_primero": null,
       "coste_total_est": null,
       "curso_precio": "2026–2027",
-      "creditos_primero": null,
-      "observaciones": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
-      "estado_precio": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos."
+      "creditos_primero": 72,
+      "estado_precio": "Precios 2026–2027 en primera matrícula: 13,39–20,48 €/ECTS según la asignatura. Para 72 ECTS de primero, intervalo de 964,08–1474,56 €. Para el plan de 368 ECTS, intervalo de 4927,52–7536,64 €. Son límites calculados aplicando una tarifa a todos los créditos; el importe depende del reparto real de asignaturas.",
+      "fuente_ects": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-matematicas-y-fisica.html?idContenido=11"
     },
     {
       "id": "uned-13",
@@ -294,7 +294,7 @@
       "centro": "UNED",
       "tipo": "Doble grado",
       "rama": "Ciencias",
-      "ects": null,
+      "ects": 354,
       "anos": null,
       "modalidad": "A distancia",
       "url_grado": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-economia-y-matematicas.html",
@@ -305,9 +305,9 @@
       "precio_primero": null,
       "coste_total_est": null,
       "curso_precio": "2026–2027",
-      "creditos_primero": null,
-      "observaciones": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
-      "estado_precio": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos."
+      "creditos_primero": 72,
+      "estado_precio": "Precios 2026–2027 en primera matrícula: 13,20–13,39 €/ECTS según la asignatura. Para 72 ECTS de primero, intervalo de 950,40–964,08 €. Para el plan de 354 ECTS, intervalo de 4672,80–4740,06 €. Son límites calculados aplicando una tarifa a todos los créditos; el importe depende del reparto real de asignaturas.",
+      "fuente_ects": "https://app.uned.es/evacaldos/PEU/EvisDescarga?idEvi=20260610171862316&idIndicador=IOES1"
     },
     {
       "id": "uned-14",
@@ -318,20 +318,21 @@
       "centro": "UNED",
       "tipo": "Doble grado",
       "rama": "Ciencias de la Salud",
-      "ects": null,
-      "anos": null,
+      "ects": 360,
+      "anos": 5,
       "modalidad": "A distancia",
       "url_grado": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-psicologia-y-criminologia.html",
       "fuente_oferta": "https://www.uned.es/universidad/inicio/estudios/grados.html",
       "fuente_precio": "https://www.uned.es/universidad/inicio/dam/jcr%3A766628fe-d3e9-45d5-a5fc-e73c6202cbcc/precios-gradosUE2026-27.pdf",
       "fuente_admision": "https://www.uned.es/universidad/inicio/matriculate.html",
-      "precio_credito": null,
-      "precio_primero": null,
-      "coste_total_est": null,
+      "precio_credito": 15.95,
+      "precio_primero": 1148.4,
+      "coste_total_est": 5742,
       "curso_precio": "2026–2027",
-      "creditos_primero": null,
-      "observaciones": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
-      "estado_precio": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos."
+      "creditos_primero": 72,
+      "estado_precio": "Estimación con tarifas oficiales de primera matrícula",
+      "metodo_estimacion": "Estimación con los créditos del plan y las tarifas de primera matrícula de 2026–2027. No incluye tasas ni repeticiones.",
+      "fuente_ects": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-psicologia-y-criminologia.html?idContenido=1"
     },
     {
       "id": "uned-15",
@@ -583,9 +584,9 @@
       "precio_primero": null,
       "coste_total_est": null,
       "curso_precio": "2026–2027",
-      "creditos_primero": null,
-      "observaciones": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
-      "estado_precio": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos."
+      "creditos_primero": 71,
+      "estado_precio": "Precios 2026–2027 en primera matrícula: 13,00–13,20 €/ECTS según la asignatura. Para 71 ECTS de primero, intervalo de 923,00–937,20 €. Para el plan de 379 ECTS, intervalo de 4927,00–5002,80 €. Son límites calculados aplicando una tarifa a todos los créditos; el importe depende del reparto real de asignaturas.",
+      "fuente_ects": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-derecho-y-trabajo-social.html"
     },
     {
       "id": "uned-26",
@@ -642,20 +643,21 @@
       "centro": "UNED",
       "tipo": "Doble grado",
       "rama": "Ciencias Sociales y Jurídicas",
-      "ects": null,
-      "anos": null,
+      "ects": 336,
+      "anos": 5,
       "modalidad": "A distancia",
       "url_grado": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-ciencia-politica-y-sociologia.html",
       "fuente_oferta": "https://www.uned.es/universidad/inicio/estudios/grados.html",
       "fuente_precio": "https://www.uned.es/universidad/inicio/dam/jcr%3A766628fe-d3e9-45d5-a5fc-e73c6202cbcc/precios-gradosUE2026-27.pdf",
       "fuente_admision": "https://www.uned.es/universidad/inicio/matriculate.html",
-      "precio_credito": null,
-      "precio_primero": null,
-      "coste_total_est": null,
+      "precio_credito": 13,
+      "precio_primero": 858,
+      "coste_total_est": 4368,
       "curso_precio": "2026–2027",
-      "creditos_primero": null,
-      "observaciones": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos.",
-      "estado_precio": "En los dobles grados pueden aplicarse tarifas distintas según la asignatura. Consulta el plan y los precios públicos."
+      "creditos_primero": 66,
+      "estado_precio": "Estimación con tarifas oficiales de primera matrícula",
+      "metodo_estimacion": "Estimación con los créditos del plan y las tarifas de primera matrícula de 2026–2027. No incluye tasas ni repeticiones.",
+      "fuente_ects": "https://www.uned.es/universidad/inicio/estudios/grados/doble-grado-en-ciencia-politica-y-sociologia.html?idContenido=3"
     },
     {
       "id": "uned-29",
